@@ -1,0 +1,495 @@
+/*  import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+/*  typography */
+@font-face {
+    font-family: 'futura-bold';
+    src: url('../fonts/Futura-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+body {
+    line-height: 1.2;
+    font-family: primary-font;
+    -webkit-font-smoothing: antialiased;
+    font-size: 15px;
+    color: text-color;
+  }
+  
+  p, .paragraph {
+    font-weight: 400;
+    color: text-color;
+    font-size: 15px;
+    line-height: 1.9;
+    font-family: primary-font;
+  }
+  
+  h1,h2,h3,h4,h5,h6 {
+    color: text-color-dark;
+    font-family: secondary-font;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  h1, .h1{
+    font-size: 60px;
+    @include mobile {
+      font-size: 45px;
+    }
+  }
+  
+  h2, .h2{
+    font-size: 40px;
+    @include mobile {
+      font-size: 30px;
+    }
+  }
+  
+  h3, .h3{
+    font-size: 25px;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  
+  h4, .h4{
+    font-size: 20px;
+    @include mobile {
+      font-size: 18px;
+    }
+  }
+  
+  h5, .h5{
+    font-size: 18px;
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+  
+  h6, .h6{
+    font-size: 16px;
+    @include mobile {
+      font-size: 14px;
+    }
+  }
+ /* banner feature */
+.feature-icon {
+    font-size: 50px;
+    color: primary-color;
+    display: inline-block;
+  }
+  
+  .feature-blocks {
+    margin-top: -100px;
+    padding-left: 70px;
+    padding-top: 80px;
+    padding-right: 30%;
+  
+    @include desktop-xl {
+      padding-right: 10%;
+    }
+  
+    @include desktop-lg {
+      padding-right: 50px;
+      padding-left: 50px;
+      padding-top: 30px;
+  
+      h3 {
+        font-size: 20px;
+      }
+    }
+  
+    @include desktop {
+      margin-top: 0;
+      padding: 50px;
+  
+      h3 {
+        font-size: 25px;
+      }
+    }
+  }
+  
+  /* /banner feature */
+  
+  /* course */
+  .card-btn {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  
+  .flex-basis-33 {
+    flex-basis: 33.3333%;
+  }
+  
+  .hover-shadow {
+    transition: .3s ease;
+  
+    &:hover {
+      box-shadow: 0px 4px 25px 0px rgba(27, 39, 71, 0.15);
+    }
+  }
+  
+  /* /course */
+  
+  /* success story */
+  .success-video {
+    min-height: 300px;
+  
+    .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+  
+      @include tablet {
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+  }
+  
+  .play-btn {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: primary-color;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+  
+    i {
+      line-height: 80px;
+    }
+  
+    &::before {
+      position: absolute;
+      content: "";
+      height: 0;
+      width: 0;
+      transform: translate(-50%, -50%);
+      background: $white;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      z-index: -2;
+      transition: .3s ease;
+      transition-delay: .2s;
+    }
+  
+    &::after {
+      position: absolute;
+      content: "";
+      height: 80%;
+      width: 80%;
+      transform: translate(-50%, -50%);
+      background: primary-color;
+      border-radius: 50%;
+      top: 50%;
+      left: 50%;
+      z-index: -1;
+      transition: .3s ease;
+    }
+  
+    &:hover {
+      &::before {
+        height: 80%;
+        width: 80%;
+        transition-delay: 0s;
+      }
+  
+      &::after {
+        height: 0;
+        width: 0;
+        transition: 0s ease;
+      }
+    }
+  }
+  
+  /* /success story */
+  
+  /* events */
+  .card-date {
+    position: absolute;
+    background: primary-color;
+    font-family: $secondary-font;
+    text-align: center;
+    padding: 10px;
+    color: $white;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+  
+    span {
+      font-size: 40px;
+    }
+  }
+  
+  /* /events */
+  
+  /* teacher */
+  .teacher-info {
+    width: 70%;
+    bottom: 0;
+    right: 0;
+  }
+  
+  /* /teacher */
+  
+  /* footer */
+  .newsletter {
+    background-image: linear-gradient(to right, transparent 50%, primary-color 50%);
+    margin-bottom: -170px;
+    position: relative;
+    z-index: 1;
+  
+    &-block {
+      padding-left: 50px;
+  
+      @include mobile {
+        padding-left: 15px;
+      }
+    }
+  }
+  
+  .input-wrapper {
+    position: relative;
+  
+    button {
+      position: absolute;
+      right: 25px;
+      top: 50%;
+      transform: translateY(-50%);
+      @include mobile {
+        position: static;
+        transform: translateY(-10px);
+        width: 100%;
+        outline: 5px solid #fff;
+        outline-offset: -5px;
+      }
+    }
+  }
+  
+  .form-control {
+    height: 60px;
+    background: white;
+    border-radius: 0;
+    padding-left: 25px;
+  
+    &:focus {
+      border-color: primary-color;
+      box-shadow: none;
+    }
+  }
+  
+  .newsletter-block {
+    .form-control {
+      height: 80px;
+      padding-right: 160px;
+      @include mobile {
+        padding-right: 25px;
+      }
+    }
+  }
+  
+  .bg-footer {
+    background-color: #182b45;
+  }
+  
+  .logo-footer {
+    margin-top: -20px;
+    display: inline-block;
+  }
+  
+  .footer {
+    border-color: #494a43 !important;
+    padding-top: 275px;
+    color: #8996a7;
+    a {
+      color: #8996a7;
+      text-transform: capitalize;
+      &:hover {
+        text-decoration: underline;
+        color: $white;
+      }
+    }
+  }
+  
+  .copyright p {
+    color: #8996a7;
+    text-transform: capitalize;
+  }
+
+  /* /footer */
+  
+  .top-header {
+    font-size: 12px;
+    transition: transform .2s ease;
+    transform-origin: top;
+    font-weight: 600;
+  
+    &.hide {
+      transform: scaleY(0);
+      transform-origin: top;
+    }
+  }
+  
+  .navigation {
+    background: linear-gradient(to right, transparent 50%, primary-color 50%);
+    transition: .2s ease;
+  
+    @include desktop {
+      background: $secondary-color;
+  
+      .navbar-brand {
+        padding: 12px 0;
+      }
+    }
+  }
+  
+  .navbar-collapse{
+    @include desktop {
+      background: $secondary-color;
+    }
+  }
+  
+  .navbar-nav {
+    padding-left: 50px;
+    background: primary-color;
+  
+    @include desktop {
+      padding-left: 0;
+      background: secondary-color;
+    }
+  }
+  
+  .nav-bg {
+    background-color: secondary-color;
+  }
+  
+  .nav-item {
+    .nav-link {
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+  
+    margin: 0 15px;
+    position: relative;
+  
+    &::before {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      height: 6px;
+      width: 100%;
+      content: "";
+      background: white;
+      transform: scaleY(0);
+      transform-origin: top;
+      transition: transform .3s ease;
+    }
+  
+    &:hover,
+    &.active {
+      &::before {
+        transform: scaleY(1);
+        transform-origin: bottom;
+      }
+    }
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  link:focus,
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+  }
+  
+  .navbar-dark .navbar-nav .active>.nav-link,
+  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav .nav-link.show,
+  .navbar-dark .navbar-nav .show>.nav-link {
+    color: white;
+  }
+  
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding: 40px 0px;
+  
+    @include desktop {
+      padding: 20px;
+    }
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    background: white;
+    box-shadow: 0 2px 5px #0000000d;
+  }
+  
+  .navbar {
+    .dropdown {
+      &:hover {
+        .dropdown-menu {
+          visibility: visible;
+          opacity: 1;
+          transform: translateY(0)
+        }
+      }
+  
+      &-menu {
+        box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.12);
+        border-bottom: 5px solid primary-color;
+        padding: 15px;
+        top: 96px;
+        border-radius: 0;
+        display: block;
+        visibility: hidden;
+        transition: .3s ease;
+        opacity: 0;
+        transform: translateY(20px);
+        background: white;
+  
+        @include desktop {
+          display: none;
+          opacity: 1;
+          visibility: visible;
+          transform: translateY(0);
+          transform-origin: unset;
+        }
+  
+        &.show {
+          visibility: hidden;
+  
+          @include desktop {
+            visibility: visible;
+            display: block;
+          }
+        }
+      }
+  
+      &-item {
+        position: relative;
+        color: text-color-dark;
+        transition: .2s ease;
+        text-transform: capitalize;
+        font-family: primary-font;
+  
+        @include desktop {
+          text-align: center;
+        }
+  
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+  
+        &:hover {
+          color: primary-color;
+          background: transparent;
+        }
+      }
+    }
+  }

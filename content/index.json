@@ -1,0 +1,389 @@
+{
+	"meta": {
+	  "desc": "Educenter is a theme for the Plentico static site generator",
+	  "keywords": "Plenti, Svelte, Go, SSG, JAMstack, Themes"
+	},
+	  "components": [
+		  	{
+			  "name": "hero",
+			  "fields": {
+				"buttonRight": "ti-angle-right",
+				"buttonLeft": "ti-angle-left",
+				"image": {
+					"url": "assets/banner-1.jpeg",
+					"alt": "Profile image"
+				},
+				"items": [
+					{
+						"title": "Your bright future is our mission",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+						"link": {
+							"title": "Apply now",
+							"url": "."
+						}
+					},
+					{
+						"title": "Your bright future is our mission",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+						"link": {
+							"title": "Apply now",
+							"url": "."
+						}
+					},
+					{
+						"title": "Your bright future is our mission",
+						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+						"link": {
+							"title": "Apply now",
+							"url": "."
+						}
+					}
+				]
+			  }
+		  	},
+			{
+				"name": "features",
+				"fields": {
+					"image": {
+						"url": "assets/banner-feature.png",
+						"alt": "Graduation mates"
+					},
+					"items": [
+						{
+							"title": "Scholorship News",
+							"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad",
+							"icon": "ti-book"
+						},
+						{
+							"title": "Our Notice Board",
+							"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad.",
+							"icon": "ti-blackboard"
+						},
+						{
+							"title": "Our Achievements",
+							"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad",
+							"icon": "ti-agenda"
+						},
+						{
+							"title": "Admission Now",
+							"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad",
+							"icon": "ti-write"
+						}
+					]
+				}
+			},
+		  	{
+			  "name": "about",
+			  "fields": {
+				  "title": "About Educenter",
+				  "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non..",
+				  "background": "",
+				  "link": {
+					  "title": "Learn More",
+					  "url": "."
+				 },
+				  "image": {
+					  "position": "right",
+					  "url": "assets/about-us.jpeg",
+					  "alt": "about us"
+				 }	
+			  } 
+		  	},
+			{
+				"name": "courses",
+				"fields": {
+					"title": "Our Courses",
+					"position": "left",
+					"line": "",
+					"link": {
+						"position": "right",
+						"title": "See All",
+						"url": "."
+				},
+					"items": [
+						{   
+							"name": "Algorithm",
+							"link": ".",
+							"position": "left",
+							"body": "About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …",
+							"image": {
+								"url": "assets/course-5.jpeg",
+								"alt": "Algorithm"
+							},	
+							"date": "06 Month",
+							"icon1": "ti-calendar",
+							"category": "Programming",
+							"icon2": "ti-bookmark-alt",
+							"button": {
+								"position": "left",
+								"title": "Apply Now",
+								"url": "."
+							}
+						},
+						{   
+							"name": "Artificial Intelligence",
+							"link": ".",
+							"position": "left",
+							"body": "About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …",
+							"image": {
+								"url": "assets/course-3.jpeg",
+								"alt": "Artificial Intelligence"
+							},	
+							"date": "06 Month",
+							"icon1": "ti-calendar",
+							"category": "Programming",
+							"icon2": "ti-bookmark-alt",
+							"button": {
+								"position": "left",
+								"title": "Apply Now",
+								"url": "."
+							}
+						},
+						{   
+							"name": "JavaScript",
+							"link": ".",
+							"position": "left",
+							"body": "About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …",
+							"image": {
+								"url": "assets/course-4.jpeg",
+								"alt": "JavaScript"
+							},	
+							"date": "06 Month",
+							"icon1": "ti-calendar",
+							"category": "Programming",
+							"icon2": "ti-bookmark-alt",
+							"button": {
+								"position": "left",
+								"title": "Apply Now",
+								"url": "."
+							}
+						},
+						{   
+							"name": "Mathematics",
+							"link": ".",
+							"position": "left",
+							"body": "About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …",
+							"image": {
+								"url": "assets/course-2.jpeg",
+								"alt": "Mathematics"
+							},	
+							"date": "06 Month",
+							"icon1": "ti-calendar",
+							"category": "Programming",
+							"icon2": "ti-bookmark-alt",
+							"button": {
+								"position": "left",
+								"title": "Apply Now",
+								"url": "."
+							}
+						},
+						{   
+							"name": "Photography",
+							"link": ".",
+							"position": "left",
+							"body": "About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …",
+							"image": {
+								"url": "assets/course-1.jpeg",
+								"alt": "Photography"
+							},	
+							"date": "06 Month",
+							"icon1": "ti-calendar",
+							"category": "Photography",
+							"icon2": "ti-bookmark-alt",
+							"button": {
+								"position": "left",
+								"title": "Apply Now",
+								"url": "."
+							}
+						},
+						{   
+							"name": "Vlogging",
+							"link": ".",
+							"position": "left",
+							"body": "About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …",
+							"image": {
+								"url": "assets/course-6.jpeg",
+								"alt": "Artificial Intelligence"
+							},	
+							"date": "06 Month",
+							"icon1": "ti-calendar",
+							"category": "Vlogging",
+							"icon2": "ti-bookmark-alt",
+							"button": {
+								"position": "left",
+								"title": "Apply Now",
+								"url": "."
+							}
+						}
+					]
+				}
+			},
+			{
+				"name": "cta",
+				"fields": {
+					"title": "Click to Join the Advance Workshop",
+					"body": "Training In Advannce Networking",
+					"background": "yellow",
+					"link": {
+						"url": ".",
+						"title": "Join Now"
+					}
+				}
+			},
+			{
+				"name": "stories",
+				"fields": {
+					"title": "Success Stories",
+					"body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat. ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+					"background": "white",
+					"video": {
+						"position": "left",
+						"url": "https://www.youtube.com/watch?v=ResipmZmpDU",
+						"icon": "ti-control-play"
+					},
+					"image": {
+						"url": "assets/success-story.jpeg",
+						"alt": "Success story"
+					}
+				}
+			},
+			{
+				"name": "events",
+				"fields": {
+					"title": "Upcoming Events",
+					"position": "left",
+					"line": "",
+					"background": "grey",
+					"link": {
+						"url": ".",
+						"title": "See All"
+					},
+					"items": [
+						{   
+							"location": "Boston, Massachusetts",
+                            "icon": "ti-location-pin",
+                            "date": "09 MAR",
+							"link": {
+								"title": "Social media and behavior economics conference",
+								"url": "."
+							},
+                             "image": {
+					            "url": "assets/event-1.jpeg",
+					            "alt": "Social media event"
+				            }
+						},
+                        {   
+							"location": "Worcester, Massachusetts",
+                            "icon": "ti-location-pin",
+                            "date": "09 MAR",
+							"link": {
+								"title": "Social media and behavior economics conference",
+								"url": "."
+							},
+                             "image": {
+					            "url": "assets/event-2.jpeg",
+					            "alt": "Social media event"
+				            }
+				        },
+                        {   
+							"location": "Springfield, Massachusetts",
+                            "icon": "ti-location-pin",
+                            "date": "09 MAR",
+							"link": {
+								"title": "Social media and behavior economics conference",
+								"url": "."
+							},
+                             "image": {
+					            "url": "assets/event-3.jpeg",
+					            "alt": "Social media event"
+				            }
+				        }
+                    ]
+				}
+			},
+			{
+				"name": "news",
+				"fields": {
+					"title": "Latest News",
+					"position": "left",
+					"background": "white",
+					"items": [
+						{   
+							"title": "Elegant Light Box Paper Cut Dioramas",
+							"link": {
+								"title": "Read More",
+								"position": "left",
+								"url": "."
+							},
+							"body": "The standard Lorem Ipsum passage, used since the 1500s Lorem ipsum dolor sit amet, consectetur …",
+							"image": {
+								"url": "assets/post-1.jpeg",
+								"alt": "Elegant Light Box Paper Cut Dioramas"
+							},
+							"icon1": "ti-calendar",
+							"date": "06 Jul, 2019",
+							"icon2": "ti-user",
+							"user": {
+								"name": "John Doe",
+								"url": "."
+							}
+						},
+						{   
+							"title": "Elegant Light Box Paper Cut Dioramas",
+							"link": {
+								"title": "Read More",
+								"position": "left",
+								"url": "."
+							},
+							"body": "The standard Lorem Ipsum passage, used since the 1500s Lorem ipsum dolor sit amet, consectetur …",
+							"image": {
+								"url": "assets/post-2.jpeg",
+								"alt": "Elegant Light Box Paper Cut Dioramas"
+							},
+							"icon1": "ti-calendar",
+							"date": "06 Jul, 2019",
+							"icon2": "ti-user",
+							"user": {
+								"name": "John Doe",
+								"url": "."
+							}
+						},
+						{   
+							"title": "Elegant Light Box Paper Cut Dioramas",
+							"link": {
+								"title": "Read More",
+								"position": "left",
+								"url": "."
+							},
+							"body": "The standard Lorem Ipsum passage, used since the 1500s Lorem ipsum dolor sit amet, consectetur …",
+							"image": {
+								"url": "assets/post-3.jpeg",
+								"alt": "Elegant Light Box Paper Cut Dioramas"
+							},
+							"icon1": "ti-calendar",
+							"date": "06 Jul, 2019",
+							"icon2": "ti-user",
+							"user": {
+								"name": "John Doe",
+								"url": "."
+							}
+						}
+						
+					]
+				}
+			},
+			{
+				"name": "newsletter",
+				"fields": {
+					"title": "Subscribe Newsletter",
+					"placeholder": "Enter your email...",
+					"background": "yellow",
+					"form": {
+						"url": ".",
+						"title": "Join"
+					}
+				}
+			}
+		  	
+	  	]
+  	}
