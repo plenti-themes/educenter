@@ -246,11 +246,8 @@
   }
   
   /* overlay */
-  
-  .overlay {
-    position: relative;
-  
-    &::before {
+  .overlay {position: relative;}
+  .overlay::before {
       position: absolute;
       content: "";
       height: 100%;
@@ -259,7 +256,6 @@
       left: 0;
       background: var(--secondary-color);
       opacity: 0.8;
-    }
   }
   
   .outline-0 {
