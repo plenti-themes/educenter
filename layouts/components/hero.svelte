@@ -2,7 +2,7 @@
     export let items, image, buttonRight, buttonLeft;
 </script>
 
-<section class="hero-section overlay bg-cover" data-background="{image.url}" alt="A group of students looking at their lesson" style="background-image: url(&quot;{image.url}&quot;);">
+<section class="hero-section overlay bg-cover" data-background="{image.url}" alt="A group of students looking at their lesson" style="background-image: url({image.url});">
     <div class="container">
         <div class="hero-slider slick-initialized slick-slider slick-dotted">
                 <div class="slick-list draggable">

@@ -10,7 +10,7 @@
 				"buttonRight": "ti-angle-right",
 				"buttonLeft": "ti-angle-left",
 				"image": {
-					"url": "assets/banner-1.jpeg",
+					"url": "assets/banner.jpg",
 					"alt": "Profile image"
 				},
 				"items": [
