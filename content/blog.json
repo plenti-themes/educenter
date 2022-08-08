@@ -1,0 +1,12 @@
+{
+    "home": {
+       "title": "Home",
+       "url": "/"
+    },
+    "title": "Latest News",
+    "body": "this is meta description",
+    "image": {
+        "url": "assets/page-title.jpg",
+        "alt": "Profile image"
+    }
+}
