@@ -23,17 +23,17 @@
                     {#each allContent.filter(content => allContent.type ="posts") as post}
                     <div class="col-sm-6 mb-5">
                         <article class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-                        <img class="card-img-top rounded-0" src="/educenter/site/images/blog/post-1.jpg" alt="Elegant Light Box Paper Cut Dioramas">
+                        <img class="card-img-top rounded-0" src="/assests/{post.fields.image.source}" alt="{post.fields.image.alt}">
                             <div class="card-body">
                             <ul class="list-inline mb-3">
                             <li class="list-inline-item mr-3 ml-0"><i class="ti-calendar"></i>
-                            06 Jul, 2019</li>
-                            <li class="list-inline-item mr-3 ml-0"><i class="ti-user"></i> <a href="/educenter/site/author/john-doe">John Doe</a>
+                            {post.published.date}</li>
+                            <li class="list-inline-item mr-3 ml-0"><i class="ti-user"></i> <a href="{post.author.link}">{post.author.name}</a>
                             </li>
                             </ul>
-                            <h4 class="card-title"><a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-1/">Elegant Light Box Paper Cut Dioramas</a></h4>
-                            <p class="card-text">The standard Lorem Ipsum passage, used since the 1500s Lorem ipsum dolor sit amet, consectetur …</p>
-                            <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-1/" class="btn btn-primary btn-sm">Read More</a>
+                            <h4 class="card-title"><a href="{post.path}">{post.fields.title}</a></h4>
+                            <p class="card-text">{post.fields.body}</p>
+                            <a href="{post.path}" class="btn btn-primary btn-sm">Read More</a>
                             </div>
                         </article>
                     </div>
