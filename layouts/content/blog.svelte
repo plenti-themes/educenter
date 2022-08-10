@@ -27,8 +27,8 @@
                             <div class="card-body">
                             <ul class="list-inline mb-3">
                             <li class="list-inline-item mr-3 ml-0"><i class="ti-calendar"></i>
-                            {post.published.date}</li>
-                            <li class="list-inline-item mr-3 ml-0"><i class="ti-user"></i> <a href="{post.author.link}">{post.author.name}</a>
+                            {post.fields.publish.date}</li>
+                            <li class="list-inline-item mr-3 ml-0"><i class="ti-user"></i> <a href="{post.fields.author.link}">{post.fields.author.name}</a>
                             </li>
                             </ul>
                             <h4 class="card-title"><a href="{post.path}">{post.fields.title}</a></h4>

@@ -11,7 +11,7 @@
         "name": "John Doe",
         "link": "."
     },
-    "published": {
+    "publish": {
         "date": "06 Jul, 2022",
         "text": "Date :"
     },
