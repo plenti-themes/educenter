@@ -20,7 +20,7 @@
         <div class="row">
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="row">
-                    {#each allContent.filter(content => allContent.type ="posts") as post}
+                    {#each allContent.filter(content => content.type == "posts") as post}
                     <div class="col-sm-6 mb-5">
                         <article class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
                         <img class="card-img-top rounded-0" src="/assests/{post.fields.image.source}" alt="{post.fields.image.alt}">
