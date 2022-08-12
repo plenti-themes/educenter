@@ -1,7 +1,7 @@
 {
 	"build": "public",
-	"types": {
-		"posts":"/blog/:filename"
+	"routes": {
+		"posts": "/blog/:filename"
 	},
 	"local": {
 		"port": 3000
