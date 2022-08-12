@@ -1,5 +1,5 @@
 <script>
-    export let title, body, image, author, published, category;
+    export let title, body, image, author, publish, category;
 </script>
 <section class="section-sm">
     <div class="container">
@@ -13,7 +13,7 @@
     <ul class="list-inline">
     <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{author.text}
     </span><a href="{author.link}">{author.name}</a></li>
-    <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{published.text}</span> {published.date}</li>
+    <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{publish.text}</span> {publish.date}</li>
     <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light"><span class="font-weight-bold mr-2">{category.text}
     </span><a href="{category.link}">
     {category.name}</a> </li>
