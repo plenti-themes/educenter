@@ -32,7 +32,7 @@
                             </li>
                             </ul>
                             <h4 class="card-title"><a href="{post.path}">{post.fields.title}</a></h4>
-                            <p class="card-text">{post.fields.body.substring(0, 300).replace(/(<([^>]+)>)/gi, "")}</p>
+                            <p class="card-text">{post.fields.body.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
                             <a href="{post.path}" class="btn btn-primary btn-sm">Read More</a>
                             </div>
                         </article>
