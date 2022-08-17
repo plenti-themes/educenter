@@ -86,3 +86,19 @@
     </div>
     </div>
     </section>
+<style>
+    .font-weight-bold {
+        font-weight: 700!important;
+    }
+    .mr-2 {
+        margin-right: 0.5rem!important;
+    }
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+</style>
