@@ -1,4 +1,6 @@
 <script>
+import Posts from "./posts.svelte";
+
     export let title, image, home, body, allContent;
 </script>
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
@@ -41,8 +43,8 @@
                     <div class="col-12 mt-4"></div>
                 </div>
             </div>
-<!--             <aside class="col-lg-4 order-1 order-lg-2">
-                <div class="bg-white mb-5">
+           <aside class="col-lg-4 order-1 order-lg-2">
+ <!--             <div class="bg-white mb-5">
                 <h4 class="mb-4">Categories</h4>
                 <ul class="list-unstyled">
                 <li class="border-bottom"><a href="/educenter/site/categories/automation-system/" class="d-block pb-3 mt-3">Automation system</a></li>
@@ -64,18 +66,21 @@
                 <li class="list-inline-item mb-2"><a href="/educenter/site/tags/english/">English</a></li>
                 <li class="list-inline-item mb-2"><a href="/educenter/site/tags/rules/">Rules</a></li>
                 </ul>
-                </div>
+                </div>-->
+            
                 <div class="bg-white">
                     <h4 class="mb-4">Latest Article</h4>
+                    {#each allContent.filter(content => content.fields?.featured) as post}
                     <div class="media border-bottom border-color pb-3 mb-3">
-                    <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-1/"><img class="mr-3 post-thumb-sm" src="https://demo.gethugothemes.com/educenter/site/images/blog/post-1.jpg"></a>
+                    <a href="{post.path}}"><img class="mr-3 post-thumb-sm" src="/assets/{post.fields.image.source}" alt="{post.fields.image.alt}"></a>
                     <div class="media-body">
-                    <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-1/">
-                    <h5 class="mt-0">Elegant Light Box Paper Cut Dioramas</h5>
+                    <a href="{post.path}">
+                    <h5 class="mt-0">{post.fields.title}</h5>
                     </a>
-                    06 Jul 2019
+                    {post.fields.publish.date}
                     </div>
                     </div>
+                    {/each}
                     <div class="media border-bottom border-color pb-3 mb-3">
                     <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-2/"><img class="mr-3 post-thumb-sm" src="https://demo.gethugothemes.com/educenter/site/images/blog/post-2.jpg"></a>
                     <div class="media-body">
@@ -95,7 +100,7 @@
                     </div>
                     </div>
                 </div>
-            </aside> -->
+            </aside> 
         </div>
     </div>
 </section>
