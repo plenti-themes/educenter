@@ -19,5 +19,6 @@
         "text": "Category :",
         "name": "Eco System",
         "link": "."
-    }
+    },
+    "featured": true
 }

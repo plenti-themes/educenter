@@ -19,5 +19,6 @@
         "text": "Category :",
         "name": "Education System",
         "link": "."
-    }
+    },
+    "featured": true
 }
