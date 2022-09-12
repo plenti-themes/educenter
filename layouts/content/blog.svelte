@@ -115,24 +115,6 @@ import Posts from "./posts.svelte";
                             </div>
                         </div>
                     {/each}
-                      <!--   <div class="media border-bottom border-color pb-3 mb-3">
-                        <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-2/"><img class="mr-3 post-thumb-sm" src="https://demo.gethugothemes.com/educenter/site/images/blog/post-2.jpg"></a>
-                        <div class="media-body">
-                        <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-2/">
-                        <h5 class="mt-0">Elegant Light Box Paper Cut Dioramas</h5>
-                        </a>
-                        06 Jul 2019
-                        </div>
-                        </div>
-                        <div class="media border-bottom border-color pb-3 mb-3">
-                        <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-3/"><img class="mr-3 post-thumb-sm" src="https://demo.gethugothemes.com/educenter/site/images/blog/post-3.jpg"></a>
-                        <div class="media-body">
-                        <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-3/">
-                        <h5 class="mt-0">Elegant Light Box Paper Cut Dioramas</h5>
-                        </a>
-                        06 Jul 2019
-                        </div>
-                        </div> -->
                 </div>
             </aside> 
         </div>
