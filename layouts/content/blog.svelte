@@ -2,6 +2,17 @@
 import Posts from "./posts.svelte";
 
     export let title, image, home, body, allContent;
+    let articles = allContent.filter(content => content.type === "article");
+
+    const sortByDate = (items, order) => {
+    items.sort((a, b) => { 
+        // Must have field named "date" in content source to work.
+        let dateA = new Date(a?.fields?.publish?.date);
+        let dateB = new Date(b?.fields?.publish?.date);
+        return (order == "oldest") ? (dateA - dateB) : (dateB - dateA);
+    });
+    return items;
+};
 </script>
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
     <div class="container">
@@ -71,34 +82,57 @@ import Posts from "./posts.svelte";
                 <div class="bg-white">
                     <h4 class="mb-4">Latest Article</h4>
                     {#each allContent.filter(content => content.fields?.featured) as post}
-                    <div class="media border-bottom border-color pb-3 mb-3">
-                    <a href="{post.path}}"><img class="mr-3 post-thumb-sm" src="/assets/{post.fields.image.source}" alt="{post.fields.image.alt}"></a>
-                    <div class="media-body">
-                    <a href="{post.path}">
-                    <h5 class="mt-0">{post.fields.title}</h5>
-                    </a>
-                    {post.fields.publish.date}
-                    </div>
-                    </div>
+                        {#each sortByDate(articles) as article, i}
+                        {#if i < 3}
+                        <div>{article.filename}</div>
+                            <div class="media border-bottom border-color pb-3 mb-3">
+                                <a href="{post.path}}"><img class="mr-3 post-thumb-sm" src="/assets/{post.fields.image.source}" alt="{post.fields.image.alt}"></a>
+                                <div class="media-body">
+                                <a href="{post.path}">
+                                <h5 class="mt-0">{post.fields.title}</h5>
+                                </a>
+                                {post.fields.publish.date}
+                                </div>
+                            </div>
+                        {/if}
+                        {/each}
+                        <div class="media border-bottom border-color pb-3 mb-3">
+                            <a href="{post.path}}"><img class="mr-3 post-thumb-sm" src="/assets/{post.fields.image.source}" alt="{post.fields.image.alt}"></a>
+                            <div class="media-body">
+                            <a href="{post.path}">
+                            <h5 class="mt-0">{post.fields.title}</h5>
+                            </a>
+                            {post.fields.publish.date}
+                            </div>
+                        </div>
+                        <div class="media border-bottom border-color pb-3 mb-3">
+                            <a href="{post.path}}"><img class="mr-3 post-thumb-sm" src="/assets/{post.fields.image.source}" alt="{post.fields.image.alt}"></a>
+                            <div class="media-body">
+                            <a href="{post.path}">
+                            <h5 class="mt-0">{post.fields.title}</h5>
+                            </a>
+                            {post.fields.publish.date}
+                            </div>
+                        </div>
                     {/each}
-                    <div class="media border-bottom border-color pb-3 mb-3">
-                    <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-2/"><img class="mr-3 post-thumb-sm" src="https://demo.gethugothemes.com/educenter/site/images/blog/post-2.jpg"></a>
-                    <div class="media-body">
-                    <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-2/">
-                    <h5 class="mt-0">Elegant Light Box Paper Cut Dioramas</h5>
-                    </a>
-                    06 Jul 2019
-                    </div>
-                    </div>
-                    <div class="media border-bottom border-color pb-3 mb-3">
-                    <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-3/"><img class="mr-3 post-thumb-sm" src="https://demo.gethugothemes.com/educenter/site/images/blog/post-3.jpg"></a>
-                    <div class="media-body">
-                    <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-3/">
-                    <h5 class="mt-0">Elegant Light Box Paper Cut Dioramas</h5>
-                    </a>
-                    06 Jul 2019
-                    </div>
-                    </div>
+                      <!--   <div class="media border-bottom border-color pb-3 mb-3">
+                        <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-2/"><img class="mr-3 post-thumb-sm" src="https://demo.gethugothemes.com/educenter/site/images/blog/post-2.jpg"></a>
+                        <div class="media-body">
+                        <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-2/">
+                        <h5 class="mt-0">Elegant Light Box Paper Cut Dioramas</h5>
+                        </a>
+                        06 Jul 2019
+                        </div>
+                        </div>
+                        <div class="media border-bottom border-color pb-3 mb-3">
+                        <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-3/"><img class="mr-3 post-thumb-sm" src="https://demo.gethugothemes.com/educenter/site/images/blog/post-3.jpg"></a>
+                        <div class="media-body">
+                        <a href="https://demo.gethugothemes.com/educenter/site/blog/blog-post-3/">
+                        <h5 class="mt-0">Elegant Light Box Paper Cut Dioramas</h5>
+                        </a>
+                        06 Jul 2019
+                        </div>
+                        </div> -->
                 </div>
             </aside> 
         </div>
