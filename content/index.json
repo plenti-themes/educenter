@@ -304,72 +304,7 @@
 			{
 				"name": "news",
 				"fields": {
-					"title": "Latest News",
-					"position": "left",
-					"background": "white",
-					"items": [
-						{   
-							"title": "Elegant Light Box Paper Cut Dioramas",
-							"link": {
-								"title": "Read More",
-								"position": "left",
-								"url": "."
-							},
-							"body": "The standard Lorem Ipsum passage, used since the 1500s Lorem ipsum dolor sit amet, consectetur …",
-							"image": {
-								"url": "assets/post-1.jpeg",
-								"alt": "Elegant Light Box Paper Cut Dioramas"
-							},
-							"icon1": "ti-calendar",
-							"date": "06 Jul, 2019",
-							"icon2": "ti-user",
-							"user": {
-								"name": "John Doe",
-								"url": "."
-							}
-						},
-						{   
-							"title": "Elegant Light Box Paper Cut Dioramas",
-							"link": {
-								"title": "Read More",
-								"position": "left",
-								"url": "."
-							},
-							"body": "The standard Lorem Ipsum passage, used since the 1500s Lorem ipsum dolor sit amet, consectetur …",
-							"image": {
-								"url": "assets/post-2.jpeg",
-								"alt": "Elegant Light Box Paper Cut Dioramas"
-							},
-							"icon1": "ti-calendar",
-							"date": "06 Jul, 2019",
-							"icon2": "ti-user",
-							"user": {
-								"name": "John Doe",
-								"url": "."
-							}
-						},
-						{   
-							"title": "Elegant Light Box Paper Cut Dioramas",
-							"link": {
-								"title": "Read More",
-								"position": "left",
-								"url": "."
-							},
-							"body": "The standard Lorem Ipsum passage, used since the 1500s Lorem ipsum dolor sit amet, consectetur …",
-							"image": {
-								"url": "assets/post-3.jpeg",
-								"alt": "Elegant Light Box Paper Cut Dioramas"
-							},
-							"icon1": "ti-calendar",
-							"date": "06 Jul, 2019",
-							"icon2": "ti-user",
-							"user": {
-								"name": "John Doe",
-								"url": "."
-							}
-						}
-						
-					]
+					"title": "Latest News"
 				}
 			},
 			{
