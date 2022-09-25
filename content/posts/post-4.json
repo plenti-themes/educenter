@@ -12,12 +12,20 @@
         "link": "."
     },
     "publish": {
-        "date": "14 Oct, 2022",
+        "date": "14 June, 2022",
         "text": "Date :"
     },
     "category": {
         "text": "Category :",
         "name": "Mathmatics",
         "link": "."
+    },
+    "icon": {
+        "calendar": "ti-calendar",
+        "user": "ti-user"
+    },
+    "link": {
+        "title": "Read More",
+        "url": "."
     }
 }

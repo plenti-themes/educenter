@@ -20,5 +20,13 @@
         "name": "Education System",
         "link": "."
     },
+    "icon": {
+        "calendar": "ti-calendar",
+        "user": "ti-user"
+    },
+    "link": {
+        "title": "Read More",
+        "url": "."
+    },
     "featured": true
 }

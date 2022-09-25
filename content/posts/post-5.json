@@ -12,12 +12,20 @@
         "link": "."
     },
     "publish": {
-        "date": "06 Jul, 2022",
+        "date": "06 May, 2022",
         "text": "Date :"
     },
     "category": {
         "text": "Category :",
         "name": "Enlish Literature",
         "link": "."
+    },
+    "icon": {
+        "calendar": "ti-calendar",
+        "user": "ti-user"
+    },
+    "link": {
+        "title": "Read More",
+        "url": "."
     }
 }

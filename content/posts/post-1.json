@@ -13,13 +13,21 @@
         "link": "."
     },
     "publish": {
-        "date": "06 Jul, 2022",
+        "date": "25 Sept, 2022",
         "text": "Date :"
     },
     "category": {
         "text": "Category :",
         "name": "Automation System",
         "link": "."
+    },
+    "icon": {
+        "calendar": "ti-calendar",
+        "user": "ti-user"
+    },
+    "link": {
+        "title": "Read More",
+        "url": "."
     },
     "featured": true
 }
