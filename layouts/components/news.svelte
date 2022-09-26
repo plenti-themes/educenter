@@ -1,17 +1,9 @@
 <script>
-    export let title, allContent;
-    let articles = allContent.filter(content => content.type === "article");
-
-const sortByDate = (items, order) => {
-items.sort((a, b) => { 
-    // Must have field named "date" in content source to work.
-    let dateA = new Date(a?.fields?.publish?.date);
-    let dateB = new Date(b?.fields?.publish?.date);
-    return (order == "oldest") ? (dateA - dateB) : (dateB - dateA);
-});
-return items;
-};
+  export let title, allContent;
+  import { sortByDate } from '../scripts/sortByDate.svelte';
+  let articles = allContent.filter(content => content.type === "article");
 </script>
+
 <section class="section">
     <div class="container">
         <div class="row">

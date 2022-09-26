@@ -1,16 +1,7 @@
 <script>
   export let title, image, home, body, allContent;
+  import { sortByDate } from '../scripts/sortByDate.svelte';
   let articles = allContent.filter(content => content.type === "article");
-
-  const sortByDate = (items, order) => {
-    items.sort((a, b) => { 
-      // Must have field named "date" in content source to work.
-      let dateA = new Date(a?.fields?.publish?.date);
-      let dateB = new Date(b?.fields?.publish?.date);
-      return (order == "oldest") ? (dateA - dateB) : (dateB - dateA);
-    });
-    return items;
-  };
 </script>
 
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
