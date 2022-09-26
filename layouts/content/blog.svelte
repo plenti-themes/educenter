@@ -1,19 +1,18 @@
 <script>
-import Posts from "./posts.svelte";
+  export let title, image, home, body, allContent;
+  let articles = allContent.filter(content => content.type === "article");
 
-    export let title, image, home, body, allContent;
-    let articles = allContent.filter(content => content.type === "article");
-
-    const sortByDate = (items, order) => {
+  const sortByDate = (items, order) => {
     items.sort((a, b) => { 
-        // Must have field named "date" in content source to work.
-        let dateA = new Date(a?.fields?.publish?.date);
-        let dateB = new Date(b?.fields?.publish?.date);
-        return (order == "oldest") ? (dateA - dateB) : (dateB - dateA);
+      // Must have field named "date" in content source to work.
+      let dateA = new Date(a?.fields?.publish?.date);
+      let dateB = new Date(b?.fields?.publish?.date);
+      return (order == "oldest") ? (dateA - dateB) : (dateB - dateA);
     });
     return items;
-};
+  };
 </script>
+
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
     <div class="container">
         <div class="row">
@@ -54,31 +53,7 @@ import Posts from "./posts.svelte";
                     <div class="col-12 mt-4"></div>
                 </div>
             </div>
-           <aside class="col-lg-4 order-1 order-lg-2">
- <!--             <div class="bg-white mb-5">
-                <h4 class="mb-4">Categories</h4>
-                <ul class="list-unstyled">
-                <li class="border-bottom"><a href="/educenter/site/categories/automation-system/" class="d-block pb-3 mt-3">Automation system</a></li>
-                <li class="border-bottom"><a href="/educenter/site/categories/deep-learning/" class="d-block pb-3 mt-3">Deep learning</a></li>
-                <li class="border-bottom"><a href="/educenter/site/categories/eco-system/" class="d-block pb-3 mt-3">Eco system</a></li>
-                <li class="border-bottom"><a href="/educenter/site/categories/education-system/" class="d-block pb-3 mt-3">Education system</a></li>
-                <li class="border-bottom"><a href="/educenter/site/categories/english-learning/" class="d-block pb-3 mt-3">English learning</a></li>
-                <li class="border-bottom"><a href="/educenter/site/categories/mathmatics-learning/" class="d-block pb-3 mt-3">Mathmatics learning</a></li>
-                </ul>
-                </div>
-                <div class="bg-white mb-5">
-                <h4 class="mb-4">Tags</h4>
-                <ul class="list-inline tag-list">
-                <li class="list-inline-item mb-2"><a href="/educenter/site/tags/advice/">Advice</a></li>
-                <li class="list-inline-item mb-2"><a href="/educenter/site/tags/ai/">Ai</a></li>
-                <li class="list-inline-item mb-2"><a href="/educenter/site/tags/automation/">Automation</a></li>
-                <li class="list-inline-item mb-2"><a href="/educenter/site/tags/eco/">Eco</a></li>
-                <li class="list-inline-item mb-2"><a href="/educenter/site/tags/education/">Education</a></li>
-                <li class="list-inline-item mb-2"><a href="/educenter/site/tags/english/">English</a></li>
-                <li class="list-inline-item mb-2"><a href="/educenter/site/tags/rules/">Rules</a></li>
-                </ul>
-                </div>-->
-            
+           <aside class="col-lg-4 order-1 order-lg-2"> 
                 <div class="bg-white">
                     <h4 class="mb-4">Latest Articles</h4>
                     {#each sortByDate(allContent.filter(content => content.type === "posts")) as post,i}
