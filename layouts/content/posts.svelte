@@ -1,5 +1,6 @@
 <script>
-    export let title, body, image, author, publish, category;
+  import LatestArticles from '../components/latest_articles.svelte';
+    export let title, body, image, author, publish, category, allContent;
 </script>
 
 <section class="page-title-section overlay" style="background-image:url(/educenter/site/images/backgrounds/page-title.jpg),url(/educenter/site/images/backgrounds/page-title.jpg)">
@@ -48,6 +49,7 @@
           </div>
         </div>
       </div>
+      <LatestArticles {allContent} />
     </div>
   </div>
 </section>

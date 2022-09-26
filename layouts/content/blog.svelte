@@ -1,6 +1,6 @@
 <script>
   export let title, image, home, body, allContent;
-  import { sortByDate } from '../scripts/sortByDate.svelte';
+  import LatestArticles from '../components/latest_articles.svelte';
   let articles = allContent.filter(content => content.type === "article");
 </script>
 
@@ -44,7 +44,8 @@
                     <div class="col-12 mt-4"></div>
                 </div>
             </div>
-           <aside class="col-lg-4 order-1 order-lg-2"> 
+            <LatestArticles {allContent} />
+<!--            <aside class="col-lg-4 order-1 order-lg-2"> 
                 <div class="bg-white">
                     <h4 class="mb-4">Latest Articles</h4>
                     {#each sortByDate(allContent.filter(content => content.type === "posts")) as post,i}
@@ -61,7 +62,7 @@
                         {/if}
                     {/each}
                 </div>
-            </aside> 
+            </aside>  -->
         </div>
     </div>
 </section>
