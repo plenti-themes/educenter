@@ -1,6 +1,4 @@
 <script>
-    import Posts from "../posts.svelte";
-
     export let title, allContent;
     let articles = allContent.filter(content => content.type === "article");
 
