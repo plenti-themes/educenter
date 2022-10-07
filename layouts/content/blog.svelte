@@ -4,7 +4,7 @@
   export let title, image, home, body, allContent, content;
 //   let articles = allContent.filter(content => content.type === "article");
 
-  $: currentPage = content.pager;
+  $: currentPage = content.pager ? content.pager : 1;
   let postsPerPage = 4;
   let allPosts = allContent.filter(content => content.type == "posts");
   let totalPosts = allPosts.length;
