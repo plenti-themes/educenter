@@ -1,7 +1,8 @@
 {
 	"build": "public",
 	"routes": {
-		"posts": "/blog/:filename"
+		"posts": "/blog/:filename",
+		"blog": "blog/:paginate(totalPages)"
 	},
 	"local": {
 		"port": 3000

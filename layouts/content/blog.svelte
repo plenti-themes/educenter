@@ -1,7 +1,16 @@
 <script>
-  export let title, image, home, body, allContent;
+  import Pagination from '../components/pagination.svelte';
   import LatestArticles from '../components/latest_articles.svelte';
-  let articles = allContent.filter(content => content.type === "article");
+  export let title, image, home, body, allContent, content;
+//   let articles = allContent.filter(content => content.type === "article");
+
+  $: currentPage = content.pager;
+  let postsPerPage = 4;
+  let allPosts = allContent.filter(content => content.type == "posts");
+  let totalPosts = allPosts.length;
+  let totalPages = Math.ceil(totalPosts / postsPerPage);
+  $: postRangeHigh = currentPage * postsPerPage;
+  $: postRangeLow = postRangeHigh - postsPerPage;
 </script>
 
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
@@ -23,7 +32,9 @@
         <div class="row">
             <div class="col-lg-8 order-2 order-lg-1">
                 <div class="row">
-                    {#each allContent.filter(content => content.type == "posts") as post}
+                    <!-- {#each allContent.filter(content => content.type == "posts") as post} -->
+                    {#each allPosts as post, i}
+                    {#if i >= postRangeLow && i < postRangeHigh}
                     <div class="col-sm-6 mb-5">
                         <article class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
                         <img class="card-img-top rounded-0" src="/assets/{post.fields.image.source}" alt="{post.fields.image.alt}">
@@ -40,8 +51,10 @@
                             </div>
                         </article>
                     </div>
+                    {/if}
                     {/each}
                     <div class="col-12 mt-4"></div>
+                    <Pagination {currentPage} {totalPages} />
                 </div>
             </div>
             <LatestArticles {allContent} />
