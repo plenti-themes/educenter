@@ -6,7 +6,7 @@
 
   $: currentPage = content.pager ? content.pager : 1;
   let postsPerPage = 4;
-  let allPosts = allContent.filter(content => content.type == "posts");
+  let allPosts = allContent.filter(content => content.type === "posts" && !content.pager);
   let totalPosts = allPosts.length;
   let totalPages = Math.ceil(totalPosts / postsPerPage);
   $: postRangeHigh = currentPage * postsPerPage;
