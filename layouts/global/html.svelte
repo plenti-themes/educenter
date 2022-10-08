@@ -3,11 +3,11 @@
   import Nav from './nav.svelte';
   import Header from './header.svelte';
   import Footer from './footer.svelte';
-  export let content, layout, allContent, allLayouts;
+  export let content, layout, allContent, allLayouts, env;
 </script>
 
 <html lang="en">
-<Head title={content.filename} />
+  <Head title={content.filename} {env} />
 <body>
   <header class="fixed-top header">
     <div class="top-header py-2 bg-white">
