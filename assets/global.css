@@ -11380,7 +11380,7 @@ body {
   height: 30px;
 }
 
-.btn-primary {
+/* .btn-primary {
   border-radius: 5px;
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
@@ -11389,7 +11389,7 @@ body {
   text-decoration: none;
   transition: .2s ease;
   cursor: pointer;
-}
+} */
 
 .btn-primary:hover {
   background-color: var(--primary-color);
