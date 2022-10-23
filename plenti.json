@@ -2,6 +2,7 @@
 	"build": "public",
 	"routes": {
 		"posts": "/blog/:filename",
+		"pages": "/course/",
 		"blog": "blog/:paginate(totalPages)"
 	},
 	"local": {
