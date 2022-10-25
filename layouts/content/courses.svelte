@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials; 
+    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, allContent; 
 </script>
 
 <section class="page-title-section overlay" style="background-image:url(/educenter/site/images/backgrounds/page-title.jpg),url(/educenter/site/images/backgrounds/page-title.jpg)">
@@ -107,48 +107,22 @@
                     </div>
                         </div>
                     <div class="row">
+                    {#each allContent.filter(content => content.type == "courses" && content.fields?.featured) as course}
                     <div class="col-lg-4 col-sm-6 mb-5">
-                    <div class="card p-0 border-primary rounded-0 hover-shadow">
-                    <img class="card-img-top rounded-0" src="/educenter/site/images/courses/course-1.jpg" alt="Photography">
-                    <div class="card-body">
-                    <ul class="list-inline mb-2">
-                    <li class="list-inline-item"><i class="ti-calendar"></i> 06 Month</li>
-                    <li class="list-inline-item"><i class="ti-bookmark-alt"></i> Photography</li>
-                    </ul>
-                    <h4 class="card-title"><a href="https://demo.gethugothemes.com/educenter/site/course/course-1/">Photography</a></h4>
-                    <p class="card-text mb-4">About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …</p>
-                    <a href="https://demo.gethugothemes.com/educenter/site/course/course-1/" class="btn btn-primary btn-sm">Apply now</a>
+                        <div class="card p-0 border-primary rounded-0 hover-shadow">
+                            <img class="card-img-top rounded-0" src="/assets/{course.fields.image.src}" alt="{course.fields.image.alt}">
+                            <div class="card-body">
+                            <ul class="list-inline mb-2">
+                            <li class="list-inline-item"><i class="ti-calendar"></i> {course.fields.length}</li>
+                            <li class="list-inline-item"><i class="ti-bookmark-alt"></i> {course.fields.category}</li>
+                            </ul>
+                            <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
+                            <p class="card-text mb-4">About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …</p>
+                            <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.button.title}</a>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-5">
-                    <div class="card p-0 border-primary rounded-0 hover-shadow">
-                    <img class="card-img-top rounded-0" src="/educenter/site/images/courses/course-2.jpg" alt="Mathematics">
-                    <div class="card-body">
-                    <ul class="list-inline mb-2">
-                    <li class="list-inline-item"><i class="ti-calendar"></i> 06 Month</li>
-                    <li class="list-inline-item"><i class="ti-bookmark-alt"></i> Mathematics</li>
-                    </ul>
-                    <h4 class="card-title"><a href="https://demo.gethugothemes.com/educenter/site/course/course-2/">Mathematics</a></h4>
-                    <p class="card-text mb-4">About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …</p>
-                    <a href="https://demo.gethugothemes.com/educenter/site/course/course-2/" class="btn btn-primary btn-sm">Apply now</a>
-                    </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 mb-5">
-                    <div class="card p-0 border-primary rounded-0 hover-shadow">
-                    <img class="card-img-top rounded-0" src="/educenter/site/images/courses/course-3.jpg" alt="Artificial Intelligence">
-                    <div class="card-body">
-                    <ul class="list-inline mb-2">
-                    <li class="list-inline-item"><i class="ti-calendar"></i> 06 Month</li>
-                    <li class="list-inline-item"><i class="ti-bookmark-alt"></i> Artificial Intelligence</li>
-                    </ul>
-                    <h4 class="card-title"><a href="https://demo.gethugothemes.com/educenter/site/course/course-3/">Artificial Intelligence</a></h4>
-                    <p class="card-text mb-4">About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …</p>
-                    <a href="https://demo.gethugothemes.com/educenter/site/course/course-3/" class="btn btn-primary btn-sm">Apply now</a>
-                    </div>
-                </div>
-            </div>
+             {/each}
         </div>
     </div>
 </section>
