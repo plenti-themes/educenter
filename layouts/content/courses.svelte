@@ -117,7 +117,7 @@
                             <li class="list-inline-item"><i class="ti-bookmark-alt"></i> {course.fields.category}</li>
                             </ul>
                             <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
-                            <p class="card-text mb-4">About Course Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor …</p>
+                            <p class="card-text mb-4">{course.fields.body.substring(0, 120).replace(/(<([^>]+)>)/gi, "")}</p>
                             <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.button.title}</a>
                             </div>
                         </div>
