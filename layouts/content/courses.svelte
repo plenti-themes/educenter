@@ -1,5 +1,25 @@
 <script>
     export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, allContent; 
+    let courses = allContent.filter(content => content.type === "courses");
+    
+    function shuffle(array) {
+    let currentIndex = array.length,  randomIndex;
+
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex], array[currentIndex]];
+  }
+  return array;
+}
+shuffle(courses);
+
 </script>
 
 <section class="page-title-section overlay" style="background-image:url(/educenter/site/images/backgrounds/page-title.jpg),url(/educenter/site/images/backgrounds/page-title.jpg)">
