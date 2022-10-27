@@ -127,12 +127,8 @@ shuffle(courses);
                     </div>
                         </div>
                     <div class="row">
-                    {#each allContent.filter(content => content.type == "courses") as course}
-                    {#each courses as course, i}
+                    {#each allContent.filter(content => content.type == "courses") as course, i}
                     {#if i < 3}
-                    <div>{course.filename}</div>
-                    {/if}
-                    {/each}
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
                             <img class="card-img-top rounded-0" src="/assets/{course.fields.image.src}" alt="{course.fields.image.alt}">
@@ -147,7 +143,8 @@ shuffle(courses);
                             </div>
                         </div>
                     </div>
-             {/each}
+                    {/if}
+            {/each}
         </div>
     </div>
 </section>
