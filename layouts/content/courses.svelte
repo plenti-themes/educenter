@@ -18,7 +18,8 @@
   }
   return array;
 }
-shuffle(courses);
+courses = shuffle(courses);
+
 
 </script>
 
@@ -143,7 +144,7 @@ shuffle(courses);
                             </div>
                         </div>
                     </div>
-                    {/if}
+                {/if}
             {/each}
         </div>
     </div>
