@@ -2,7 +2,7 @@
     export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, allContent; 
     let courses = allContent.filter(content => content.type === "courses");
     
-    function shuffle(array) {
+    const shuffle = array => {
     let currentIndex = array.length,  randomIndex;
 
     // While there remain elements to shuffle.
@@ -13,13 +13,11 @@
     currentIndex--;
 
     // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [
-      array[randomIndex], array[currentIndex]];
+    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
   }
   return array;
 }
-courses = shuffle(courses);
-
+shuffle(courses);
 
 </script>
 
