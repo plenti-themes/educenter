@@ -27,7 +27,7 @@
                                 <div class="card-body">
                                     <ul class="list-inline mb-2">
                                     <li class="list-inline-item"><i class="{course.fields.calicon}"></i> {course.fields.length}</li>
-                                    <li class="list-inline-item"><i class="{course.fields.timericon}"></i> {course.fields.category}</li>
+                                    <li class="list-inline-item"><i class="{course.fields.bookicon}"></i> {course.fields.category}</li>
                                     </ul>
                                     <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
                                     <p class="card-text mb-4">{course.fields.body.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
