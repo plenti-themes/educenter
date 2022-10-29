@@ -90,7 +90,7 @@
 			  } 
 		  	},
 			{
-				"name": "courses",
+				"name": "course",
 				"fields": {
 					"title": "Our Courses",
 					"position": "left",
