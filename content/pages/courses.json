@@ -16,7 +16,7 @@
             }
         },
         {
-            "name": "course",
+            "name": "courses",
             "fields":{
                 "items": [
                     {   
