@@ -3,6 +3,17 @@
 </script>
 <section class="section">
     <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex align-items-center section-title justify-content-between">
+                <h2 class="mb-0 text-nowrap mr-3">Our Course</h2>
+                <div class="border-top w-100 border-primary d-none d-sm-block"></div>
+                <div>
+                <a href="/educenter/site/course" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">See all</a>
+                </div>
+                </div>
+            </div>
+        </div>
         <div class="row justify-content-center">
             {#each items as item}
                 <div class="col-lg-4 col-sm-6 mb-5">
