@@ -3,6 +3,7 @@
   import Nav from './nav.svelte';
   import Header from './header.svelte';
   import Footer from './footer.svelte';
+  import Newsletter from './newsletter.svelte';
   export let content, layout, allContent, allLayouts, env;
 </script>
 
@@ -22,6 +23,7 @@
   </div>
 </header>
   <svelte:component this={layout} {...content.fields} {allContent} {allLayouts} {content} />
+  <Newsletter />
   <Footer />
 </body>
 </html>
