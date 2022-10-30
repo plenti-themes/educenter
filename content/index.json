@@ -306,18 +306,6 @@
 				"fields": {
 					"title": "Latest News"
 				}
-			},
-			{
-				"name": "newsletter",
-				"fields": {
-					"title": "Subscribe Newsletter",
-					"placeholder": "Enter your email...",
-					"background": "yellow",
-					"form": {
-						"url": ".",
-						"title": "Join"
-					}
-				}
 			}
 		  	
 	  	]
