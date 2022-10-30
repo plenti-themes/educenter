@@ -1,7 +1,6 @@
 <script>
   import Pagination from '../components/pagination.svelte';
   import LatestArticles from '../components/latest_articles.svelte';
-  import Newsletter from '../components/newsletter.svelte';
   export let title, image, home, body, allContent, content;
 //   let articles = allContent.filter(content => content.type === "article");
 
@@ -78,6 +77,5 @@
                 </div>
             </aside>  -->
         </div>
-        <!-- <Newsletter /> -->
     </div>
 </section>
