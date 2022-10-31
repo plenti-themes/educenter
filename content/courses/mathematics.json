@@ -34,11 +34,11 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Zim Cook",
-        "subject": "Photography",
+        "name": "Jacke Mastio",
+        "subject": "Computer Science",
         "image": {
-            "src": "/teacher-1.jpeg",
-            "alt": "Profile picture of Zim Cook",
+            "src": "/teacher-2.jpeg",
+            "alt": "Profile picture of Jacke Mastio",
             "url": "."
         }
     },

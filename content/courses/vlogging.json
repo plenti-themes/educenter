@@ -34,11 +34,11 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Clark Malik",
-        "subject": "Computer Science",
+        "name": "Duis Rio",
+        "subject": "Photography",
         "image": {
-            "src": "/teacher-1.jpeg",
-            "alt": "Profile picture of Clark Malik",
+            "src": "/teacher-3.jpeg",
+            "alt": "Profile picture of Duis Rio",
             "url": "."
         }
     },
