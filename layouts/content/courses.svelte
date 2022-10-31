@@ -3,21 +3,18 @@
     let courses = allContent.filter(content => content.type === "courses");
     
     const shuffle = array => {
-    let currentIndex = array.length,  randomIndex;
-
-    // While there remain elements to shuffle.
-    while (currentIndex != 0) {
-
-    // Pick a remaining element.
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex--;
-
-    // And swap it with the current element.
-    [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
-  }
-  return array;
-}
-shuffle(courses);
+      let currentIndex = array.length,  randomIndex;
+      // While there remain elements to shuffle.
+      while (currentIndex != 0) {
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+      }
+      return array;
+    }
+    courses = shuffle(courses);
 
 </script>
 
@@ -126,7 +123,7 @@ shuffle(courses);
                     </div>
                         </div>
                     <div class="row">
-                    {#each allContent.filter(content => content.type == "courses") as course, i}
+                    {#each courses as course, i}
                     {#if i < 3}
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
