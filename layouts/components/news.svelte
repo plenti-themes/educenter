@@ -1,7 +1,7 @@
 <script>
   export let title, allContent;
   import { sortByDate } from '../scripts/sortByDate.svelte';
-  let articles = allContent.filter(content => content.type === "article");
+//   let articles = allContent.filter(content => content.type === "article");
 </script>
 
 <section class="section">
