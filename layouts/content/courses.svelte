@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, allContent; 
+    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, headimage, home, tbody, allContent; 
     let courses = allContent.filter(content => content.type === "courses");
     
     const shuffle = array => {
@@ -21,20 +21,20 @@ shuffle(courses);
 
 </script>
 
-<section class="page-title-section overlay" style="background-image:url(/educenter/site/images/backgrounds/page-title.jpg),url(/educenter/site/images/backgrounds/page-title.jpg)">
+<section class="page-title-section overlay" style="background-image:url({headimage.url}),url({headimage.url})">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
             <ul class="list-inline custom-breadcrumb">
-            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="/">Home</a></li>
+            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{home.url}">{home.title}</a></li>
             <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
-            <li class="list-inline-item text-white h3 font-secondary">Algorithm</li>
+            <li class="list-inline-item text-white h3 font-secondary">{title}</li>
             </ul>
-            <p class="text-lighten">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <p class="text-lighten">{tbody}</p>
             </div>
         </div>
     </div>
-</section>
+  </section>
 <section class="section-sm">
     <div class="container">
     <div class="row">
