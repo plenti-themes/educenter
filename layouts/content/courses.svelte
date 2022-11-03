@@ -36,7 +36,7 @@
     <div class="container">
     <div class="row">
     <div class="col-12 mb-4">
-    <img style="height:500px;width:100%;object-fit:cover" alt="{image.alt}" src="/{image.src}" class="img-fluid w-100">
+    <img style="height:500px;width:100%;object-fit:cover" alt="{image.alt}" src="assets{image.src}" class="img-fluid w-100">
     </div>
     </div>
     <div class="row align-items-center mb-5">
@@ -90,7 +90,7 @@
     <h5 class="mb-3">{trainer.type}</h5>
     <div class="d-flex justify-content-between align-items-center flex-wrap">
     <div class="media mb-2 mb-sm-0 align-items-center">
-    <img class="mr-4 img-fluid teacher-thumb-sm" src="/assets/{trainer.image.src}" alt="{trainer.image.alt}">
+    <img class="mr-4 img-fluid teacher-thumb-sm" src="assets{trainer.image.src}" alt="{trainer.image.alt}">
     <div class="media-body">
     <h4 class="mt-0"><a href="{trainer.image.url}">{trainer.name}</a></h4>
     {trainer.subject}
@@ -127,7 +127,7 @@
                     {#if i < 3}
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
-                            <img class="card-img-top rounded-0" src="/{course.fields.image.src}" alt="{course.fields.image.alt}">
+                            <img class="card-img-top rounded-0" src="assets{course.fields.image.src}" alt="{course.fields.image.alt}">
                             <div class="card-body">
                             <ul class="list-inline mb-2">
                             <li class="list-inline-item"><i class="ti-calendar"></i> {course.fields.length}</li>
