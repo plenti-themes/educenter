@@ -35,7 +35,8 @@
         "title": "Apply Now",
         "url": "."
     },
-    "carddate": "09 Jan",
+    "eventday": "09",
+    "eventmonth": "NOV",
     "image": {
         "url": "/event-3.jpeg",
         "alt": "Social media event"
