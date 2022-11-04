@@ -1,5 +1,21 @@
 <script>
-    export let title, subtitle, tbody, image, location, calendar, time, entry, button, body, speakerstext, speaker1, speaker2, speaker3, speaker4, home, headimage; 
+    export let title, subtitle, tbody, image, location, calendar, time, entry, button, body, speakerstext, speaker1, speaker2, speaker3, speaker4, home, headimage, allContent;
+    let events = allContent.filter(content => content.type === "events");
+    
+    const shuffle = array => {
+      let currentIndex = array.length,  randomIndex;
+      // While there remain elements to shuffle.
+      while (currentIndex != 0) {
+        // Pick a remaining element.
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex--;
+        // And swap it with the current element.
+        [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+      }
+      return array;
+    }
+    events = shuffle(events);
+
 </script>
 <section class="page-title-section overlay" style="background-image:url({headimage.url}),url({headimage.url})">
     <div class="container">
@@ -123,5 +139,38 @@
     <div class="border-bottom border-primary"></div>
     </div>
     </div>
+    </div>
+</section>
+<section class="section p-0">
+    <div class="container">
+        <div class="row">
+        <div class="col-12">
+        <h2 class="section-title">More Events</h2>
+        </div>
+        </div>
+        <div class="row justify-content-center">
+        </div>
+    </div>
+</section>
+<section class="section" style="padding-top: 0px">
+    <div class="container">
+        <div class="row justify-content-center">
+            {#each events as event, i}
+            {#if i < 3}
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <div class="card border-0 rounded-0 hover-shadow">
+                        <div class="card-img position-relative">
+                        <img class="card-img-top rounded-0" src="assets{event.fields.image.url}" alt="{event.fields.image.alt}">
+                        <div class="card-date"><span>{event.fields.eventday}</span><br>{event.fields.eventmonth}</div>
+                        </div>
+                        <div class="card-body">
+                        <p><i class="ti-location-pin text-primary mr-2"></i>{event.fields.location.city}</p>
+                        <h4 class="card-title"><a href="{event.path}">{event.fields.title}</a></h4>
+                        </div>
+                    </div>
+                </div>
+                {/if}
+            {/each}
+        </div>
     </div>
 </section>
