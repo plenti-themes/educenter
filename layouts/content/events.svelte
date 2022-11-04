@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, tbody, image, location, calendar, time, entry, button, body, speakerstext, speaker1, speaker2, speaker3, speaker4, home, headimage, allContent;
+    export let title, subtitle, tbody, image, location, publish, time, entry, button, body, speakerstext, speaker1, speaker2, speaker3, speaker4, home, headimage, allContent;
     let events = allContent.filter(content => content.type === "events");
     
     const shuffle = array => {
@@ -57,8 +57,8 @@
             <div class="d-flex align-items-center">
             <i class="ti-calendar text-primary icon-md mr-2"></i>
             <div class="text-left">
-            <h6 class="mb-0">{calendar.title}</h6>
-            <p class="mb-0">{calendar.date}</p>
+            <h6 class="mb-0">{publish.title}</h6>
+            <p class="mb-0">{publish.date}</p>
             </div>
             </div>
             </li>

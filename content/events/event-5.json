@@ -16,9 +16,9 @@
         "city": "Canberra, ACT",
         "icon": "ti-location-pin"
     },
-    "calendar": {
+    "publish": {
         "title": "DATE",
-        "date": "09 Dec, 2022",
+        "date": "05 Dec, 2022",
         "icon": "ti-calendar"
     },
     "time": {
@@ -35,8 +35,8 @@
         "title": "Apply Now",
         "url": "."
     },
-    "eventday": "09",
-    "eventmonth": "NOV",
+    "eventday": "05",
+    "eventmonth": "DEC",
     "image": {
         "url": "/event-2.jpeg",
         "alt": "Social media event"
