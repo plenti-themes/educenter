@@ -5,6 +5,7 @@
 		"pages": "/courses/",
 		"courses": "/course/:filename",
 		"course_page": "/courses/",
+		"event_page": "/events/",
 		"blog": "blog/:paginate(totalPages)"
 	},
 	"local": {
