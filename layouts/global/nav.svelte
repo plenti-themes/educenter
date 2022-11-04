@@ -20,7 +20,7 @@
                 <a class="nav-link dropdown-toggle" href="." role="button" data-toggle="dropdown">
             Pages</a>
     <div class="dropdown-menu">
-        <a class="dropdown-item" href=".">event</a>
+        <a class="dropdown-item" href="/events/">events</a>
         <a class="dropdown-item" href=".">notice</a>
         <a class="dropdown-item" href=".">research</a>
         <a class="dropdown-item" href=".">scholarship</a>
