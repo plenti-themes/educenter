@@ -1,5 +1,6 @@
 <script>
-    export let title, link, items;
+    import { sortByDate } from "../scripts/sortByDate.svelte";}
+    export let title, link, allContent;
 </script>
 <section class="section bg-gray">
     <div class="container">
@@ -15,19 +16,23 @@
             </div>
         </div>
             <div class="row justify-content-center">
-                {#each items as item}
+               <!--  {#each allContent.filter(content => content.type === "events") as event, i}
+                {#if i < 3} -->
+                {#each sortByDate(allContent.filter(content => content.type === "events"), "oldest") as event, i}
+            {#if i < 3}
                     <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
                         <div class="card border-0 rounded-0 hover-shadow">
                             <div class="card-img position-relative">
-                            <img class="card-img-top rounded-0" src="{item.image.url}" alt="Social media and behavior economics conference">
-                            <div class="card-date">{item.date}</div>
+                            <img class="card-img-top rounded-0" src="assets{event.fields.image.url}" alt="{event.fields.image.alt}">
+                            <div class="card-date"><span>{event.fields.eventday}</span><br>{event.fields.eventmonth}</div>
                             </div>
                             <div class="card-body">
-                            <p><i class="ti-location-pin text-primary mr-2"></i>{item.location}</p>
-                            <h4 class="card-title"><a href="{item.link.url}">{item.link.title}</a></h4>
+                            <p><i class="ti-location-pin text-primary mr-2"></i>{event.fields.location.city}  <i class="ti-calendar text-primary mr-1"></i> {event.fields.publish.date}</p>
+                            <h4 class="card-title"><a href="{event.path}">{event.fields.title}</a></h4>
                             </div>
                         </div>
                     </div>
+                    {/if}
                 {/each}
             </div>
         <div class="row">
