@@ -138,48 +138,7 @@
 					"link": {
 						"url": ".",
 						"title": "See All"
-					},
-					"items": [
-						{   
-							"location": "Boston, Massachusetts",
-                            "icon": "ti-location-pin",
-                            "date": "09 MAR",
-							"link": {
-								"title": "Social media and behavior economics conference",
-								"url": "."
-							},
-                             "image": {
-					            "url": "assets/event-1.jpeg",
-					            "alt": "Social media event"
-				            }
-						},
-                        {   
-							"location": "Worcester, Massachusetts",
-                            "icon": "ti-location-pin",
-                            "date": "09 MAR",
-							"link": {
-								"title": "Social media and behavior economics conference",
-								"url": "."
-							},
-                             "image": {
-					            "url": "assets/event-2.jpeg",
-					            "alt": "Social media event"
-				            }
-				        },
-                        {   
-							"location": "Springfield, Massachusetts",
-                            "icon": "ti-location-pin",
-                            "date": "09 MAR",
-							"link": {
-								"title": "Social media and behavior economics conference",
-								"url": "."
-							},
-                             "image": {
-					            "url": "assets/event-3.jpeg",
-					            "alt": "Social media event"
-				            }
-				        }
-                    ]
+					}
 				}
 			},
 			{
