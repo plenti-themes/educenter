@@ -1,5 +1,5 @@
 <script>
-    import { sortByDate } from "../scripts/sortByDate.svelte";}
+    import { sortByDate } from "../scripts/sortByDate.svelte";
     export let title, link, allContent;
 </script>
 <section class="section bg-gray">
