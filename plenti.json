@@ -6,6 +6,7 @@
 		"courses": "/course/:filename",
 		"course_page": "/courses/",
 		"event_page": "/events/",
+		"notice_page": "/notices/",
 		"blog": "blog/:paginate(totalPages)"
 	},
 	"local": {

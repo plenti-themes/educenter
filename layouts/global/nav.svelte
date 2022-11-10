@@ -21,7 +21,7 @@
             Pages</a>
     <div class="dropdown-menu">
         <a class="dropdown-item" href="/events/">events</a>
-        <a class="dropdown-item" href=".">notice</a>
+        <a class="dropdown-item" href="/notices/">notices</a>
         <a class="dropdown-item" href=".">research</a>
         <a class="dropdown-item" href=".">scholarship</a>
         <a class="dropdown-item" href=".">teacher</a>
