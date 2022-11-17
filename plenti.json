@@ -2,7 +2,7 @@
 	"build": "public",
 	"routes": {
 		"posts": "/blog/:filename",
-		"pages": "/courses/",
+		"pages": "/scholarships/",
 		"courses": "/course/:filename",
 		"course_page": "/courses/",
 		"event_page": "/events/",
