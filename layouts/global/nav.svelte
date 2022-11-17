@@ -23,7 +23,7 @@
         <a class="dropdown-item" href="/events/">events</a>
         <a class="dropdown-item" href="/notices/">notices</a>
         <a class="dropdown-item" href="/research/">research</a>
-        <a class="dropdown-item" href=".">scholarship</a>
+        <a class="dropdown-item" href="/scholarships/">scholarships</a>
         <a class="dropdown-item" href=".">teacher</a>
     </div>
             </li>
