@@ -4,6 +4,7 @@
 		"posts": "/blog/:filename",
 		"pages": "/scholarships/",
 		"courses": "/course/:filename",
+		"teachers": "/teacher/:filename",
 		"course_page": "/courses/",
 		"event_page": "/events/",
 		"notice_page": "/notices/",
