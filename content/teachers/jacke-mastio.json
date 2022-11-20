@@ -1,0 +1,47 @@
+{
+    "home": {
+        "title": "Home",
+        "url": "/"
+     },
+     "headimage": {
+        "url": "assets/page-title.jpg",
+        "alt": "Header background image"
+    },
+    "title": "Jackie Mastio",
+    "tbody": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+    "category": "Computer Science",
+    "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.",
+    "image": {
+        "src": "assets/teacher-2.jpeg",
+        "alt": "Older male teacher"
+    },
+    "contact": {
+        "title": "CONTACT INFO:",
+        "email": "jackiemastio@email.com",
+        "phone": "+12 034 5876",
+        "website": "jackiemastio.com",
+        "address": "1313 Boulevard Cremazie,Quebec"
+    },
+    "facebook": {
+        "handle": "Jackie Mastio",
+        "url": "."
+    },
+   "twitter": {
+       "handle": "Jackie Mastio",
+       "url": "."
+   },
+   "skype":{
+       "handle": "Jackie Mastio",
+       "url": "."
+   },
+    "interests": {
+        "title": "SUMMARY OF ACTIVITIES/INTERESTS",
+        "one": "Computer Networking",
+        "two": "Computer Security",
+        "three": "Human Computer Interfacing"
+    },
+    "para1title":"About Me",
+    "para1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+    "para2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.",
+    "courses": "Courses I teach" 
+}
