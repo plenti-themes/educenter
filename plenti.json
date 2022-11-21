@@ -9,6 +9,7 @@
 		"event_page": "/events/",
 		"notice_page": "/notices/",
 		"research_page": "/research/",
+		"teacher_page": "/teachers/",
 		"blog": "blog/:paginate(totalPages)"
 	},
 	"local": {
