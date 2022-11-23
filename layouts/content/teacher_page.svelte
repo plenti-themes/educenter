@@ -31,8 +31,9 @@
         </ul>
         </div>
         </div>
-        {#each allContent.filter(content => content.type == "teachers") as teacher}
+       
         <div class="row filtr-container" style="padding: 0px; position: relative; width: 100%; display: flex; flex-wrap: wrap; height: 1139.14px;">
+        {#each allContent.filter(content => content.type == "teachers") as teacher}
         <div data-category="Vlogging" class="col-lg-4 col-sm-6 filtr-item" style="opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
         <div class="card border-0 rounded-0 hover-shadow mb-5">
         <img class="card-img-top rounded-0" src="{teacher.fields.image.src}" alt="{teacher.fields.image.alt}">
@@ -58,7 +59,7 @@
         </div>
         </div>
         </div>
-        </div>
         {/each}
+        </div>
     </div>
 </section>
