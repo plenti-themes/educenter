@@ -24,15 +24,15 @@
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
                             <img class="card-img-top rounded-0" src="assets{course.fields.image.src}" alt="{course.fields.image.alt}">
-                                <div class="card-body">
-                                    <ul class="list-inline mb-2">
-                                    <li class="list-inline-item"><i class="{course.fields.calicon}"></i> {course.fields.length}</li>
-                                    <li class="list-inline-item"><i class="{course.fields.bookicon}"></i> {course.fields.category}</li>
-                                    </ul>
-                                    <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
-                                    <p class="card-text mb-4">{course.fields.body.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
-                                    <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.button.title}</a>
-                                </div>
+                            <div class="card-body">
+                                <ul class="list-inline mb-2">
+                                <li class="list-inline-item"><i class="{course.fields.calicon}"></i> {course.fields.length}</li>
+                                <li class="list-inline-item"><i class="{course.fields.bookicon}"></i> {course.fields.category}</li>
+                                </ul>
+                                <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
+                                <p class="card-text mb-4">{course.fields.body.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
+                                <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.button.title}</a>
+                            </div>
                         </div>
                     </div>
                 {/each}
