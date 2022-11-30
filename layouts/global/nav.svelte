@@ -11,7 +11,7 @@
                 <a class="nav-link" href=".">Home</a>
              </li>
             <li class="nav-item">
-                <a class="nav-link" href=".">About</a>
+                <a class="nav-link" href="/aboutus/">About</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/courses/">courses</a>
@@ -24,7 +24,7 @@
         <a class="dropdown-item" href="/notices/">notices</a>
         <a class="dropdown-item" href="/research/">research</a>
         <a class="dropdown-item" href="/scholarships/">scholarships</a>
-        <a class="dropdown-item" href=".">teacher</a>
+        <a class="dropdown-item" href="/teachers/">teachers</a>
     </div>
             </li>
             <li class="nav-item">
