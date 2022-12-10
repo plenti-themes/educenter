@@ -1,8 +1,10 @@
 <script>
-	import {scale} from 'svelte/transition';
+	import {scale, crossfade} from 'svelte/transition';
+    import {quadInOut} from 'svelte/easing';
     export let title, image, home, body, allContent;
     let teachers = allContent.filter(content => content.type === "teachers");
     let selectedCategory;
+
 </script>
 
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
@@ -33,11 +35,13 @@
                 </ul>
             </div>
         </div>
-       
+        <!-- transition:crossfade={{duration:600, easing:quadInOut}} -->
+        <!-- in:receive={{duration:2000}} out:send={{easing:quadInOut}}  -->
+        <!-- transition:scale={{duration:600}}  -->
         <div class="filtr-container row" style="padding: 0px; position: relative; width: 100%; display: flex; flex-wrap: wrap; height: 1139.14px;">
-            {#each teachers as teacher}
+            {#each teachers as teacher (teacher)}
                 {#if !selectedCategory || selectedCategory === 'All' || selectedCategory === teacher.fields.category}
-                    <div transition:scale={{duration:600}} data-category="Vlogging" class="col-lg-4 col-sm-6 filtr-item">
+                    <div transition:scale={{duration:600}} {teacher} data-category="Vlogging" class="col-lg-4 col-sm-6 filtr-item"> 
                         <div class="card border-0 rounded-0 hover-shadow mb-5">
                         <img class="card-img-top rounded-0" src="{teacher.fields.image.src}" alt="{teacher.fields.image.alt}">
                             <div class="card-body">
