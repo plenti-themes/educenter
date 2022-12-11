@@ -8,7 +8,7 @@
         "alt": "Header background image"
     },
     "title":"Photography",
-    "category": "Photography",
+    "category": "Digital Media",
     "featured": true,
     "subtitle":"About Course",
     "tbody": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
@@ -35,7 +35,7 @@
     "trainer": {
         "type": "teacher",
         "name": "Clark Malik",
-        "subject": "Computer Science",
+        "subject": "Photography",
         "image": {
             "src": "/teacher-1.jpeg",
             "alt": "Profile picture of Clark Malik",
