@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, headimage, home, tbody, allContent; 
+    export let title, category, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, headimage, home, tbody, allContent; 
     let courses = allContent.filter(content => content.type === "courses");
     
     const shuffle = array => {
@@ -93,7 +93,7 @@
     <img class="mr-4 img-fluid teacher-thumb-sm" src="assets{trainer.image.src}" alt="{trainer.image.alt}">
     <div class="media-body">
     <h4 class="mt-0"><a href="{trainer.image.url}">{trainer.name}</a></h4>
-    {trainer.subject}
+    {category}
     </div>
     </div>
     <div class="social-link">
