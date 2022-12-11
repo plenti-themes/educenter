@@ -34,11 +34,10 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Alex Rook",
-        "subject": "Vlogging",
+        "name": "Clark Malik",
         "image": {
-            "src": "/teacher-2.jpeg",
-            "alt": "Profile picture of Alex Rook",
+            "src": "/teacher-1.jpeg",
+            "alt": "Profile picture of Clark Malik",
             "url": "."
         }
     },

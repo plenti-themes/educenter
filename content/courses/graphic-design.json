@@ -35,7 +35,6 @@
     "trainer": {
         "type": "teacher",
         "name": "Duis Rio",
-        "subject": "Photography",
         "image": {
             "src": "/teacher-3.jpeg",
             "alt": "Profile picture of Duis Rio",

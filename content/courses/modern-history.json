@@ -34,11 +34,10 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Jacke Mastio",
-        "subject": "Computer Science",
+        "name": "Devid Louis",
         "image": {
-            "src": "/teacher-2.jpeg",
-            "alt": "Profile picture of Jacke Mastio",
+            "src": "/teacher-3.jpeg",
+            "alt": "Profile picture of Devid Louis",
             "url": "."
         }
     },

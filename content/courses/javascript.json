@@ -34,11 +34,10 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Devid Luis",
-        "subject": "Humanities",
+        "name": "Jackie Mastio",
         "image": {
-            "src": "/teacher-3.jpeg",
-            "alt": "Profile picture of Devid Luis",
+            "src": "/teacher-2.jpeg",
+            "alt": "Profile picture of Jackie Mastio",
             "url": "."
         }
     },

@@ -34,11 +34,10 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Clark Malik",
-        "subject": "Photography",
+        "name": "Zim Cook",
         "image": {
             "src": "/teacher-1.jpeg",
-            "alt": "Profile picture of Clark Malik",
+            "alt": "Profile picture of Zim Cook",
             "url": "."
         }
     },
