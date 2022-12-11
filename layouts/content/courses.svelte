@@ -1,7 +1,8 @@
 <script>
-    export let title, category, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, headimage, home, tbody, allContent; 
+    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, headimage, home, tbody, content, allContent; 
     let courses = allContent.filter(content => content.type === "courses");
-    
+    let teachers = allContent.filter(content => content.type === "teachers");
+    let selectedTeacher = Object(allContent.filter ((key) => key.name == content.fields.trainer.name)[0]);
     const shuffle = array => {
       let currentIndex = array.length,  randomIndex;
       // While there remain elements to shuffle.
@@ -91,10 +92,15 @@
     <div class="d-flex justify-content-between align-items-center flex-wrap">
     <div class="media mb-2 mb-sm-0 align-items-center">
     <img class="mr-4 img-fluid teacher-thumb-sm" src="assets{trainer.image.src}" alt="{trainer.image.alt}">
+    {#each teachers as teacher}
+    {#if selectedTeacher}
     <div class="media-body">
-    <h4 class="mt-0"><a href="{trainer.image.url}">{trainer.name}</a></h4>
-    {category}
+    <h4 class="mt-0"><a href="{teacher.path}">
+        {teacher.fields.title}</a></h4>
+    {teacher.fields.category}
     </div>
+    {/if}
+    {/each}
     </div>
     <div class="social-link">
     <h6 class="d-none d-sm-block text-right">{socials.title}</h6>
