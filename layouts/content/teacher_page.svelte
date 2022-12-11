@@ -28,10 +28,10 @@
             <div class="col-12">
                 <ul class="list-inline text-center filter-controls mb-5">
                     <li on:click={() => selectedCategory = 'All'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'All' ? ' active' : ''}" data-filter="all">All</li>
-                    <li on:click={() => selectedCategory = 'Vlogging'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Vlogging' ? ' active' : ''}" data-filter="vlogging">Vlogging</li>
+                  <!--   <li on:click={() => selectedCategory = 'Vlogging'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Vlogging' ? ' active' : ''}" data-filter="vlogging">Vlogging</li> -->
                     <li on:click={() => selectedCategory = 'Computer Science'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Computer Science' ? ' active' : ''}" data-filter="computer-science">Computer Science</li>
                     <li on:click={() => selectedCategory = 'Humanities'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Humanities' ? ' active' : ''}" data-filter="humanities">Humanities</li>
-                    <li on:click={() => selectedCategory = 'Photography'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Photography' ? ' active' : ''}" data-filter="photography">Photography</li>
+                    <li on:click={() => selectedCategory = 'Digital Media'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Digital Media' ? ' active' : ''}" data-filter="digital-media">Digital Media</li>
                 </ul>
             </div>
         </div>
