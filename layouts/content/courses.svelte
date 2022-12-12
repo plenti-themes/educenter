@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, headimage, home, tbody, content, allContent; 
+    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, headimage, home, tbody, allContent; 
     let courses = allContent.filter(content => content.type === "courses");
     let teacher = allContent.filter(content => content.type === "teachers" && content.fields.title === trainer.name)[0];
     const shuffle = array => {
