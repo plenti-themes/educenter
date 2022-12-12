@@ -1,6 +1,6 @@
 <script>
-    export let title, headimage, home, tbody, image, category, body, contact, facebook, skype, twitter, interests, para1title, para1, para2, coursesFeature, courseTitle, allContent;
-    let course = allContent.filter(content => content.type === "courses" && content.fields.title === courseTitle)[0];
+    export let title, headimage, home, tbody, image, category, body, contact, facebook, skype, twitter, interests, para1title, para1, para2, coursesFeature, allContent;
+    let course = allContent.filter(content => content.type === "courses" && content.fields.trainer.name === title)[0];
 </script>
 <section class="page-title-section overlay" style="background-image:url({headimage.url}),url({headimage.url})">
     <div class="container">
