@@ -218,21 +218,19 @@
                                     alt={event.fields.image.alt}
                                 />
                                 <div class="card-date">
-                                    <span>{event.fields.eventday}</span><br
-                                    />{event.fields.eventmonth}
+                                    <span>{event.fields.eventday}</span>
+                                    <br />
+                                    {event.fields.eventmonth}
                                 </div>
                             </div>
                             <div class="card-body">
                                 <p>
-                                    <i
-                                        class="ti-location-pin text-primary mr-1"
-                                    />{event.fields.location.city}
+                                    <i class="ti-location-pin text-primary mr-1" />{event.fields.location.city}
                                     <i class="ti-calendar text-primary mr-1" />
                                     {event.fields.publish.date}
                                 </p>
                                 <h4 class="card-title">
-                                    <a href={event.path}>{event.fields.title}</a
-                                    >
+                                    <a href={event.path}>{event.fields.title}</a>
                                 </h4>
                             </div>
                         </div>
