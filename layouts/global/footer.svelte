@@ -31,11 +31,11 @@
     <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
     <h4 class="text-white mb-5 text-uppercase">Courses</h4>
     <ul class="list-unstyled">
-    <li class="mb-3"><a class="text-color" href="https://demo.gethugothemes.com/educenter/site/course/course-5/">Algorithm</a></li>
-    <li class="mb-3"><a class="text-color" href="https://demo.gethugothemes.com/educenter/site/course/course-3/">Artificial Intelligence</a></li>
-    <li class="mb-3"><a class="text-color" href="https://demo.gethugothemes.com/educenter/site/course/course-4/">JavaScript</a></li>
-    <li class="mb-3"><a class="text-color" href="https://demo.gethugothemes.com/educenter/site/course/course-2/">Mathematics</a></li>
-    <li class="mb-3"><a class="text-color" href="https://demo.gethugothemes.com/educenter/site/course/course-1/">Photography</a></li>
+    <li class="mb-3"><a class="text-color" href=".">Artificial Intelligence</a></li>
+    <li class="mb-3"><a class="text-color" href=".">JavaScript</a></li>
+    <li class="mb-3"><a class="text-color" href=".">Philosophy</a></li>
+    <li class="mb-3"><a class="text-color" href=".">Graphic Design</a></li>
+    <li class="mb-3"><a class="text-color" href=".">Photography</a></li>
     </ul>
     </div>
     <div class="col-lg-2 col-sm-4 col-6 mb-5 mb-md-0">
