@@ -53,8 +53,9 @@
                     </div>
                     {/if}
                     {/each}
-                    <div class="col-12 mt-4"></div>
+                    <div class="col-12">
                     <Pagination {currentPage} {totalPages} />
+                </div>
                 </div>
             </div>
             <LatestArticles {allContent} />
