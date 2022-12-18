@@ -9,7 +9,7 @@
                 <h2 class="mb-0 text-nowrap mr-3">{title}</h2>
                 <div class="border-top w-100 border-primary d-none d-sm-block"></div>
                 <div>
-                <a href="/educenter/site/course" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{link.title}</a>
+                <a href="{link.url}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{link.title}</a>
                 </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                             </ul>
                             <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
                             <p class="card-text mb-4">{course.fields.body.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
-                            <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.button.title}</a>
+                            <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.link.title}</a>
                         </div>
                 </div>
             </div>

@@ -27,8 +27,10 @@
     "bookicon": "ti-bookmark-alt",
     "fee": "FEE",
     "cost": "From: $699",
-    "button": {
-        "position": "right",
+    "link": {
+        "title": "Read More"
+    },
+    "apply": {
         "title": "Apply Now",
         "url": "."
     },

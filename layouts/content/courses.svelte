@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, button, trainer, socials, headimage, home, tbody, allContent; 
+    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, apply, trainer, socials, headimage, home, tbody, allContent; 
     let courses = allContent.filter(content => content.type === "courses");
     let teacher = allContent.filter(content => content.type === "teachers" && content.fields.title === trainer.name)[0];
     const shuffle = array => {
@@ -75,7 +75,7 @@
                 </ul>
             </div>
             <div class="col-xl-3 text-sm-right text-left order-sm-2 order-3 order-xl-3 col-sm-6 mb-4 mb-xl-0">
-                <a href="{button.url}" class="btn btn-primary">{button.title}</a>
+                <a href="{apply.url}" class="btn btn-primary">{apply.title}</a>
             </div>
             <div class="col-12 mt-4 order-4">
                 <div class="border-bottom border-primary"></div>
@@ -141,7 +141,7 @@
                             </ul>
                             <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
                             <p class="card-text mb-4">{course.fields.body.substring(0, 120).replace(/(<([^>]+)>)/gi, "")}</p>
-                            <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.button.title}</a>
+                            <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.link.title}</a>
                             </div>
                         </div>
                     </div>

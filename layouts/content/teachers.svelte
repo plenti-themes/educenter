@@ -71,7 +71,7 @@
                         </ul>
                         <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
                         <p class="card-text mb-4">{course.fields.body.substring(0, 120).replace(/(<([^>]+)>)/gi, "")}</p>
-                        <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.button.title}</a>
+                        <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.link.title}</a>
                         </div>
                     </div>
                 </div>
