@@ -7,39 +7,39 @@
 		  	{
 			  "name": "hero",
 			  "fields": {
-				"buttonRight": "ti-angle-right",
-				"buttonLeft": "ti-angle-left",
-				"image": {
-					"url": "assets/banner.jpg",
-					"alt": "Profile image"
-				},
-				"items": [
-					{
-						"title": "Your bright future is our mission",
-						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
-						"link": {
-							"title": "Apply now",
-							"url": "."
-						}
+					"buttonRight": "ti-angle-right",
+					"buttonLeft": "ti-angle-left",
+					"image": {
+						"url": "assets/banner.jpg",
+						"alt": "Profile image"
 					},
-					{
-						"title": "Your bright future is our mission",
-						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
-						"link": {
-							"title": "Apply now",
-							"url": "."
+					"items": [
+						{
+							"title": "Your bright future is our mission",
+							"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+							"link": {
+								"title": "Apply now",
+								"url": "."
+							}
+						},
+						{
+							"title": "Your bright future is our mission",
+							"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+							"link": {
+								"title": "Apply now",
+								"url": "."
+							}
+						},
+						{
+							"title": "Your bright future is our mission",
+							"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+							"link": {
+								"title": "Apply now",
+								"url": "."
+							}
 						}
-					},
-					{
-						"title": "Your bright future is our mission",
-						"body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
-						"link": {
-							"title": "Apply now",
-							"url": "."
-						}
-					}
-				]
-			  }
+					]
+			  	}
 		  	},
 			{
 				"name": "features",
@@ -81,13 +81,13 @@
 				  "link": {
 					  "title": "Learn More",
 					  "url": "."
-				 },
+				 	},
 				  "image": {
 					  "position": "right",
 					  "url": "assets/about-us.jpeg",
 					  "alt": "about us"
-				 }	
-			  } 
+					}	
+			  	} 
 		  	},
 			{
 				"name": "course",
@@ -146,7 +146,6 @@
 				"fields": {
 					"title": "Latest News"
 				}
-			}
-		  	
+			}	
 	  	]
   	}
