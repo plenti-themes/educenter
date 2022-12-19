@@ -27,23 +27,23 @@
             }
         },
         {
-            "name": "stats",
+            "name": "stat",
             "fields": {
                 "teachers": {
                     "title": "TEACHERS",
-                    "number": "60"
+                    "amount": "60"
                 },
                 "courses": {
                     "title": "COURSES",
-                    "number": "50"
+                    "amount": "50"
                 },
                 "students": {
                     "title": "STUDENTS",
-                    "number": "1000"
+                    "amount": "1000"
                 },
                 "statisfied": {
                     "title": "SATISFIED CLIENT",
-                    "number": "1400"
+                    "amount": "1400"
                 }				
             }
         },
