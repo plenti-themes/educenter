@@ -1,7 +1,10 @@
 <script>
     export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, apply, trainer, socials, headimage, home, tbody, allContent, content; 
     let courses = allContent.filter(c => c.type === "courses" && c.filepath !== content.filepath);
-    let teacher = allContent.filter(content => content.type === "teachers" && content.fields.title === trainer.name)[0];
+    let teacher;
+    $: if (content) {
+      teacher = allContent.filter(content => content.type === "teachers" && content.fields.title === trainer.name)[0];
+    }
     const shuffle = array => {
       let currentIndex = array.length,  randomIndex;
       // While there remain elements to shuffle.
