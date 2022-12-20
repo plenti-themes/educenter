@@ -125,12 +125,12 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="section-title">Related Course</h2>
+                <h2 class="section-title">Other Courses</h2>
                     </div>
                         </div>
                     <div class="row">
                     {#each courses as course, i}
-                    {#if i < 3}
+                    {#if i < 3 && i != course.fields.title}
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
                             <img class="card-img-top rounded-0" src="assets{course.fields.image.src}" alt="{course.fields.image.alt}">
