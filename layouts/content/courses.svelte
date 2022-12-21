@@ -136,8 +136,9 @@
                     </div>
                         </div>
                     <div class="row">
+                    {#if courses}
                     {#each courses as course, i}
-                    {#if courses && i < 3}
+                    {#if i < 3}
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
                             <img class="card-img-top rounded-0" src="assets{course.fields.image.src}" alt="{course.fields.image.alt}">
@@ -152,8 +153,9 @@
                             </div>
                         </div>
                     </div>
-                {/if}
-            {/each}
+                    {/if}
+                {/each}
+            {/if}
         </div>
     </div>
 </section>
