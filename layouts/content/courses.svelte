@@ -1,5 +1,9 @@
 <script>
-    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, apply, trainer, socials, headimage, home, tbody, allContent, content; 
+    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, apply, trainer, socials, headimage, home, tbody, allContent, content;
+   /*  let courses;
+    $: if (content) {
+      courses = allContent.filter(c => c.type === "courses" && c.filepath !== content.filepath);
+    } */
     let courses = allContent.filter(c => c.type === "courses" && c.filepath !== content.filepath);
     let teacher;
     $: if (content) {
@@ -133,7 +137,7 @@
                         </div>
                     <div class="row">
                     {#each courses as course, i}
-                    {#if i < 3 && i != course.fields.title}
+                    {#if courses && i < 3}
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
                             <img class="card-img-top rounded-0" src="assets{course.fields.image.src}" alt="{course.fields.image.alt}">
