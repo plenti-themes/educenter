@@ -1,3 +1,6 @@
+<script>
+    export let user;
+</script>
 <!-- top header -->
 <div class="row no-gutters align-items-center">
     <div class="col-lg-4 text-center text-lg-left">
@@ -7,6 +10,7 @@
     <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="."><i class="ti-instagram"></i></a></li>
     <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="."><i class="ti-github"></i></a></li>
     <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="."><i class="ti-linkedin"></i></a></li>
+    <li><button on:click={$user.login}>Login</button></li>
     </ul>
     </div>
     <div class="col-lg-8 text-center text-lg-right">
