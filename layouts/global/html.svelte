@@ -4,11 +4,12 @@
   import Header from './header.svelte';
   import Footer from './footer.svelte';
   import Newsletter from './newsletter.svelte';
+  import { makeTitle } from '../scripts/make_title.svelte';
   export let content, layout, allContent, allLayouts, env;
 </script>
 
 <html lang="en">
-  <Head title={content.filename} {env} />
+  <Head title={makeTitle(content.filename)} {env} />
 <body>
   <header class="fixed-top header">
     <div class="top-header py-2 bg-white">
