@@ -12,6 +12,7 @@
 		"teacher_page": "/teachers/",
 		"blog": "blog/:paginate(totalPages)"
 	},
+	"baseurl": "/",
 	"local": {
 		"port": 3000
 	}
