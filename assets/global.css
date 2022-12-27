@@ -268,7 +268,7 @@ textarea {
     resize: vertical
 }
 
-fieldset {
+main fieldset {
     min-width: 0;
     padding: 0;
     margin: 0;
@@ -8119,9 +8119,8 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 .fixed-top {
     position: fixed;
     top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030
+    width: 100%;
+    z-index: 1030;
 }
 
 .fixed-bottom {
