@@ -1,6 +1,4 @@
-<script>
-    export let user;
-</script>
+
 <!-- top header -->
 <div class="row no-gutters align-items-center">
     <div class="col-lg-4 text-center text-lg-left">
