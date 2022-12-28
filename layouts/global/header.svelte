@@ -10,7 +10,6 @@
     <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="."><i class="ti-instagram"></i></a></li>
     <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="."><i class="ti-github"></i></a></li>
     <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="."><i class="ti-linkedin"></i></a></li>
-    <li><button on:click={$user.login}>Login</button></li>
     </ul>
     </div>
     <div class="col-lg-8 text-center text-lg-right">
