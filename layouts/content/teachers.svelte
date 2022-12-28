@@ -52,8 +52,8 @@
             </div>
             <div class="col-12 content">
             <h3 id="about-me">{para1title}</h3>
-            <p>{para1}</p>
-            <p>{para2}</p>
+            <p>{@html para1}</p>
+            <p>{@html para2}</p>
             </div>
         </div>
             <div class="row">
