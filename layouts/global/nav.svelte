@@ -1,4 +1,6 @@
-
+<script>
+     export let user;
+</script>
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark p-0">
     <a class="navbar-brand" href="/educenter/site/"><img class="img-fluid" src="/assets/logo.png" alt="Educenter | hugo education template"></a>
@@ -32,6 +34,9 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/contact/">contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="." on:click={$user.login}>login</a>
             </li>
         </ul>
             <select class="m-2 border-0 mb-5 mb-lg-2" id="select-language" onchange="location=this.value"><option id="en" value="." selected="">En
