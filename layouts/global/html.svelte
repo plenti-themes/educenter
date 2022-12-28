@@ -18,6 +18,7 @@
       <header class="fixed-top header">
         <div class="top-header py-2 bg-white">
           <div class="container">
+            <Header />
           </div>
         </div>
         <div class="navigation w-100 top-hider" style="margin-top: 0px;">
