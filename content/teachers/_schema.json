@@ -1,1 +1,10 @@
-{}
+{
+    "para1": {
+        "type": "wysiwyg",
+        "options": "all"
+    },
+    "para2": {
+        "type": "wysiwyg",
+        "options": "all"
+    }
+}
