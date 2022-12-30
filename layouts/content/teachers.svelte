@@ -1,5 +1,5 @@
 <script>
-    export let title, headimage, home, tbody, image, category, body, contact, facebook, skype, twitter, interests, para1title, para1, para2, coursesFeature, allContent;
+    export let title, headimage, home, tbody, image, category, body, contact, facebook, skype, twitter, interests, para1title, description, coursesFeature, allContent;
     let course = allContent.filter(content => content.type === "courses" && content.fields.trainer.name === title)[0];
 </script>
 <section class="page-title-section overlay" style="background-image:url({headimage.url}),url({headimage.url})">
@@ -52,8 +52,7 @@
             </div>
             <div class="col-12 content">
             <h3 id="about-me">{para1title}</h3>
-            <p>{@html para1}</p>
-            <p>{@html para2}</p>
+            <p>{@html description}</p>
             </div>
         </div>
             <div class="row">
