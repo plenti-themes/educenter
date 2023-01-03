@@ -1,4 +1,5 @@
 <script>
+    import Slider from '../components/slideshow.svelte';
     export let title, image, home, body, allContent;
 </script>
 
@@ -53,6 +54,7 @@
                     </ul>
                 </div>
             {/each}
+            <Slider />
         </div>
     </div>
 </section>
