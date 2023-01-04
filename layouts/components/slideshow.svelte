@@ -1,5 +1,5 @@
 <script>
-	import { images } from '../scripts/imageData.js';
+	// import { images } from '../scripts/imageData.js';
 	import Slide from '../scripts/slide.svelte';
 	/* import Thumbnail from './Thumbnail.svelte';
 	import Caption from './Caption.svelte'; */
@@ -92,14 +92,14 @@ main {
 	<!-- image gallery -->
 	<div class="container">
         {#each images  as {id, name, imgurl, attribution}}
-		  <Slide image={imgurl} 
+		  <Slide images ={imgurl} 
 						 altTag={name} 
 						 attr={attribution} 
 						 slideNo={id+1} 
 						 totalSlides={images.length}
                          imageShowing={id === imageShowingIndex}
 						 />
-                         {/each}
+        {/each}
 	</div>
 
 
