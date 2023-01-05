@@ -1,18 +1,18 @@
 {
 	"build": "public",
 	"routes": {
-		"posts": "/blog/:filename",
+		"posts": "blog:filename",
 		"pages": ":filename",
-		"courses": "/course/:filename",
-		"teachers": "/teacher/:filename",
-		"course_page": "/courses/",
-		"event_page": "/events/",
-		"notice_page": "/notices/",
-		"research_page": "/research/",
-		"teacher_page": "/teachers/",
+		"courses": "course/:filename",
+		"teachers": "teacher/:filename",
+		"course_page": "courses",
+		"event_page": "events",
+		"notice_page": "notices",
+		"research_page": "research",
+		"teacher_page": "teachers",
 		"blog": "blog/:paginate(totalPages)"
 	},
-	"baseurl": "/",
+	"baseurl": "",
 	"local": {
 		"port": 3000
 	}

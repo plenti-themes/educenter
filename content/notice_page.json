@@ -1,12 +1,12 @@
 {
     "home": {
        "title": "Home",
-       "url": "/"
+       "url": "."
     },
     "title": "Our Notices",
     "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     "image": {
-        "url": "assets/page-title.jpg",
+        "url": "/assets/page-title.jpg",
         "alt": "Profile image"
     }
 }

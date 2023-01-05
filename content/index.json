@@ -10,7 +10,7 @@
 					"buttonRight": "ti-angle-right",
 					"buttonLeft": "ti-angle-left",
 					"image": {
-						"url": "assets/banner.jpg",
+						"url": "/assets/banner.jpg",
 						"alt": "Profile image"
 					},
 					"items": [
@@ -45,7 +45,7 @@
 				"name": "features",
 				"fields": {
 					"image": {
-						"url": "assets/banner-feature.png",
+						"url": "/assets/banner-feature.png",
 						"alt": "Graduation mates"
 					},
 					"items": [
@@ -84,7 +84,7 @@
 				 	},
 				  "image": {
 					  "position": "right",
-					  "url": "assets/about-us.jpeg",
+					  "url": "/assets/about-us.jpeg",
 					  "alt": "about us"
 					}	
 			  	} 
@@ -123,7 +123,7 @@
 						"icon": "ti-control-play"
 					},
 					"image": {
-						"url": "assets/success-story.jpeg",
+						"url": "/assets/success-story.jpeg",
 						"alt": "Success story"
 					}
 				}
