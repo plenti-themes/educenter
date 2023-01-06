@@ -3,7 +3,7 @@
 </script>
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark p-0">
-    <a class="navbar-brand" href="/educenter/site/"><img class="img-fluid" src="/assets/logo.png" alt="Educenter | hugo education template"></a>
+    <a class="navbar-brand" href="."><img class="img-fluid" src="/assets/logo.png" alt="Educenter | hugo education template"></a>
     <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,27 +13,27 @@
                 <a class="nav-link" href=".">Home</a>
              </li>
             <li class="nav-item">
-                <a class="nav-link" href="/aboutus/">About</a>
+                <a class="nav-link" href="aboutus">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/courses/">courses</a>
+                <a class="nav-link" href="courses">courses</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="." role="button" data-toggle="dropdown">
             Pages</a>
     <div class="dropdown-menu">
-        <a class="dropdown-item" href="/events/">events</a>
-        <a class="dropdown-item" href="/notices/">notices</a>
-        <a class="dropdown-item" href="/research/">research</a>
-        <a class="dropdown-item" href="/scholarships/">scholarships</a>
-        <a class="dropdown-item" href="/teachers/">teachers</a>
+        <a class="dropdown-item" href="events">events</a>
+        <a class="dropdown-item" href="notices">notices</a>
+        <a class="dropdown-item" href="research">research</a>
+        <a class="dropdown-item" href="scholarships">scholarships</a>
+        <a class="dropdown-item" href="teachers">teachers</a>
     </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/blog/">blog</a>
+                <a class="nav-link" href="blog">blog</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/contact/">contact</a>
+                <a class="nav-link" href="contact">contact</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="." on:click={$user.login}>login</a>
