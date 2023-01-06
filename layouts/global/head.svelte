@@ -8,7 +8,7 @@
 
   <title>{title}</title>
 
-  <base href="{ env.local ? '/' : env.baseurl }">
+  <base href="{ env.baseurl }">
   <script type="module" src="/spa/ejected/main.js"></script>
 <!-- CSS only -->
 <link rel="stylesheet" href="/assets/themify-icons/themify-icons.css">
