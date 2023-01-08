@@ -27,7 +27,7 @@
           </div>
         </div>
       </header>
-      <svelte:component this={layout} {...content.fields} {allContent} {allLayouts} {content} />
+      <svelte:component this={layout} {...content.fields} {allContent} {allLayouts} {content} {env}/>
       <Newsletter />
       <Footer />
     </main>
