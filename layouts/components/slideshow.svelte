@@ -3,6 +3,7 @@
 	import Slide from '../scripts/slide.svelte';
 	/* import Thumbnail from './Thumbnail.svelte';
 	import Caption from './Caption.svelte'; */
+  export let images = [];
 	
 	/* IMAGE TO SHOW */
 	let imageShowingIndex = 0;
