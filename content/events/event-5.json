@@ -38,7 +38,7 @@
     "eventday": "05",
     "eventmonth": "DEC",
     "image": {
-        "url": "/event-2.jpeg",
+        "url": "/assets/event-2.jpeg",
         "alt": "Social media event"
     },
     "speakerstext": "Event Speakers",
@@ -46,7 +46,7 @@
     "speaker1": {
         "title": "Teacher",
         "name": "Jack Mastio",
-        "image": "/speaker-1.jpeg",
+        "image": "/assets/speaker-1.jpeg",
         "alt": "Jack Mastio"
     },
     "speaker2": {

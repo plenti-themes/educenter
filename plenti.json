@@ -1,7 +1,7 @@
 {
 	"build": "public",
 	"routes": {
-		"posts": "blog:filename",
+		"posts": "blog/:filename",
 		"pages": ":filename",
 		"courses": "course/:filename",
 		"teachers": "teacher/:filename",
@@ -12,7 +12,7 @@
 		"teacher_page": "teachers",
 		"blog": "blog/:paginate(totalPages)"
 	},
-	"baseurl": "",
+	"baseurl": "/",
 	"local": {
 		"port": 3000
 	}

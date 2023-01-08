@@ -70,7 +70,7 @@
             <div class="col-12 mb-4">
                 <img
                     style="height:500px;width:100%;object-fit:cover"
-                    src="/assets{image.url}"
+                    src="{image.url}"
                     alt={image.url}
                     class="img-fluid w-100"
                 />
@@ -140,7 +140,7 @@
                 <div class="media">
                     <img
                         class="mr-3 img-fluid"
-                        src="/assets{speaker1.image}"
+                        src="{speaker1.image}"
                         alt={speaker1.alt}
                     />
                     <div class="media-body">
@@ -153,7 +153,7 @@
                 <div class="media">
                     <img
                         class="mr-3 img-fluid"
-                        src="/assets{speaker2.image}"
+                        src="{speaker2.image}"
                         alt={speaker2.alt}
                     />
                     <div class="media-body">
@@ -166,7 +166,7 @@
                 <div class="media">
                     <img
                         class="mr-3 img-fluid"
-                        src="/assets{speaker3.image}"
+                        src="{speaker3.image}"
                         alt={speaker3.alt}
                     />
                     <div class="media-body">
@@ -179,7 +179,7 @@
                 <div class="media">
                     <img
                         class="mr-3 img-fluid"
-                        src="/assets{speaker4.image}"
+                        src="{speaker4.image}"
                         alt={speaker4.alt}
                     />
                     <div class="media-body">
@@ -214,7 +214,7 @@
                             <div class="card-img position-relative">
                                 <img
                                     class="card-img-top rounded-0"
-                                    src="assets{event.fields.image.url}"
+                                    src="{event.fields.image.url}"
                                     alt={event.fields.image.alt}
                                 />
                                 <div class="card-date">

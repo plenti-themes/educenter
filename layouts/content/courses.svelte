@@ -43,7 +43,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 mb-4">
-                <img style="height:500px;width:100%;object-fit:cover" alt="{image.alt}" src="assets{image.src}" class="img-fluid w-100">
+                <img style="height:500px;width:100%;object-fit:cover" alt="{image.alt}" src="{image.src}" class="img-fluid w-100">
             </div>
         </div>
         <div class="row align-items-center mb-5">
@@ -141,7 +141,7 @@
                     {#if i < 3}
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
-                            <img class="card-img-top rounded-0" src="assets{course.fields.image.src}" alt="{course.fields.image.alt}">
+                            <img class="card-img-top rounded-0" src="{course.fields.image.src}" alt="{course.fields.image.alt}">
                             <div class="card-body">
                             <ul class="list-inline mb-2">
                             <li class="list-inline-item"><i class="ti-calendar"></i> {course.fields.length}</li>

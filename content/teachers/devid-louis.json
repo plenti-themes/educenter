@@ -1,10 +1,10 @@
 {
     "home": {
         "title": "Home",
-        "url": "/"
+        "url": "."
      },
      "headimage": {
-        "url": "assets/page-title.jpg",
+        "url": "/assets/page-title.jpg",
         "alt": "Header background image"
     },
     "title": "Devid Louis",
@@ -12,7 +12,7 @@
     "category": "Humanities",
     "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.",
     "image": {
-        "src": "assets/teacher-3.jpeg",
+        "src": "/assets/teacher-3.jpeg",
         "alt": "Younger male teacher"
     },
     "contact": {

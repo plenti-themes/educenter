@@ -22,7 +22,7 @@
             <h2 class="section-title">{title}</h2>
             </div>
             <div class="col-12 mb-4">
-            <img style="height:500px;width:100%;object-fit:cover" src="/assets{image.url}" alt="{image.alt}" class="img-fluid w-100">
+            <img style="height:500px;width:100%;object-fit:cover" src="{image.url}" alt="{image.alt}" class="img-fluid w-100">
             </div>
             </div>
             <div class="row">

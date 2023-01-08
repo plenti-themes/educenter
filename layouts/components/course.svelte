@@ -19,7 +19,7 @@
             {#if i < 6}
             <div class="col-lg-4 col-sm-6 mb-5">
                 <div class="card p-0 border-primary rounded-0 hover-shadow">
-                    <img class="card-img-top rounded-0" src="assets{course.fields.image.src}" alt="{course.fields.image.alt}">
+                    <img class="card-img-top rounded-0" src="{course.fields.image.src}" alt="{course.fields.image.alt}">
                         <div class="card-body">
                             <ul class="list-inline mb-2">
                             <li class="list-inline-item"><i class="{course.fields.calicon}"></i> {course.fields.length}</li>

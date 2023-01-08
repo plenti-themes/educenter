@@ -22,7 +22,7 @@
             <div class="col-lg-4 col-sm-6 mb-5">
                 <div class="card border-0 rounded-0 hover-shadow">
                 <div class="card-img position-relative">
-                <img class="card-img-top rounded-0" src="assets{event.fields.image.url}" alt="{event.fields.image.alt}">
+                <img class="card-img-top rounded-0" src="{event.fields.image.url}" alt="{event.fields.image.alt}">
                 <div class="card-date"><span>{event.fields.eventday}</span><br>{event.fields.eventmonth}</div>
                 </div>
                 <div class="card-body">
