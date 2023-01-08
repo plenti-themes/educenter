@@ -3,11 +3,11 @@
 	import Slide from '../scripts/slide.svelte';
 	/* import Thumbnail from './Thumbnail.svelte';
 	import Caption from './Caption.svelte'; */
-  export let images = [];
+    export let images = [];
 	
 	/* IMAGE TO SHOW */
 	let imageShowingIndex = 0;
-	// $: console.log(imageShowingIndex);
+	$: console.log(imageShowingIndex);
 	// $: image = images[imageShowingIndex];
 	
 	const nextSlide = () => {
@@ -26,7 +26,7 @@
 		}
 	}
 	
-	const goToSlide = (number) => imageShowingIndex = number;
+	// const goToSlide = (number) => imageShowingIndex = number;
 </script>
 
 
@@ -93,13 +93,12 @@ main {
 	<!-- image gallery -->
 	<div class="container">
         {#each images  as {id, name, imgurl, attribution}}
-		  <Slide images ={imgurl} 
-						 altTag={name} 
-						 attr={attribution} 
-						 slideNo={id+1} 
-						 totalSlides={images.length}
-                         imageShowing={id === imageShowingIndex}
-						 />
+		  <Slide image={imgurl} 
+				 altTag={name} 
+				 attr={attribution} 
+				 slideNo={id+1} 
+				 totalSlides={images.length}
+				 imageShowing={id === imageShowingIndex}/>
         {/each}
 	</div>
 
