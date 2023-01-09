@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, apply, trainer, socials, headerImage, header, tbody, allContent, content;
+    export let title, subtitle, description, image, length, duration, weekly, hours, fee, cost, apply, trainer, socials, headerImage, header, tbody, allContent, content;
    /*  let courses;
     $: if (content) {
       courses = allContent.filter(c => c.type === "courses" && c.filepath !== content.filepath);
@@ -91,7 +91,7 @@
         <div class="row">
             <div class="col-12 mb-4 content">
                 <h3 id="about-course">{subtitle}</h3>
-                <p>{body}</p>
+                <p>{description}</p>
             </div>
             <div class="col-12">
                 <h5 class="mb-3">{trainer.type}</h5>
