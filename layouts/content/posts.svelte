@@ -1,14 +1,14 @@
 <script>
   import LatestArticles from '../components/latest_articles.svelte';
-    export let title, body, image, author, publish, category, headimage, home, tbody, allContent;
+    export let title, description, image, author, publish, category, headerImage, header, tbody, allContent;
 </script>
 
-<section class="page-title-section overlay" style="background-image:url({headimage.url}),url({headimage.url})">
+<section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
   <div class="container">
       <div class="row">
           <div class="col-md-8">
           <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{home.url}">{home.title}</a></li>
+          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{header.url}">{header.title}</a></li>
           <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
           <li class="list-inline-item text-white h3 font-secondary">{title}</li>
           </ul>
@@ -24,7 +24,7 @@
       <div class="col-lg-8 order-2 order-lg-1">
         <div class="row">
           <div class="col-12 mb-4">
-            <img src="/assets/{image.source}" alt="{image.alt}" class="img-fluid w-100">
+            <img src="{image.source}" alt="{image.alt}" class="img-fluid w-100">
           </div>
           <div class="col-12">
             <ul class="list-inline">
@@ -45,7 +45,7 @@
           </div>
           <div class="col-12 mb-5">
             <h3 id="the-standard-lorem-ipsum-passage-used-since-the-1500s">{title}</h3>
-            <p>{@html body}</p>
+            <p>{@html description}</p>
           </div>
         </div>
       </div>

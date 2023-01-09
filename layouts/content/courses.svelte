@@ -1,5 +1,5 @@
 <script>
-    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, apply, trainer, socials, headimage, home, tbody, allContent, content;
+    export let title, subtitle, body, image, length, duration, weekly, hours, fee, cost, apply, trainer, socials, headerImage, header, tbody, allContent, content;
    /*  let courses;
     $: if (content) {
       courses = allContent.filter(c => c.type === "courses" && c.filepath !== content.filepath);
@@ -25,12 +25,12 @@
 
 </script>
 
-<section class="page-title-section overlay" style="background-image:url({headimage.url}),url({headimage.url})">
+<section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
             <ul class="list-inline custom-breadcrumb">
-            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{home.url}">{home.title}</a></li>
+            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{header.url}">{header.title}</a></li>
             <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
             <li class="list-inline-item text-white h3 font-secondary">{title}</li>
             </ul>

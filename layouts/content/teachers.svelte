@@ -1,13 +1,13 @@
 <script>
-    export let title, headimage, home, tbody, image, category, body, contact, facebook, skype, twitter, interests, para1title, description, coursesFeature, allContent;
+    export let title, headerImage, header, tbody, image, category, body, contact, facebook, skype, twitter, interests, para1title, description, coursesFeature, allContent;
     let course = allContent.filter(content => content.type === "courses" && content.fields.trainer.name === title)[0];
 </script>
-<section class="page-title-section overlay" style="background-image:url({headimage.url}),url({headimage.url})">
+<section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
             <ul class="list-inline custom-breadcrumb">
-            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{home.url}">{home.title}</a></li>
+            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{header.url}">{header.title}</a></li>
             <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
             <li class="list-inline-item text-white h3 font-secondary">{title}</li>
             </ul>

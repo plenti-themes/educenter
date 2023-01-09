@@ -1,6 +1,6 @@
 <script>
     import Slider from '../components/slideshow.svelte';
-    export let title, image, home, body, allContent;
+    export let title, image, header, body, allContent;
 </script>
 
 <section
@@ -12,8 +12,8 @@
             <div class="col-md-8">
                 <ul class="list-inline custom-breadcrumb">
                     <li class="list-inline-item h2">
-                        <a class="text-primary font-secondary" href={home.url}>
-                            {home.title}
+                        <a class="text-primary font-secondary" href={header.url}>
+                            {header.title}
                         </a>
                     </li>
                     <li class="list-inline-item h5">

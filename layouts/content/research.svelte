@@ -1,12 +1,12 @@
 <script>
-    export let headimage, home, title, headbody, subtitle, body1, body2, body3, image;
+    export let headerImage, header, title, headbody, subtitle, body1, body2, body3, image;
 </script>
-<section class="page-title-section overlay" style="background-image:url({headimage.url}),url({headimage.url})">
+<section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
             <ul class="list-inline custom-breadcrumb">
-            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{home.url}">{home.title}</a></li>
+            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{header.url}">{header.title}</a></li>
             <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
             <li class="list-inline-item text-white h3 font-secondary">{title}</li>
             </ul>

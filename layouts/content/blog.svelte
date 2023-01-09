@@ -1,7 +1,7 @@
 <script>
   import Pagination from '../components/pagination.svelte';
   import LatestArticles from '../components/latest_articles.svelte';
-  export let title, image, home, body, allContent, content;
+  export let title, image, header, body, allContent, content;
 //   let articles = allContent.filter(content => content.type === "article");
 
   $: currentPage = content.pager ? content.pager : 1;
@@ -18,7 +18,7 @@
         <div class="row">
             <div class="col-md-8">
                 <ul class="list-inline custom-breadcrumb">
-                <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{home.url}">{home.title}</a></li>
+                <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{header.url}">{header.title}</a></li>
                 <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
                 <li class="list-inline-item text-white h3 font-secondary">{title}</li>
                 </ul>
@@ -37,7 +37,7 @@
                     {#if i >= postRangeLow && i < postRangeHigh}
                     <div class="col-sm-6 mb-5">
                         <article class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow">
-                        <img class="card-img-top rounded-0" src="assets/{post.fields.image.source}" alt="{post.fields.image.alt}">
+                        <img class="card-img-top rounded-0" src="{post.fields.image.source}" alt="{post.fields.image.alt}">
                             <div class="card-body">
                             <ul class="list-inline mb-3">
                             <li class="list-inline-item mr-3 ml-0"><i class="ti-calendar"></i>
