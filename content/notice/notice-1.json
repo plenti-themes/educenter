@@ -1,10 +1,10 @@
 {
-    "home": {
+    "header": {
         "title": "Home",
         "url": "."
      },
-     "headimage": {
-        "url": "/assets/page-title.jpg",
+     "headerImage": {
+        "url": "assets/page-title.jpg",
         "alt": "Header background image"
     },
     "title": "Teaching Materials and Testing Methods",

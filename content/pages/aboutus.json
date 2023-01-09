@@ -3,9 +3,9 @@
         {
             "name": "page_title",
             "fields": {
-                "home": {
+                "header": {
                     "title": "Home",
-                    "url": "/"
+                    "url": "."
                  },
                  "title": "About Us",
                  "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
