@@ -30,7 +30,7 @@
                                 <li class="list-inline-item"><i class="{course.fields.bookicon}"></i> {course.fields.category}</li>
                                 </ul>
                                 <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
-                                <p class="card-text mb-4">{course.fields.body.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
+                                <p class="card-text mb-4">{course.fields.description.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
                                 <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.link.title}</a>
                             </div>
                         </div>

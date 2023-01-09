@@ -23,7 +23,7 @@
                         <li class="list-inline-item mr-3 ml-0"><i class="{post.fields.icon.user}"></i> <a href="{post.fields.author.link}">{post.fields.author.name}</a></li>
                         </ul>
                         <h4 class="card-title"><a href="{post.path}">{post.fields.title}</a></h4>
-                        <p class="card-text">{post.fields.body.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
+                        <p class="card-text">{post.fields.description.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
                         <a href="{post.path}" class="btn btn-primary btn-sm">{post.fields.link.title}</a>
                         </div>
                     </article>
