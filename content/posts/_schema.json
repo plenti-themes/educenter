@@ -1,1 +1,8 @@
-{}
+{
+    "description": {
+        "type": "wysiwyg",
+        "options": [
+            "all"
+        ]
+    }
+}

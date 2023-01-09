@@ -1,12 +1,8 @@
 {
     "description": {
-        "type": "wysiwyg",
+        "type": "component",
         "options": [
-            "all"
+          "paragraph"
         ]
-    },
-    "contents": {
-        "type": "content",
-        "options": "description"
     }
 }

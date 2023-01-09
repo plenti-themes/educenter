@@ -54,6 +54,9 @@
             <h3 id="about-me">{para1title}</h3>
             <p>{@html description}</p>
             </div>
+            {#each description as d}
+            <p>{@html d.paragraph}</p>
+        {/each}
         </div>
             <div class="row">
                 {#if course}
