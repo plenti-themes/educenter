@@ -55,7 +55,7 @@
             <p>{@html description}</p>
             </div>
             {#each description as d}
-            <p>{@html d.paragraph}</p>
+            <div><p>{@html d.paragraph}</p></div>
         {/each}
         </div>
             <div class="row">
