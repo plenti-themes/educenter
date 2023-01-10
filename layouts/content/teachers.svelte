@@ -52,7 +52,6 @@
             </div>
             <div class="col-12 content">
             <h3 id="about-me">{para1title}</h3>
-            <p>{@html description}</p>
             </div>
             {#each description as d}
             <div><p>{@html d.paragraph}</p></div>
