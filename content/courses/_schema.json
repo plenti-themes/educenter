@@ -1,1 +1,14 @@
-{}
+{
+    "trainer.name": {
+      "type": "autocomplete",
+      "options": [
+        {
+          "type": "teachers",
+          "search": [
+            "title"
+          ],
+          "result": "fieldname"
+        }
+      ]  
+    }
+  } 
