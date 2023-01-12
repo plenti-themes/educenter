@@ -34,7 +34,7 @@
         "type": "teacher",
         "name": "Duis Rio",
         "image": {
-            "src": "assets/teacher-3.jpeg",
+            "src": "media/teacher-3.jpeg",
             "alt": "Profile picture of Duis Rio",
             "url": "."
         }

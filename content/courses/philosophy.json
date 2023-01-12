@@ -34,7 +34,7 @@
         "type": "teacher",
         "name": "Alex Rook",
         "image": {
-            "src": "assets/teacher-2.jpeg",
+            "src": "media/teacher-2.jpeg",
             "alt": "Profile picture of Alex Rook",
             "url": "."
         }

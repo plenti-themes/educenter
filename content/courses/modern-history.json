@@ -34,7 +34,7 @@
         "type": "teacher",
         "name": "Devid Louis",
         "image": {
-            "src": "assets/teacher-3.jpeg",
+            "src": "media/teacher-3.jpeg",
             "alt": "Profile picture of Devid Louis",
             "url": "."
         }

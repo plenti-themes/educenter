@@ -34,7 +34,7 @@
         "type": "teacher",
         "name": "Clark Malik",
         "image": {
-            "src": "assets/teacher-1.jpeg",
+            "src": "media/teacher-1.jpeg",
             "alt": "Profile picture of Clark Malik",
             "url": "."
         }
