@@ -18,13 +18,9 @@
         "alt": "Person with a highlighter marking words"
     },
     "length": "06 Months",
-    "calicon": "ti-calendar",
     "duration": "DURATION",
-    "timericon": "ti-timer",
     "weekly": "WEEKLY",
     "hours": "03 hours",
-    "feeicon": "ti-wallet",
-    "bookicon": "ti-bookmark-alt",
     "fee": "FEE",
     "cost": "From: $699",
     "link": {
@@ -39,8 +35,7 @@
         "name": "Duis Rio",
         "image": {
             "src": "assets/teacher-3.jpeg",
-            "alt": "Profile picture of Duis Rio",
-            "url": "."
+            "alt": "Profile picture of Duis Rio"
         }
     },
     "socials": {
