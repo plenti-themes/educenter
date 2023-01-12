@@ -3,7 +3,7 @@
 </script>
 <!-- navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark p-0">
-    <a class="navbar-brand" href="."><img class="img-fluid" src="/assets/logo.png" alt="Educenter | hugo education template"></a>
+    <a class="navbar-brand" href="."><img class="img-fluid" src="/media/logo.png" alt="Educenter | hugo education template"></a>
     <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>

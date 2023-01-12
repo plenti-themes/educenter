@@ -4,7 +4,7 @@
         "url": "."
         },
     "headerImage": {
-        "url": "assets/page-title.jpg",
+        "url": "media/page-title.jpg",
         "alt": "Header background image"
     },
     "title": "Cyber security conference",
@@ -38,7 +38,7 @@
     "eventday": "03",
     "eventmonth": "DEC",
     "image": {
-        "url": "assets/event-3.jpeg",
+        "url": "media/event-3.jpeg",
         "alt": "Social media event"
     },
     "speakerstext": "Event Speakers",
@@ -46,25 +46,25 @@
     "speaker1": {
         "title": "Teacher",
         "name": "Jack Mastio",
-        "image": "assets/speaker-1.jpeg",
+        "image": "media/speaker-1.jpeg",
         "alt": "Jack Mastio"
     },
     "speaker2": {
         "title": "Teacher",
         "name": "John Doe",
-        "image": "assets/speaker-2.jpeg",
+        "image": "media/speaker-2.jpeg",
         "alt": "John Doe"
     },
     "speaker3": {
         "title": "Teacher",
         "name": "Alfred Jin",
-        "image": "assets/speaker-3.jpeg",
+        "image": "media/speaker-3.jpeg",
         "alt": "Alfred Jin"
     },
     "speaker4": {
         "title": "Teacher",
         "name": "Randy Luis",
-        "image": "assets/speaker-4.jpeg",
+        "image": "media/speaker-4.jpeg",
         "alt": "Randy Luis"
     }
 }

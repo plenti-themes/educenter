@@ -4,7 +4,7 @@
         "url": "."
      },
      "headerImage": {
-        "url": "assets/page-title.jpg",
+        "url": "media/page-title.jpg",
         "alt": "Header background image"
     },
     "title": "Jackie Mastio",
@@ -12,7 +12,7 @@
     "category": "Computer Science",
     "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.",
     "image": {
-        "src": "assets/teacher-2.jpeg",
+        "src": "media/teacher-2.jpeg",
         "alt": "Older male teacher"
     },
     "contact": {
