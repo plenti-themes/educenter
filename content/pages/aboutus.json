@@ -27,7 +27,7 @@
             }
         },
         {
-            "name": "stat",
+            "name": "stats",
             "fields": {
                 "teachers": {
                     "title": "TEACHERS",
@@ -41,7 +41,7 @@
                     "title": "STUDENTS",
                     "amount": "1000"
                 },
-                "statisfied": {
+                "satisfied": {
                     "title": "SATISFIED CLIENT",
                     "amount": "1400"
                 }				
