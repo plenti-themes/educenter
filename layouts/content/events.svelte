@@ -8,7 +8,7 @@
         time,
         entry,
         button,
-        body,
+        description,
         speakerstext,
         speaker1,
         speaker2,
@@ -129,7 +129,7 @@
         <div class="row">
             <div class="col-12 mb-50 content">
                 <h3 id="about-event">{subtitle}</h3>
-                <p>{body}</p>
+                <p>{description}</p>
             </div>
         </div>
         <div class="row">

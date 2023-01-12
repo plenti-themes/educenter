@@ -36,8 +36,8 @@
             <div class="card border-0 rounded-0 hover-shadow mb-5">
               <img
                 class="card-img-top rounded-0"
-                src={teacher.fields.image.src}
-                alt={teacher.fields.image.alt}
+                src={teacher.fields.image.source}
+                alt={teacher.fields.image.altText}
               />
               <div class="card-body">
                 <h4 class="card-title">

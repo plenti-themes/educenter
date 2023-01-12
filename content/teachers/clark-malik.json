@@ -2,18 +2,18 @@
     "header": {
         "title": "Home",
         "url": "."
-     },
-     "headerImage": {
-        "url": "media/page-title.jpg",
-        "alt": "Header background image"
     },
+    "headerImage": {
+        "url": "media/page-title.jpg",
+        "altText": "Header background image"
+    },
+    "headerText": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     "title": "Clark Malik",
-    "tbody": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     "category": "Computer Science",
-    "body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.",
+    "introText": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque accusamus tenetur ea harum delectus ab consequatur excepturi, odit qui in quo quia voluptate nam optio, culpa aspernatur. Error placeat iusto officia voluptas quae.",
     "image": {
-        "src": "media/teacher-1.jpeg",
-        "alt": "Older male teacher"
+        "source": "media/teacher-1.jpeg",
+        "altText": "Older male teacher"
     },
     "contact": {
         "title": "CONTACT INFO:",
@@ -36,11 +36,11 @@
    },
     "interests": {
         "title": "SUMMARY OF ACTIVITIES/INTERESTS",
-        "one": "Computer Networking",
-        "two": "Computer Security",
-        "three": "Human Computer Interfacing"
+        "first": "Computer Networking",
+        "second": "Computer Security",
+        "third": "Human Computer Interfacing"
     },
-    "para1title":"About Me",
+    "descriptionTitle":"About Me",
     "description": [
 		{ 
 			"paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."

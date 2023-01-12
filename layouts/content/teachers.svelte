@@ -2,23 +2,22 @@
   export let title,
     headerImage,
     header,
-    tbody,
+    headerText,
     image,
     category,
-    body,
+    introText,
     contact,
     facebook,
     skype,
     twitter,
     interests,
-    para1title,
+    descriptionTitle,
     description,
     coursesFeature,
     allContent;
   let course = allContent.filter(
     (content) =>
-      content.type === "courses" && content.fields.trainer.name === title
-  )[0];
+      content.type === "courses" && content.fields.trainer.name === title)[0];
 </script>
 
 <section
@@ -39,7 +38,7 @@
           </li>
           <li class="list-inline-item text-white h3 font-secondary">{title}</li>
         </ul>
-        <p class="text-lighten">{tbody}</p>
+        <p class="text-lighten">{headerText}</p>
       </div>
     </div>
   </div>
@@ -49,12 +48,12 @@
   <div class="container">
     <div class="row">
       <div class="col-md-5 mb-5">
-        <img class="img-fluid w-100" src={image.src} alt={image.alt} />
+        <img class="img-fluid w-100" src={image.source} alt={image.altText} />
       </div>
       <div class="col-md-6 mb-5">
         <h3>{title}</h3>
         <h6 class="text-color">{category}</h6>
-        <p class="mb-5">{body}</p>
+        <p class="mb-5">{introText}</p>
         <div class="row">
           <div class="col-md-6 mb-5 mb-md-0">
             <h4 class="mb-4">{contact.title}</h4>
@@ -99,15 +98,15 @@
           <div class="col-md-6">
             <h4 class="mb-4">{interests.title}</h4>
             <ul class="list-unstyled">
-              <li class="mb-3">{interests.one}</li>
-              <li class="mb-3">{interests.two}</li>
-              <li class="mb-3">{interests.three}</li>
+              <li class="mb-3">{interests.first}</li>
+              <li class="mb-3">{interests.second}</li>
+              <li class="mb-3">{interests.third}</li>
             </ul>
           </div>
         </div>
       </div>
       <div class="col-12 content">
-        <h3 id="about-me">{para1title}</h3>
+        <h3 id="about-me">{descriptionTitle}</h3>
         {#each description as d}
           <p>{@html d.paragraph}</p>
         {/each}

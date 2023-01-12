@@ -22,7 +22,7 @@
             {#each allContent.filter(content => content.type == "research") as research}
             <div class="col-lg-4 col-sm-6 mb-4">
             <div class="card rounded-0 hover-shadow border-top-0 border-left-0 border-right-0">
-            <img class="card-img-top rounded-0" src="media{research.fields.image.url}" alt="{research.fields.image.alt}">
+            <img class="card-img-top rounded-0" src="{research.fields.image.url}" alt="{research.fields.image.alt}">
             <div class="card-body">
             <h4 class="card-title"><a href="{research.path}">{research.fields.title}</a></h4>
             <p class="card-text">{research.fields.tbody}</p>

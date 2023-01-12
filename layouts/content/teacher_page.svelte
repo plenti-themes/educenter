@@ -1,6 +1,6 @@
 <script>
 	import {scale} from 'svelte/transition';
-    export let title, image, header, body, allContent;
+    export let title, header, image, headerText, allContent;
     let teachers = allContent.filter(content => content.type === "teachers");
     let selectedCategory;
 
@@ -15,7 +15,7 @@
                     <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
                     <li class="list-inline-item text-white h3 font-secondary">{title}</li>
                 </ul>
-                <p class="text-lighten">{body}</p>
+                <p class="text-lighten">{headerText}</p>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
                 {#if !selectedCategory || selectedCategory === 'All' || selectedCategory === teacher.fields.category}
                     <div transition:scale={{duration:600}} {teacher} data-category="Vlogging" class="col-lg-4 col-sm-6 filtr-item"> 
                         <div class="card border-0 rounded-0 hover-shadow mb-5">
-                        <img class="card-img-top rounded-0" src="{teacher.fields.image.src}" alt="{teacher.fields.image.alt}">
+                        <img class="card-img-top rounded-0" src="{teacher.fields.image.source}" alt="{teacher.fields.image.altText}">
                             <div class="card-body">
                                 <h4 class="card-title"><a href="{teacher.path}">{teacher.fields.title}</a></h4>
                                 <p>{teacher.fields.category}</p>
