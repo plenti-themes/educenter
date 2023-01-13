@@ -98,7 +98,8 @@
                 <div class="d-flex justify-content-between align-items-center flex-wrap">
                     {#if teacher}
                     <div class="media mb-2 mb-sm-0 align-items-center">
-                        <img class="mr-4 img-fluid teacher-thumb-sm" src="{teacher.fields.image.source}" alt="{teacher.fields.image.altText}">
+                        <a href="{teacher.path}">
+                        <img class="mr-4 img-fluid teacher-thumb-sm" src="{teacher.fields.image.source}" alt="{teacher.fields.image.altText}"></a>
                         <div class="media-body">
                             <h4 class="mt-0">
                                 <a href="{teacher.path}">
