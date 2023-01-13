@@ -212,11 +212,11 @@
                     <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
                         <div class="card border-0 rounded-0 hover-shadow">
                             <div class="card-img position-relative">
-                                <img
+                                <a href="{event.path}"><img
                                     class="card-img-top rounded-0"
                                     src="{event.fields.image.url}"
                                     alt={event.fields.image.alt}
-                                />
+                                /></a>
                                 <div class="card-date">
                                     <span>{event.fields.eventday}</span>
                                     <br />

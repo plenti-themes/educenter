@@ -119,11 +119,11 @@
           </div>
           <div class="col-lg-4 col-sm-6 mb-5">
             <div class="card p-0 border-primary rounded-0 hover-shadow">
-              <img
+              <a href="{course.path}"><img
                 class="card-img-top rounded-0"
                 src={course.fields.image.src}
                 alt={course.fields.image.alt}
-              />
+              /></a>
               <div class="card-body">
                 <ul class="list-inline mb-2">
                   <li class="list-inline-item">

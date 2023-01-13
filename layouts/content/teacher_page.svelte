@@ -43,7 +43,7 @@
                 {#if !selectedCategory || selectedCategory === 'All' || selectedCategory === teacher.fields.category}
                     <div transition:scale={{duration:600}} {teacher} data-category="Vlogging" class="col-lg-4 col-sm-6 filtr-item"> 
                         <div class="card border-0 rounded-0 hover-shadow mb-5">
-                        <img class="card-img-top rounded-0" src="{teacher.fields.image.source}" alt="{teacher.fields.image.altText}">
+                            <a href="{teacher.path}"><img class="card-img-top rounded-0" src="{teacher.fields.image.source}" alt="{teacher.fields.image.altText}"></a>
                             <div class="card-body">
                                 <h4 class="card-title"><a href="{teacher.path}">{teacher.fields.title}</a></h4>
                                 <p>{teacher.fields.category}</p>
