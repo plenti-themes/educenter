@@ -1,6 +1,6 @@
 <script>
     // import { PageTitle } from '.page_title.svelte';
-    export let title, body, image;
+    export let title, description, image;
 </script>
 <section class="section">
     <div class="container">
@@ -8,7 +8,7 @@
             <div class="col-12">
             <img class="img-fluid w-100 mb-4" src="{image.url}" alt="{image.alt}">
             <h2 id="about-our-journy">{title}</h2>
-            <p>{body}</p>
+            <p>{@html description}</p>
             </div>
         </div>
     </div>
