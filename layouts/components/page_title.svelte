@@ -1,5 +1,5 @@
 <script>
-    export let title, header, body, image;
+    export let title, header, description, image;
 </script>
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
     <div class="container">
@@ -10,7 +10,7 @@
                 <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
                 <li class="list-inline-item text-white h3 font-secondary">{title}</li>
                 </ul>
-                <p class="text-lighten">{body}</p>
+                <p class="text-lighten">{@html description}</p>
             </div>
         </div>
     </div>
