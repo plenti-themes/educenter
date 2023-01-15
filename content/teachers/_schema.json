@@ -1,8 +1,20 @@
 {
     "description": {
-        "type": "component",
-        "options": [
-          "paragraph"
-        ]
-    }
+      "type": "component",
+      "options": [
+        "paragraph"
+      ]
+    },
+    "interests": {
+      "type": "component",
+      "options": [
+        "item"
+      ]
+    },
+    "introText" : {
+      "type": "wysiwyg",
+      "options": [
+          "all"
+      ]
+  }
 }

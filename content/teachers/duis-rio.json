@@ -34,12 +34,14 @@
        "handle": "Duis Rio",
        "url": "."
    },
-    "interests": {
-        "title": "SUMMARY OF ACTIVITIES/INTERESTS",
-        "first": "Computer Networking",
-        "second": "Computer Security",
-        "third": "Human Computer Interfacing"
+   "activity": {
+    "title": "SUMMARY OF ACTIVITIES/INTERESTS"
     },
+    "interests": [
+		{ 
+		"item": "Computer Networking"
+		}
+	],
     "descriptionTitle":"About Me",
 	"description": [
 		{ 

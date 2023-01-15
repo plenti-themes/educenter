@@ -11,6 +11,7 @@
     skype,
     twitter,
     interests,
+    activity,
     descriptionTitle,
     description,
     coursesFeature,
@@ -96,12 +97,12 @@
             </ul>
           </div>
           <div class="col-md-6">
-            <h4 class="mb-4">{interests.title}</h4>
+            <h4 class="mb-4">{activity.title}</h4>
             <ul class="list-unstyled">
-              <li class="mb-3">{interests.first}</li>
-              <li class="mb-3">{interests.second}</li>
-              <li class="mb-3">{interests.third}</li>
-            </ul>
+            {#each interests as l}
+              <li class="mb-3">{@html l.item}</li>
+            {/each}
+          </ul>
           </div>
         </div>
       </div>
