@@ -10,5 +10,11 @@
           "result": "fields"
         }
       ]  
-    }
-  } 
+    },
+    "description" : {
+      "type": "wysiwyg",
+      "options": [
+          "all"
+      ]
+  }
+} 
