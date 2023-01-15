@@ -1,8 +1,8 @@
 {
-    "description" : {
+    "description": {
         "type": "wysiwyg",
         "options": [
-            "all"
+          "aboutus"
         ]
     }
 }
