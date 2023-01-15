@@ -1,5 +1,8 @@
 {
-    "description" : {
+    "components.name": {
+        "type": "id"
+    },
+    "fields.description" : {
         "type": "wysiwyg",
         "options": [
             "all"
