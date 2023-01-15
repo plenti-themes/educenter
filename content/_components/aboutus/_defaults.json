@@ -1,1 +1,11 @@
-{}
+{
+  "name": "aboutus",
+  "fields": {
+    "title": "About Us",
+    "description": "Description goes here",
+    "image": {
+      "url": "/test",
+      "altText": "Alt text"
+    }
+  }
+}
