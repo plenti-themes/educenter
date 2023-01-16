@@ -122,25 +122,25 @@
             <div class="card p-0 border-primary rounded-0 hover-shadow">
               <a href="{course.path}"><img
                 class="card-img-top rounded-0"
-                src={course.fields.image.src}
-                alt={course.fields.image.alt}
+                src={course.fields.image.source}
+                alt={course.fields.image.altText}
               /></a>
               <div class="card-body">
                 <ul class="list-inline mb-2">
                   <li class="list-inline-item">
                     <i class="ti-calendar" />
-                    {course.fields.length}
+                    {course.fields.course.length}
                   </li>
                   <li class="list-inline-item">
                     <i class="ti-bookmark-alt" />
-                    {course.fields.category}
+                    {course.fields.course.category}
                   </li>
                 </ul>
                 <h4 class="card-title">
-                  <a href={course.path}>{course.fields.title}</a>
+                  <a href={course.path}>{course.fields.course.title}</a>
                 </h4>
                 <p class="card-text mb-4">
-                  {course.fields.description
+                  {course.fields.bodyText1.description
                     .substring(0, 120)
                     .replace(/(<([^>]+)>)/gi, "")}
                 </p>

@@ -19,14 +19,14 @@
             {#if i < 6}
             <div class="col-lg-4 col-sm-6 mb-5">
                 <div class="card p-0 border-primary rounded-0 hover-shadow">
-                    <a href="{course.path}"><img class="card-img-top rounded-0" src="{course.fields.image.src}" alt="{course.fields.image.alt}"></a>
+                    <a href="{course.path}"><img class="card-img-top rounded-0" src="{course.fields.image.source}" alt="{course.fields.image.altText}"></a>
                         <div class="card-body">
                             <ul class="list-inline mb-2">
-                            <li class="list-inline-item"><i class="{course.fields.calicon}"></i> {course.fields.length}</li>
-                            <li class="list-inline-item"><i class="{course.fields.bookicon}"></i> {course.fields.category}</li>
+                            <li class="list-inline-item"><i class="ti-calendar"></i> {course.fields.course.length}</li>
+                            <li class="list-inline-item"><i class="ti-bookmark-alt"></i> {course.fields.course.category}</li>
                             </ul>
-                            <h4 class="card-title"><a href="{course.path}">{course.fields.title}</a></h4>
-                            <p class="card-text mb-4">{course.fields.description.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
+                            <h4 class="card-title"><a href="{course.path}">{course.fields.course.title}</a></h4>
+                            <p class="card-text mb-4">{course.fields.bodyText1.description.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
                             <a href="{course.path}" class="btn btn-primary btn-sm">{course.fields.link.title}</a>
                         </div>
                 </div>
