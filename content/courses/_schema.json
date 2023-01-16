@@ -7,14 +7,44 @@
           "search": [
             "title"
           ],
-          "result": "fields"
+          "result": "fields.title"
         }
       ]  
     },
-    "description" : {
+    "bodyText1.description" : {
       "type": "wysiwyg",
       "options": [
           "all"
       ]
+    },
+    "header.title": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "header.url": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+  },
+  "description": {
+    "type": "component",
+    "options": [
+      "paragraph"
+    ]
+  },
+  "list1": {
+    "type": "component",
+    "options": [
+      "item"
+    ]
+  },
+  "list2": {
+    "type": "component",
+    "options": [
+      "item"
+    ]
   }
 } 
