@@ -1,0 +1,15 @@
+{
+    "name": "page_title",
+    "fields": {
+        "header": {
+            "title": "Home",
+            "url": "."
+        },
+        "title": "About Us",
+        "description": "Description goes here.",
+        "image": {
+            "url": "/test",
+            "altText": "Profile image"
+        }
+    }
+}
