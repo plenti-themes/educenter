@@ -26,7 +26,7 @@
   $: if (content) {
     teacher = allContent.filter(
       (content) =>
-        content.type === "teachers" && content.fields.title === trainer.name
+        content.type === "teachers" && content.fields.title === trainer.name[0]
     )[0];
   }
   const shuffle = (array) => {
