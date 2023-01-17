@@ -60,7 +60,7 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Zim Cook",
+        "name": ["Zim Cook"],
         "image": {
             "source": "media/teacher-1.jpeg",
             "altText": "Profile picture of Zim Cook",

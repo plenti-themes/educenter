@@ -60,7 +60,7 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Clark Malik",
+        "name": ["Clark Malik"],
         "image": {
             "source": "media/teacher-1.jpeg",
             "altText": "Profile picture of Clark Malik",

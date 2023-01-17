@@ -60,7 +60,7 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Duis Rio",
+        "name": ["Duis Rio"],
         "image": {
             "source": "media/teacher-3.jpeg",
             "altText": "Profile picture of Duis Rio",

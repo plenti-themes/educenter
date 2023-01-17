@@ -60,7 +60,7 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": "Alex Rook",
+        "name": ["Alex Rook"],
         "image": {
             "source": "media/teacher-2.jpeg",
             "altText": "Profile picture of Alex Rook",
