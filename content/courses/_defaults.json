@@ -11,8 +11,8 @@
     "course": {
         "title": "Enter a course name",
         "category": ["Search on a course category"],
-        "length": "? Months",
         "duration": "DURATION",
+        "length": "? Months",
         "week": "WEEKLY",
         "hours": "? hours",
         "fee": "FEE",
@@ -51,9 +51,6 @@
         "source": "media/placeholderimage.webp",
         "altText": "Describe the image in a few words"
     },
-    "link": {
-        "title": "Read More"
-    },
     "button": {
         "title": "Apply Now",
         "url": "."
@@ -76,5 +73,8 @@
         "skype": ".",
         "web": ".",
         "location": "."
+    },
+    "link": {
+        "title": "Read More"
     }
 }
