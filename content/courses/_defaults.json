@@ -1,22 +1,22 @@
 {
     "header": {
-        "title": "Course Title",
+        "title": "Home",
         "url": ".",
         "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
      },
      "headerImage": {
         "url": "media/page-title.jpg",
-        "altText": "Header background image"
+        "altText": "Describe the image in a few words"
     },
     "course": {
-        "title": "Artificial Intelligence",
-        "category": "Computer Science",
-        "length": "06 Months",
+        "title": "Enter a course name",
+        "category": ["Search on a course category"],
+        "length": "? Months",
         "duration": "DURATION",
         "week": "WEEKLY",
-        "hours": "03 hours",
+        "hours": "? hours",
         "fee": "FEE",
-        "cost": "From: $699"
+        "cost": "From: $?"
     },
     "featured": true,
     "bodyText1": {
@@ -48,8 +48,8 @@
 		}
 	],
     "image": {
-        "source": "media/course-3.jpeg",
-        "altText": "Person with a highlighter marking words"
+        "source": "media/placeholderimage.webp",
+        "altText": "Describe the image in a few words"
     },
     "link": {
         "title": "Read More"
@@ -60,10 +60,10 @@
     },
     "trainer": {
         "type": "teacher",
-        "name": ["Clark Malik"],
+        "name": ["search for an existing teacher"],
         "image": {
             "source": "media/teacher-1.jpeg",
-            "altText": "Profile picture of Clark Malik",
+            "altText": "Profile picture of (teacher name)",
             "url": "."
         }
     },
