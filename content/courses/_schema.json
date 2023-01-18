@@ -11,13 +11,55 @@
         }
       ]  
     },
+    "course.category": {
+      "type": "autocomplete",
+      "options": [
+        {
+          "type": "courses",
+          "search": [
+            "course.category"
+          ],
+          "result": "fields.course.category"
+        }
+      ]  
+    },
     "bodyText1.description" : {
       "type": "wysiwyg",
       "options": [
           "all"
       ]
     },
+    "header.text" : {
+      "type": "wysiwyg",
+      "options": [
+          "all"
+      ]
+    },
     "header.title": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "course.duration": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "course.week": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "course.fee": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "link.title": {
       "type": "text",
       "options": [
           "disabled"

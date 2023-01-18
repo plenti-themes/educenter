@@ -10,9 +10,9 @@
     },
     "course": {
         "title": "Modern History",
-        "category": "Humanities",
-        "length": "06 Months",
+        "category": ["Humanities"],
         "duration": "DURATION",
+        "length": "06 Months",
         "week": "WEEKLY",
         "hours": "03 hours",
         "fee": "FEE",
@@ -51,9 +51,6 @@
         "source": "media/course-2.jpeg",
         "alt": "Person with a highlighter marking words"
     },
-    "link": {
-        "title": "Read More"
-    },
     "button": {
         "title": "Apply Now",
         "url": "."
@@ -63,8 +60,7 @@
         "name": ["Devid Louis"],
         "image": {
             "source": "media/teacher-3.jpeg",
-            "altText": "Profile picture of Devid Louis",
-            "url": "."
+            "altText": "Profile picture of Devid Louis"
         }
     },
     "socials": {
@@ -76,5 +72,8 @@
         "skype": ".",
         "web": ".",
         "location": "."
+    },
+    "link": {
+        "title": "Read More"
     }
 }

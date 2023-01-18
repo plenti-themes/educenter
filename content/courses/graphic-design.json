@@ -10,9 +10,9 @@
     },
     "course": {
         "title": "Graphic Design",
-        "category": "Digital Media",
-        "length": "06 Months",
+        "category": ["Digital Media"],
         "duration": "DURATION",
+        "length": "06 Months",
         "weekly": "WEEKLY",
         "hours": "03 hours",
         "fee": "FEE",
@@ -51,9 +51,6 @@
         "source": "media/course-6.jpeg",
         "altText": "Person with a highlighter marking words"
     },
-    "link": {
-        "title": "Read More"
-    },
     "button": {
         "title": "Apply Now",
         "url": "."
@@ -63,8 +60,7 @@
         "name": ["Duis Rio"],
         "image": {
             "source": "media/teacher-3.jpeg",
-            "altText": "Profile picture of Duis Rio",
-            "url": "."
+            "altText": "Profile picture of Duis Rio"
         }
     },
     "socials": {
@@ -76,5 +72,8 @@
         "skype": ".",
         "web": ".",
         "location": "."
+    },
+    "link": {
+        "title": "Read More"
     }
 }
