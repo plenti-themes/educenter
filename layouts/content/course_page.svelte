@@ -1,5 +1,6 @@
 <script>
     export let title, image, header, body, allContent;
+    let selectedCategory;
     //   let courses = allContent.filter(content => content.type === "course");
 </script>
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
@@ -18,6 +19,17 @@
 </section>
 <section class="section">
     <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <ul class="list-inline text-center filter-controls mb-5">
+                    <h4 class="mb-2">Course Categories</h4>
+                    <li on:click={() => selectedCategory = 'All'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'All' ? ' active' : ''}" data-filter="all">All</li>
+                    <li on:click={() => selectedCategory = 'Computer Science'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Computer Science' ? ' active' : ''}" data-filter="computer-science">Computer Science</li>
+                    <li on:click={() => selectedCategory = 'Humanities'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Humanities' ? ' active' : ''}" data-filter="humanities">Humanities</li>
+                    <li on:click={() => selectedCategory = 'Digital Media'} class="list-inline-item m-3 text-uppercase{selectedCategory === 'Digital Media' ? ' active' : ''}" data-filter="digital-media">Digital Media</li>
+                </ul>
+            </div>
+        </div>
             <div class="row justify-content-center">
                 {#each allContent.filter(content => content.type == "courses") as course}
                 <!-- {#each courses as course} -->
