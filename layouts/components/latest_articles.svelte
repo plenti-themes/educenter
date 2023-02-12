@@ -3,7 +3,7 @@
     export let allContent;
   </script>
   
-  <aside class="col-lg-4 order-1 order-lg-2"> 
+
     <div class="bg-white">
       <h4 class="mb-4">Latest Articles</h4>
       {#each sortByDate(allContent.filter(content => content.type === "posts")) as post,i}
@@ -20,4 +20,3 @@
         {/if}
       {/each}
     </div>
-  </aside> 
