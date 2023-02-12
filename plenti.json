@@ -1,6 +1,8 @@
 {
 	"build": "public",
 	"routes": {
+		"catgs": ":fields(route)",
+		"tags": ":fields(route)",
 		"posts": "blog/:filename",
 		"pages": ":filename",
 		"courses": "course/:filename",
