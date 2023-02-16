@@ -1,7 +1,8 @@
 <script>
     export let title, image, header, body, allContent;
-    let selectedCategory;
     //   let courses = allContent.filter(content => content.type === "course");
+    let courses = allContent.filter(content => content.type === "courses");
+    let selectedCategory;
 </script>
 <section class="page-title-section overlay" style="background-image:url({image.url}),url({image.url})">
     <div class="container">
@@ -30,8 +31,10 @@
                 </ul>
             </div>
         </div>
+        {#key selectedCategory}
             <div class="row justify-content-center">
-                {#each allContent.filter(content => content.type == "courses") as course}
+                {#each courses as course}
+                {#if !selectedCategory || selectedCategory === 'All' || selectedCategory === course.fields.course.category [0]}
                 <!-- {#each courses as course} -->
                     <div class="col-lg-4 col-sm-6 mb-5">
                         <div class="card p-0 border-primary rounded-0 hover-shadow">
@@ -47,8 +50,10 @@
                             </div>
                         </div>
                     </div>
+                    {/if}
                 {/each}
             </div>
+            {/key}
 <!--          <div class="row">
             <div class="col-12 text-center">
             <a href="{link.url}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{link.title}</a>
