@@ -98,7 +98,7 @@
           <ul class="list-unstyled">
             <li class="border-bottom">
               <a
-                href="/educenter/site/categories/automation-system/"
+                href="{catg.path}"
                 class="d-block pb-3 mt-3">{catg.fields.name}</a
               >
             </li>
