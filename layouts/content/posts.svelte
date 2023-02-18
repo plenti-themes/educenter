@@ -1,5 +1,6 @@
 <script>
   import LatestArticles from '../components/latest_articles.svelte';
+  import Aside from '../components/aside.svelte';
     export let title, description, image, author, publish, category, headerImage, header, tbody, allContent;
 </script>
 
@@ -49,7 +50,7 @@
           </div>
         </div>
       </div>
-      <LatestArticles {allContent} />
+      <Aside {allContent} />
     </div>
   </div>
 </section>
