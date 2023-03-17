@@ -86,7 +86,7 @@
     <div class="row align-items-center mb-5">
       <div class="col-xl-3 order-1 col-sm-6 mb-4 mb-xl-0">
         <h2>{course.title}</h2>
-        <h6 class="text-color">{course.category[0]}</h6>
+        <h6 class="text-color">{course.category}</h6>
       </div>
       <div class="col-xl-6 order-sm-3 order-xl-2 col-12 order-2">
         <ul class="list-inline text-xl-center">
@@ -166,7 +166,7 @@
               <div class="media-body">
                 <h4 class="mt-0">
                   <a href={teacher.path}>
-                    {teacher.fields.title}
+                    {trainer.name}
                   </a>
                 </h4>
                 {teacher.fields.category}
