@@ -1,0 +1,84 @@
+<script>
+    import Aside from "../components/aside.svelte";
+    export let name, header, headerImage, allContent;
+    let posts = allContent.filter(
+    (content) =>
+      content.type === "posts" && content.fields.category.name === name)[0];
+</script>
+<section
+  class="page-title-section overlay"
+  style="background-image:url({headerImage.url}),url({headerImage.url})"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-inline custom-breadcrumb">
+          <li class="list-inline-item h2">
+            <a class="text-primary font-secondary" href={header.url}
+              >{header.title}</a
+            >
+          </li>
+          <li class="list-inline-item h5">
+            <i class="ti-angle-right text-white" />
+          </li>
+          <li class="list-inline-item text-white h3 font-secondary">{name}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 order-2 order-lg-1">
+          <div class="row">
+            <!-- {#each allContent.filter(content => content.type == "posts") as post} -->
+              {#if posts}
+                <div class="col-sm-6 mb-5">
+                  <article
+                    class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow"
+                  >
+                    <a href={posts.path}>
+                      <img
+                        class="card-img-top rounded-0"
+                        src={posts.fields.image.source}
+                        alt={posts.fields.image.alt}
+                      /></a
+                    >
+                    <div class="card-body">
+                      <ul class="list-inline mb-3">
+                        <li class="list-inline-item mr-3 ml-0">
+                          <i class="ti-calendar" />
+                          {posts.fields.publish.date}
+                        </li>
+                        <li class="list-inline-item mr-3 ml-0">
+                          <i class="ti-user" />
+                          <a href={posts.fields.author.link}
+                            >{posts.fields.author.name}</a
+                          >
+                        </li>
+                      </ul>
+                      <h4 class="card-title">
+                        <a href={posts.path}>{posts.fields.title}</a>
+                      </h4>
+                      <p class="card-text">
+                        {posts.fields.description
+                          .substring(0, 150)
+                          .replace(/(<([^>]+)>)/gi, "")}
+                      </p>
+                      <a href={posts.path} class="btn btn-primary btn-sm"
+                        >Read More</a
+                      >
+                    </div>
+                  </article>
+                </div>
+              {/if}
+<!--             <div class="col-12">
+              <Pagination {currentPage} {totalPages} />
+            </div> -->
+          </div>
+        </div>
+        <Aside {allContent} />
+          </div>
+      </div>
+  </section>
