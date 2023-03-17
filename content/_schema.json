@@ -1,0 +1,26 @@
+{
+"header.title" : {
+  "type": "text",
+  "options": [
+      "disabled"
+  ]
+},
+"header.url": {
+  "type": "text",
+  "options": [
+      "disabled"
+  ]
+},
+"title": {
+    "type": "text",
+    "options": [
+        "disabled"
+    ]
+  },
+  "headerText": {
+    "type": "text",
+    "options": [
+        "disabled"
+    ]
+  }
+}
