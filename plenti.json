@@ -3,7 +3,7 @@
 	"routes": {
 		"course_catgs": ":fields(route)",
 		"tags": "blog/:fields(route)",
-		"catgs": "blog/:fields(route)",
+		"blog_catgs": "blog/:fields(route)",
 		"posts": "blog/:filename",
 		"pages": ":filename",
 		"courses": "course/:filename",
