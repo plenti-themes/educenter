@@ -6,7 +6,7 @@
 <aside class="col-lg-4 order-1 order-lg-2">
     <div class="bg-white mb-5">
       <h4 class="mb-4">Categories</h4>
-      {#each allContent.filter(content => content.type == "catgs") as catg}
+      {#each allContent.filter(content => content.type == "blog_catgs") as catg}
       <ul class="list-unstyled">
         <li class="border-bottom">
           <a
