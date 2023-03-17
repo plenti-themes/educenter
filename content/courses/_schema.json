@@ -1,6 +1,6 @@
 {
     "trainer.name": {
-      "type": "autocomplete",
+      "type": "references",
       "options": [
         {
           "type": "teachers",
@@ -12,7 +12,7 @@
       ]  
     },
     "course.category": {
-      "type": "autocomplete",
+      "type": "references",
       "options": [
         {
           "type": "courses",
