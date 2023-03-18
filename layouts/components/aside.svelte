@@ -1,21 +1,26 @@
 <script>
-    import LatestArticles from "../components/latest_articles.svelte";
-    export let  allContent;
+    export let  catg, allContent, content, catgPosts;
+    $: catg = {
+    name: content.fields.name,
+    route: content.fields.route,
+    posts: Object(catgPosts.filter((key) => key.name == content.fields.name)[0])
+      .posts,
+  };
 </script>
 
 <aside class="col-lg-4 order-1 order-lg-2">
     <div class="bg-white mb-5">
       <h4 class="mb-4">Categories</h4>
-      {#each allContent.filter(content => content.type == "blog_catgs") as catg}
       <ul class="list-unstyled">
-        <li class="border-bottom">
+        {#each Object(content => content.type == "blog_catgs") as { path, name }}
+        <li class="border-bottom {(catg ? catg.name : '') == name ? 'active' : ''}" >
           <a
-            href="{catg.path}"
-            class="d-block pb-3 mt-3">{catg.fields.name}</a
+            href={path}
+            class="d-block pb-3 mt-3">{name}</a
           >
         </li>
+        {/each}
       </ul>
-      {/each}
     </div>
     <div class="bg-white mb-5">
       <h4 class="mb-4">Tags</h4>
@@ -27,5 +32,4 @@
         {/each}
       </ul>
     </div>
-    <LatestArticles {allContent} />
   </aside>
