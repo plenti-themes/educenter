@@ -1,5 +1,5 @@
 {
-    "header": {
+  "header": {
 		"title": "Home",
 		"url": "."
 	},
@@ -7,6 +7,6 @@
 		"url": "media/page-title.jpg",
 		"alt": "Header background image"
 	},
-    "name": "Education Technology",
-    "route": "category/education-technology"
+  "name": "Education Technology",
+  "route": "category/education-technology"
 }

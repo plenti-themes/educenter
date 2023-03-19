@@ -7,6 +7,6 @@
 		"url": "media/page-title.jpg",
 		"alt": "Header background image"
 	},
-    "name": "Learning Design",
-    "route": "category/learning-design"
+  "name": "Learning Design",
+  "route": "category/learning-design"
 }
