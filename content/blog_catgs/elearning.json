@@ -1,12 +1,7 @@
 {
-  "header": {
-		"title": "Home",
-		"url": "."
-	},
+  "name": "eLearning",
 	"headerImage": {
 		"url": "media/page-title.jpg",
 		"alt": "Header background image"
-	},
-  "name": "eLearning",
-  "route": "category/elearning"
+	}
 }

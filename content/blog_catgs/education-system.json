@@ -1,12 +1,7 @@
 {
-  "header": {
-		"title": "Home",
-		"url": "."
-	},
+  "name": "Education System",
 	"headerImage": {
 		"url": "media/page-title.jpg",
 		"alt": "Header background image"
-	},
-  "name": "Education System",
-  "route": "category/education-system"
+	}
 }

@@ -1,12 +1,7 @@
 {
-  "header": {
-		"title": "Home",
-		"url": "."
-	},
+  "name": "Higher Education",
 	"headerImage": {
 		"url": "media/page-title.jpg",
 		"alt": "Header background image"
-	},
-  "name": "Higher Education",
-  "route": "category/higher-education"
+	}
 }

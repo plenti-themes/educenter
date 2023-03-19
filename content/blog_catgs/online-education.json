@@ -1,12 +1,7 @@
 {
-  "header": {
-		"title": "Home",
-		"url": "."
-	},
+  "name": "Online Education",
 	"headerImage": {
 		"url": "media/page-title.jpg",
 		"alt": "Header background image"
-	},
-  "name": "Online Education",
-  "route": "category/online-education"
+	}
 }
