@@ -1,7 +1,7 @@
 <script>
     import Aside from "../components/aside.svelte";
     import LatestArticles from "../components/latest_articles.svelte";
-    export let name, headerImage, allContent, content, catg, catgPosts;
+    export let name, headerImage, allContent;
     let posts = allContent.filter(content => content.type === "posts");
 </script>
 <section
@@ -73,7 +73,7 @@
               {/each}
           </div>
         </div>
-        <Aside {allContent} {content} {catg} {catgPosts}/>
+        <Aside {allContent} />
         <!-- <LatestArticles {allContent} /> -->
           </div>
       </div>
