@@ -1,8 +1,4 @@
 {
-    "header": {
-        "title": "Home",
-        "url": "."
-     },
      "headerImage": {
         "url": "media/page-title.jpg",
         "alt": "Header background image"
@@ -15,16 +11,13 @@
         "alt": "Students sitting at desk studying"
     },
     "author": {
-        "text": "Posted by :",
         "name": "John Doe",
         "link": "."
     },
     "publish": {
-        "date": "06 May, 2022",
-        "text": "Date :"
+        "date": "06 May, 2022"
     },
     "category": {
-        "text": "Category :",
         "name": "Learning Design",
         "link": "."
     },

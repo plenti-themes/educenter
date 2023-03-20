@@ -1,7 +1,7 @@
 <script>
   import LatestArticles from '../components/latest_articles.svelte';
   import Aside from '../components/aside.svelte';
-    export let title, description, image, author, publish, category, headerImage, header, tbody, allContent;
+    export let title, description, image, author, publish, category, headerImage, tbody, allContent;
 </script>
 
 <section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
@@ -9,7 +9,7 @@
       <div class="row">
           <div class="col-md-8">
           <ul class="list-inline custom-breadcrumb">
-          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{header.url}">{header.title}</a></li>
+          <li class="list-inline-item h2"><a class="text-primary font-secondary" href="/">Home</a></li>
           <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
           <li class="list-inline-item text-white h3 font-secondary">{title}</li>
           </ul>
@@ -30,13 +30,13 @@
           <div class="col-12">
             <ul class="list-inline">
               <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">
-                <span class="font-weight-bold mr-2">{author.text} </span><a href="{author.link}">{author.name}</a>
+                <span class="font-weight-bold mr-2">Posted by :</span><a href="{author.link}">{author.name}</a>
               </li>
               <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">
-                <span class="font-weight-bold mr-2">{publish.text}</span> {publish.date}
+                <span class="font-weight-bold mr-2">Date :</span> {publish.date}
               </li>
               <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">
-                <span class="font-weight-bold mr-2">{category.text}</span>
+                <span class="font-weight-bold mr-2">Category :</span>
                 <a href="{category.link}">{category.name}</a>
               </li>
             </ul>

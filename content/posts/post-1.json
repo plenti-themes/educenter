@@ -1,8 +1,4 @@
 {
-	"header": {
-		"title": "Home",
-		"url": "."
-	},
 	"headerImage": {
 		"url": "media/page-title.jpg",
 		"alt": "Header background image"
@@ -15,19 +11,17 @@
 		"alt": "Students sitting on bean bags studying"
 	},
 	"author": {
-		"text": "Posted by :",
 		"name": "John Doe",
 		"link": "."
 	},
 	"publish": {
-		"date": "25 Sept, 2022",
-		"text": "Date :"
+		"date": "25 Sept, 2022"
 	},
 	"category": {
-		"text": "Category :",
 		"name": "Education Technology",
 		"link": "."
 	},
+	"tags": ["Art", "Image", "Random"],
 	"icon": {
 		"calendar": "ti-calendar",
 		"user": "ti-user"
