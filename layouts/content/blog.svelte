@@ -1,8 +1,7 @@
 <script>
   import Pagination from "../components/pagination.svelte";
-  import LatestArticles from "../components/latest_articles.svelte";
   import Aside from "../components/aside.svelte";
-  export let title, image, header, headerText, allContent, content, catg,  catgPosts;
+  export let title, image, header, headerText, allContent, content;
   //   let articles = allContent.filter(content => content.type === "article");
 
   $: currentPage = content.pager ? content.pager : 1;
@@ -92,8 +91,7 @@
           </div>
         </div>
       </div>
-      <Aside {allContent} {content} {catg} {catgPosts}/>
-      <LatestArticles {allContent} />
+      <Aside {allContent} />
         </div>
     </div>
 </section>
