@@ -1,7 +1,7 @@
 <script>
   import Pagination from "../components/pagination.svelte";
   import Aside from "../components/aside.svelte";
-  export let title, image, header, headerText, allContent, content;
+  export let title, image, headerText, allContent, content;
   //   let articles = allContent.filter(content => content.type === "article");
 
   $: currentPage = content.pager ? content.pager : 1;
@@ -24,8 +24,7 @@
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
           <li class="list-inline-item h2">
-            <a class="text-primary font-secondary" href={header.url}
-              >{header.title}</a
+            <a class="text-primary font-secondary" href="/">Home</a
             >
           </li>
           <li class="list-inline-item h5">
