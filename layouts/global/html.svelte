@@ -5,14 +5,14 @@
   import Footer from './footer.svelte';
   import Newsletter from './newsletter.svelte';
   import { makeTitle } from '../scripts/make_title.svelte';
-  export let content, layout, allContent, allLayouts, env, user, adminMenu, shadowContent;
+  export let content, layout, allContent, allLayouts, env, user, shadowContent;
 </script>
 
 <html lang="en">
   <Head title={makeTitle(content.filename)} {env} />
   <body>
     {#if user && $user.isAuthenticated}
-        <svelte:component this={adminMenu} {user} bind:content={content} bind:shadowContent/>
+        <svelte:component this={$user.menu} {user} bind:content={content} bind:shadowContent/>
     {/if}
     <main>
       <header class="fixed-top header">
