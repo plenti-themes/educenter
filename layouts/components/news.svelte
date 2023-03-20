@@ -1,5 +1,5 @@
 <script>
-  export let title, allContent;
+  export let title, allContent, icon;
   import { sortByDate } from '../scripts/sortByDate.svelte';
 //   let articles = allContent.filter(content => content.type === "article");
 </script>
@@ -19,12 +19,12 @@
                         <a href="{post.path}"><img class="card-img-top rounded-0" src="{post.fields.image.source}" alt="{post.fields.image.alt}"></a>
                         <div class="card-body">
                         <ul class="list-inline mb-3">
-                        <li class="list-inline-item mr-3 ml-0"><i class="{post.fields.icon.calendar}"></i> {post.fields.publish.date}</li>
-                        <li class="list-inline-item mr-3 ml-0"><i class="{post.fields.icon.user}"></i> <a href="{post.fields.author.link}">{post.fields.author.name}</a></li>
+                        <li class="list-inline-item mr-3 ml-0"><i class="{icon.calendar}"></i> {post.fields.publish.date}</li>
+                        <li class="list-inline-item mr-3 ml-0"><i class="{icon.user}"></i> <a href="{post.fields.author.link}">{post.fields.author.name}</a></li>
                         </ul>
                         <h4 class="card-title"><a href="{post.path}">{post.fields.title}</a></h4>
                         <p class="card-text">{post.fields.description.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
-                        <a href="{post.path}" class="btn btn-primary btn-sm">{post.fields.link.title}</a>
+                        <a href="{post.path}" class="btn btn-primary btn-sm">Read More</a>
                         </div>
                     </article>
                 </article>

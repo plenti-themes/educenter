@@ -144,7 +144,11 @@
 			{
 				"name": "news",
 				"fields": {
-					"title": "Latest News"
+					"title": "Latest News",
+					"icon": {
+						"calendar": "ti-calendar",
+						"user": "ti-user"
+					}
 				}
 			}	
 	  	]
