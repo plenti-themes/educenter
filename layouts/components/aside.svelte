@@ -1,5 +1,6 @@
 <script>
-    export let  catg, allContent, content, catgPosts;
+    export let  allContent;
+    import LatestArticles from "../components/latest_articles.svelte";
 </script>
 
 <aside class="col-lg-4 order-1 order-lg-2">
@@ -26,4 +27,5 @@
         {/each}
       </ul>
     </div>
+    <LatestArticles {allContent} />
   </aside>
