@@ -1,4 +1,7 @@
 {
     "name": "English",
-    "route": "tag/english"
+    "headerImage": {
+		"url": "media/page-title.jpg",
+		"alt": "Header background image"
+	}
 }

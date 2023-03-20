@@ -1,4 +1,7 @@
 {
     "name": "Automation",
-    "route": "tag/automation"
+    "headerImage": {
+		"url": "media/page-title.jpg",
+		"alt": "Header background image"
+	}
 }

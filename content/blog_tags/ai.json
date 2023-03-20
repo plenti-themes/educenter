@@ -1,4 +1,7 @@
 {
     "name": "AI",
-    "route": "tag/artificial-intelligence"
+    "headerImage": {
+		"url": "media/page-title.jpg",
+		"alt": "Header background image"
+	}
 }

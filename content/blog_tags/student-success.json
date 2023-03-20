@@ -1,4 +1,7 @@
 {
     "name": "Student Success",
-    "route": "tag/student-success"
+    "headerImage": {
+		"url": "media/page-title.jpg",
+		"alt": "Header background image"
+	}
 }
