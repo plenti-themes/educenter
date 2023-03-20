@@ -1,7 +1,7 @@
 <script>
   import LatestArticles from '../components/latest_articles.svelte';
   import Aside from '../components/aside.svelte';
-    export let title, description, image, author, publish, category, headerImage, tbody, allContent;
+    export let title, description, image, author, publish, category, headerImage, titleBody, allContent;
 </script>
 
 <section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
@@ -13,7 +13,7 @@
           <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
           <li class="list-inline-item text-white h3 font-secondary">{title}</li>
           </ul>
-          <p class="text-lighten">{tbody}</p>
+          <p class="text-lighten">{titleBody}</p>
           </div>
       </div>
   </div>
