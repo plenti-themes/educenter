@@ -20,7 +20,7 @@
     <div class="bg-white mb-5">
       <h4 class="mb-4">Tags</h4>
       <ul class="list-inline tag-list">
-      {#each allContent.filter(content => content.type == "tags") as tag}
+      {#each Object(allContent.filter(content => content.type == "blog_tags")) as tag}
         <li class="list-inline-item mb-2">
           <a href="{tag.path}">{tag.fields.name}</a>
         </li>
