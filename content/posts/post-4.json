@@ -20,5 +20,10 @@
     "category": {
         "name": "Higher Education",
         "link": "."
-    }
+    },
+    "tag": [
+		"AI",
+		"Data analysis",
+		"Computer Science"
+	]
 }

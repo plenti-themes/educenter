@@ -20,5 +20,10 @@
     "category": {
         "name": "Learning Design",
         "link": "."
-    }
+    },
+    "tag": [
+		"AI",
+		"Automation",
+		"Computer Science"
+	]
 }

@@ -21,9 +21,8 @@
 		"name": "Education Technology",
 		"link": "."
 	},
-	"postTags": [
-		"Art",
-		"Image",
-		"Random"
+	"tag": [
+		"AI",
+		"Automation"
 	]
 }

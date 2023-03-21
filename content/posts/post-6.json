@@ -20,5 +20,9 @@
     "category": {
         "name": "Online Education",
         "link": "."
-    }
+    },
+    "tag": [
+		"AI",
+		"Student Success"
+	]
 }

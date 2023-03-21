@@ -20,5 +20,8 @@
     "category": {
         "name": "eLearning",
         "link": "."
-    }
+    },
+    "tag": [
+		"Student Success"
+	]
 }

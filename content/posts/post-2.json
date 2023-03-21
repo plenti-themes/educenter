@@ -20,5 +20,10 @@
     "category": {
         "name": "Education System",
         "link": "."
-    }
+    },
+    "tag": [
+		"AI",
+		"PD",
+		"Podcast"
+	]
 }
