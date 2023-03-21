@@ -21,7 +21,7 @@
       <h4 class="mb-4">Tags</h4>
       <ul class="list-inline tag-list">
       {#each Object(allContent.filter(content => content.type == "blog_tags")) as tag}
-        <li class="list-inline-item mb-2">
+        <li class="list-inline-item mb-2 {tag ? tag.fields.name : ''}" >
           <a href="{tag.path}">{tag.fields.name}</a>
         </li>
         {/each}
