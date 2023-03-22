@@ -2,7 +2,7 @@
 	"build": "public",
 	"routes": {
 		"course_catgs": ":fields(route)",
-		"blog_tags": "blog/categories/:filename",
+		"blog_tags": "blog/tags/:filename",
 		"blog_catgs": "blog/categories/:filename",
 		"posts": "blog/:filename",
 		"pages": ":filename",
