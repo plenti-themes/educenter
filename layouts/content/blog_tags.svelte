@@ -28,8 +28,8 @@
       <div class="row">
         <div class="col-lg-8 order-2 order-lg-1">
           <div class="row">
-              {#each posts as post}
-                {#if post.fields.tag === name [0]}
+            {#each posts as post}
+              {#if post.fields.tags.includes (name)}
                 <div class="col-sm-6 mb-5">
                   <article
                     class="card rounded-0 border-bottom border-primary border-top-0 border-left-0 border-right-0 hover-shadow"
@@ -68,8 +68,8 @@
                     </div>
                   </article>
                 </div>
-                {/if}
-              {/each}
+              {/if}
+            {/each} 
           </div>
         </div>
         <Aside {allContent} />
