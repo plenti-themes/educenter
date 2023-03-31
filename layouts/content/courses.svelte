@@ -166,7 +166,7 @@
               <div class="media-body">
                 <h4 class="mt-0">
                   <a href={teacher.path}>
-                    {trainer.name}
+                    {teacher.fields.title}
                   </a>
                 </h4>
                 {teacher.fields.category}

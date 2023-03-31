@@ -1,28 +1,28 @@
 {
-    "trainer.name": {
-      "type": "references",
-      "options": [
-        {
-          "type": "teachers",
-          "search": [
-            "title"
-          ],
-          "result": "fields.title"
-        }
-      ]  
-    },
-    "course.category": {
-      "type": "references",
-      "options": [
-        {
-          "type": "courses",
-          "search": [
-            "course.category"
-          ],
-          "result": "fields.course.category"
-        }
-      ]  
-    },
+  "trainer.name": {
+    "type": "reference",
+    "options": [
+      {
+        "type": "teachers",
+        "search": [
+          "title"
+        ],
+        "result": "fields.title"
+      }
+    ]  
+  },
+"course.category": {
+  "type": "reference",
+  "options": [
+    {
+      "type": "teachers",
+      "search": [
+        "category"
+      ],
+      "result": "fields.category"
+    }
+  ]  
+},
     "bodyText1.description" : {
       "type": "wysiwyg",
       "options": [
