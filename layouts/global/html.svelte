@@ -5,7 +5,13 @@
   import Footer from './footer.svelte';
   import Newsletter from './newsletter.svelte';
   import { makeTitle } from '../scripts/make_title.svelte';
+  import Login from "./login.svelte";
   export let content, layout, allContent, allLayouts, env, user, shadowContent;
+
+  let hash;
+  onMount(async () => {
+    hash = window.location.hash;
+  });
 </script>
 
 <html lang="en">
@@ -14,6 +20,7 @@
     {#if user && $user.isAuthenticated}
         <svelte:component this={$user.menu} {user} bind:content={content} bind:shadowContent/>
     {/if}
+    <Login bind:hash {user} />
     <main>
       <header class="fixed-top header">
         <div class="top-header py-2 bg-white">
