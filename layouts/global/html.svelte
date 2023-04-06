@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from 'svelte';
   import Head from './head.svelte';
   import Nav from './nav.svelte';
   import Header from './header.svelte';
