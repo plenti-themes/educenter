@@ -4,5 +4,17 @@
         "options": [
             "all"
         ]
-    }
+    },
+    "category.name": {
+        "type": "reference",
+        "options": [
+          {
+            "type": "blog_catgs",
+            "search": [
+              "name"
+            ],
+            "result": "fields.name"
+          }
+        ]  
+      }
 }
