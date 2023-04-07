@@ -2,6 +2,8 @@
   import LatestArticles from '../components/latest_articles.svelte';
   import Aside from '../components/aside.svelte';
     export let title, description, image, author, publish, category, headerImage, titleBody, allContent;
+
+    $: selectedCategory = allContent.find(content => content.type === "blog_catgs" && content.fields.name === category.name);
 </script>
 
 <section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
@@ -37,7 +39,7 @@
               </li>
               <li class="list-inline-item mr-4 mb-3 mb-md-0 text-light">
                 <span class="font-weight-bold mr-2">Category :</span>
-                <a href="{category.link}">{category.name}</a>
+                <a href="{selectedCategory?.path}">{selectedCategory?.fields.name}</a>
               </li>
             </ul>
           </div>
