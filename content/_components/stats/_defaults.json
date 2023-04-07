@@ -1,0 +1,21 @@
+{
+        "name": "stats",
+        "fields": {
+            "teachers": {
+                "title": "TEACHERS",
+                "amount": "60"
+            },
+            "courses": {
+                "title": "COURSES",
+                "amount": "50"
+            },
+            "students": {
+                "title": "STUDENTS",
+                "amount": "1000"
+            },
+            "satisfied": {
+                "title": "SATISFIED CLIENT",
+                "amount": "1400"
+            }				
+        }
+}
