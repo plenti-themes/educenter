@@ -7,9 +7,9 @@
     subText1,
     subText2,
     subText3,
-    image,
     button,
     trainer,
+    image,
     socials,
     headerImage,
     header,
@@ -26,7 +26,7 @@
   $: if (content) {
     teacher = allContent.filter(
       (content) =>
-        content.type === "teachers" && content.fields.title === trainer.name[0]
+        content.type === "teachers" && content.fields.name === trainer.name
     )[0];
   }
   const shuffle = (array) => {
@@ -166,7 +166,7 @@
               <div class="media-body">
                 <h4 class="mt-0">
                   <a href={teacher.path}>
-                    {teacher.fields.title}
+                    {teacher.fields.name}
                   </a>
                 </h4>
                 {teacher.fields.category}

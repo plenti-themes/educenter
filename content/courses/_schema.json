@@ -5,9 +5,9 @@
       {
         "type": "teachers",
         "search": [
-          "title"
+          "name"
         ],
-        "result": "fields.title"
+        "result": "fields.name"
       }
     ]  
   },
@@ -15,11 +15,11 @@
   "type": "reference",
   "options": [
     {
-      "type": "teachers",
+      "type": "course_catgs",
       "search": [
-        "category"
+        "name"
       ],
-      "result": "fields.category"
+      "result": "fields.name"
     }
   ]  
 },
