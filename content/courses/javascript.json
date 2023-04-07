@@ -56,7 +56,7 @@
 	],
     "trainer": {
         "type": "teacher",
-        "name": ["Jackie Mastio"],
+        "name": "Jackie Mastio",
         "image": {
             "source": "media/teacher-2.jpeg",
             "altText": "Profile picture of Jackie Mastio"

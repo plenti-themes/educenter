@@ -56,7 +56,7 @@
 	],
     "trainer": {
         "type": "teacher",
-        "name": ["Devid Louis"],
+        "name": "Devid Louis",
         "image": {
             "source": "media/teacher-3.jpeg",
             "altText": "Profile picture of Devid Louis"
