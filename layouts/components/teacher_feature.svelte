@@ -41,7 +41,7 @@
               /></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href={teacher.path}>{teacher.fields.title}</a>
+                  <a href={teacher.path}>{teacher.fields.name}</a>
                 </h4>
                 <p>{teacher.fields.category}</p>
                 <ul class="list-inline">
