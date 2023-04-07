@@ -1,9 +1,9 @@
 <script>
   export let title,
     headerImage,
-    header,
     headerText,
     image,
+    name,
     category,
     introText,
     contact,
@@ -30,14 +30,12 @@
       <div class="col-md-8">
         <ul class="list-inline custom-breadcrumb">
           <li class="list-inline-item h2">
-            <a class="text-primary font-secondary" href={header.url}
-              >{header.title}</a
-            >
+            <a class="text-primary font-secondary" href="/">Home</a>
           </li>
           <li class="list-inline-item h5">
             <i class="ti-angle-right text-white" />
           </li>
-          <li class="list-inline-item text-white h3 font-secondary">{title}</li>
+          <li class="list-inline-item text-white h3 font-secondary">{name}</li>
         </ul>
         <p class="text-lighten">{headerText}</p>
       </div>
@@ -52,7 +50,7 @@
         <img class="img-fluid w-100" src={image.source} alt={image.altText} />
       </div>
       <div class="col-md-6 mb-5">
-        <h3>{title}</h3>
+        <h3>{name}</h3>
         <h6 class="text-color">{category}</h6>
         <p class="mb-5">{introText}</p>
         <div class="row">

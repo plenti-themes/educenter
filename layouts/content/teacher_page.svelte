@@ -45,7 +45,7 @@
                         <div class="card border-0 rounded-0 hover-shadow mb-5">
                             <a href="{teacher.path}"><img class="card-img-top rounded-0" src="{teacher.fields.image.source}" alt="{teacher.fields.image.altText}"></a>
                             <div class="card-body">
-                                <h4 class="card-title"><a href="{teacher.path}">{teacher.fields.title}</a></h4>
+                                <h4 class="card-title"><a href="{teacher.path}">{teacher.fields.name}</a></h4>
                                 <p>{teacher.fields.category}</p>
                                 <ul class="list-inline">
                                     <li class="list-inline-item">

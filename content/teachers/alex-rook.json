@@ -1,8 +1,4 @@
 {
-	"header": {
-		"title": "Home",
-		"url": "."
-	},
 	"headerImage": {
 		"url": "media/page-title.jpg",
 		"altText": "Header background image"
