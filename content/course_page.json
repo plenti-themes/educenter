@@ -1,10 +1,6 @@
 {
-    "header": {
-       "title": "Home",
-       "url": "."
-    },
     "title": "Our Courses",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     "image": {
         "url": "media/page-title.jpg",
         "alt": "Profile image"
