@@ -1,0 +1,44 @@
+{
+    "components": [
+        {
+            "name": "page_title",
+            "fields": {
+                 "title": "Contact Us",
+                 "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+                 "image": {
+                     "url": "media/page-title.jpg",
+                     "alt": "Profile image"
+                 }
+            }
+        },
+        {
+            "name": "contact",
+            "fields": {
+                "title": "Contact Us",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt. Dolore, labore. Accusamus nulla sed cum aliquid exercitationem debitis error harum porro maxime quo iusto aliquam dicta modi earum fugiat, vel possimus commodi, deleniti et veniam, fuga ipsum praesentium. Odit unde optio nulla ipsum quae obcaecati! Quod esse natus quibusdam asperiores quam vel, tempore itaque architecto ducimus expedita",
+                "contact": {
+                    "phone": "+211234565523",
+                    "email": "info@educenter.com",
+                    "address": "9567 Turner Trace Apt. BC C3G8A4"
+                },
+                "form": {
+                    "name": "Your Name",
+                    "email": "Your Email",
+                    "subject": "Subject",
+                    "message": "Your Message"
+                },
+                "button": {
+                    "submit": ".",
+                    "text":"Send Message"
+                }
+            }
+        },
+        {
+            "name": "map" ,
+            "fields": {
+                "title": "Google map",
+                "url": "."
+            }
+        }
+    ]
+}
