@@ -1,6 +1,6 @@
 <script>
 	import {scale} from 'svelte/transition';
-    export let title, header, image, headerText, allContent;
+    export let title, image, headerText, allContent;
     let teachers = allContent.filter(content => content.type === "teachers");
     let selectedCategory;
 
@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-md-8">
                 <ul class="list-inline custom-breadcrumb">
-                    <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{header.url}">{header.title}</a></li>
+                    <li class="list-inline-item h2"><a class="text-primary font-secondary" href="/">Home</a></li>
                     <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
                     <li class="list-inline-item text-white h3 font-secondary">{title}</li>
                 </ul>

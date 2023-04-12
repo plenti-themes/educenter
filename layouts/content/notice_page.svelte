@@ -1,6 +1,6 @@
 <script>
-    import Slider from '../components/slideshow.svelte';
-    export let title, image, header, body, allContent;
+  import Slideshow from '../components/slideshow.svelte';
+    export let title, image, body, allContent;
 </script>
 
 <section
@@ -12,9 +12,7 @@
             <div class="col-md-8">
                 <ul class="list-inline custom-breadcrumb">
                     <li class="list-inline-item h2">
-                        <a class="text-primary font-secondary" href={header.url}>
-                            {header.title}
-                        </a>
+                        <a class="text-primary font-secondary" href="/">Home</a>
                     </li>
                     <li class="list-inline-item h5">
                         <i class="ti-angle-right text-white" />
@@ -54,7 +52,7 @@
                     </ul>
                 </div>
             {/each}
-            <Slider />
         </div>
+        <!-- <Slideshow /> -->
     </div>
 </section>
