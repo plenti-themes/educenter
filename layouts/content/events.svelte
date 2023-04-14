@@ -14,7 +14,6 @@
         speaker2,
         speaker3,
         speaker4,
-        header,
         headerImage,
         allContent;
     import { sortByDate } from "../scripts/sortByDate.svelte";
@@ -45,8 +44,7 @@
             <div class="col-md-8">
                 <ul class="list-inline custom-breadcrumb">
                     <li class="list-inline-item h2">
-                        <a class="text-primary font-secondary" href={header.url}
-                            >{header.title}</a
+                        <a class="text-primary font-secondary" href="/">Home</a>
                         >
                     </li>
                     <li class="list-inline-item h5">
