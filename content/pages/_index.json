@@ -7,8 +7,6 @@
 		  	{
 			  "name": "hero",
 			  "fields": {
-					"buttonRight": "ti-angle-right",
-					"buttonLeft": "ti-angle-left",
 					"image": {
 						"url": "media/banner.jpg",
 						"alt": "Profile image"
@@ -76,16 +74,15 @@
 			  "name": "about",
 			  "fields": {
 				  "title": "About Educenter",
-				  "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non..",
+				  "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non..",
 				  "background": "",
 				  "link": {
 					  "title": "Learn More",
 					  "url": "."
 				 	},
 				  "image": {
-					  "position": "right",
 					  "url": "media/about-us.jpeg",
-					  "alt": "about us"
+					  "alt": "students smiling"
 					}	
 			  	} 
 		  	},
@@ -102,9 +99,8 @@
 			{
 				"name": "cta",
 				"fields": {
-					"title": "Click to Join the Advance Workshop",
-					"body": "Training In Advannce Networking",
-					"background": "yellow",
+					"subTitle": "Click to Join the Advance Workshop",
+					"title": "Training In Advannce Networking",
 					"link": {
 						"url": ".",
 						"title": "Join Now"
@@ -116,7 +112,6 @@
 				"fields": {
 					"title": "Success Stories",
 					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat. ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
-					"background": "white",
 					"video": {
 						"position": "left",
 						"url": "https://www.youtube.com/watch?v=ResipmZmpDU",
@@ -132,9 +127,7 @@
 				"name": "events",
 				"fields": {
 					"title": "Upcoming Events",
-					"position": "left",
 					"line": "",
-					"background": "grey",
 					"link": {
 						"url": ".",
 						"title": "See All"
