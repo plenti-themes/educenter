@@ -111,9 +111,7 @@
 					"title": "Success Stories",
 					"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat. ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
 					"video": {
-						"position": "left",
-						"url": "https://www.youtube.com/watch?v=ResipmZmpDU",
-						"icon": "ti-control-play"
+						"url": "https://www.youtube.com/watch?v=ResipmZmpDU"
 					},
 					"image": {
 						"url": "media/success-story.jpeg",

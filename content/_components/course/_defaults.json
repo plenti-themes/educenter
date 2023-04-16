@@ -1,0 +1,10 @@
+{
+    "name": "course",
+    "fields": {
+        "title": "Our Courses",
+        "link": {
+            "title": "See All",
+            "url": "."
+        }
+    }
+}

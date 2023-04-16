@@ -1,0 +1,11 @@
+{
+    "name": "cta",
+    "fields": {
+        "subTitle": "Click to Join the Advance Workshop",
+        "title": "Training In Advannce Networking",
+        "link": {
+            "url": ".",
+            "title": "Join Now"
+        }
+    }
+}
