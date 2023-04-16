@@ -1,1 +1,35 @@
-{}
+{
+    "name": "hero",
+    "fields": {
+          "image": {
+              "url": "media/banner.jpg",
+              "alt": "Profile image"
+          },
+          "items": [
+              {
+                  "title": "Your bright future is our mission",
+                  "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+                  "link": {
+                      "title": "Apply now",
+                      "url": "."
+                  }
+              },
+              {
+                  "title": "Your bright future is our mission",
+                  "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+                  "link": {
+                      "title": "Apply now",
+                      "url": "."
+                  }
+              },
+              {
+                  "title": "Your bright future is our mission",
+                  "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque autem excepturi eaque",
+                  "link": {
+                      "title": "Apply now",
+                      "url": "."
+                  }
+              }
+          ]
+        }
+}

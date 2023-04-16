@@ -1,0 +1,31 @@
+{
+    "name": "features",
+    "fields": {
+        "image": {
+            "url": "media/banner-feature.png",
+            "alt": "Graduation mates"
+        },
+        "items": [
+            {
+                "title": "Scholorship News",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad",
+                "icon": "ti-book"
+            },
+            {
+                "title": "Our Notice Board",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad.",
+                "icon": "ti-blackboard"
+            },
+            {
+                "title": "Our Achievements",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad",
+                "icon": "ti-agenda"
+            },
+            {
+                "title": "Admission Now",
+                "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad",
+                "icon": "ti-write"
+            }
+        ]
+    }
+}
