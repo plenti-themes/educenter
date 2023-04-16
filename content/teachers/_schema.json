@@ -16,5 +16,11 @@
       "options": [
           "all"
       ]
-  }
+  },
+  "headerText" : {
+    "type": "wysiwyg",
+    "options": [
+        "all"
+    ]
+}
 }
