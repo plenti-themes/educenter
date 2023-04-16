@@ -1,7 +1,7 @@
 <script>
   import Pagination from "../components/pagination.svelte";
   import Aside from "../components/aside.svelte";
-  export let title, image, headerText, allContent, content;
+  export let title, image, description, allContent, content;
   //   let articles = allContent.filter(content => content.type === "article");
 
   $: currentPage = content.pager ? content.pager : 1;
@@ -32,7 +32,7 @@
           </li>
           <li class="list-inline-item text-white h3 font-secondary">{title}</li>
         </ul>
-        <p class="text-lighten">{headerText}</p>
+        <p class="text-lighten">{@html description}</p>
       </div>
     </div>
   </div>

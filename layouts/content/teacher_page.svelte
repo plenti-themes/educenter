@@ -1,6 +1,6 @@
 <script>
 	import {scale} from 'svelte/transition';
-    export let title, image, headerText, allContent;
+    export let title, image, description, allContent;
     let teachers = allContent.filter(content => content.type === "teachers");
     let selectedCategory;
 
@@ -15,7 +15,7 @@
                     <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
                     <li class="list-inline-item text-white h3 font-secondary">{title}</li>
                 </ul>
-                <p class="text-lighten">{headerText}</p>
+                <p class="text-lighten">{@html description}</p>
             </div>
         </div>
     </div>

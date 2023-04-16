@@ -1,0 +1,14 @@
+{
+    "title": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+    },
+    "description": {
+        "type": "wysiwyg",
+        "options": [
+            "all"
+        ]
+    }
+}

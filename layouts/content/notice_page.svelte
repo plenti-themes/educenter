@@ -1,6 +1,6 @@
 <script>
   import Slideshow from '../components/slideshow.svelte';
-    export let title, image, body, allContent;
+    export let title, image, description, allContent;
 </script>
 
 <section
@@ -21,7 +21,7 @@
                         {title}
                     </li>
                 </ul>
-                <p class="text-lighten">{body}</p>
+                <p class="text-lighten">{@html description}</p>
             </div>
         </div>
     </div>
