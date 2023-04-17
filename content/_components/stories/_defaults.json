@@ -8,7 +8,7 @@
         },
         "image": {
             "url": "media/success-story.jpeg",
-            "alt": "Success story"
+            "altText": "Success story"
         }
     }
 }

@@ -115,7 +115,7 @@
 					},
 					"image": {
 						"url": "media/success-story.jpeg",
-						"alt": "Success story"
+						"altText": "Success story"
 					}
 				}
 			},
@@ -123,9 +123,7 @@
 				"name": "events",
 				"fields": {
 					"title": "Upcoming Events",
-					"line": "",
 					"link": {
-						"url": ".",
 						"title": "See All"
 					}
 				}
@@ -133,11 +131,7 @@
 			{
 				"name": "news",
 				"fields": {
-					"title": "Latest News",
-					"icon": {
-						"calendar": "ti-calendar",
-						"user": "ti-user"
-					}
+					"title": "Latest News"
 				}
 			}	
 	  	]
