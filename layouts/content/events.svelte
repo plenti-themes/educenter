@@ -1,7 +1,7 @@
 <script>
     export let title,
         subtitle,
-        tbody,
+        headerBody,
         image,
         location,
         publish,
@@ -9,7 +9,8 @@
         entry,
         button,
         description,
-        speakerstext,
+        moreEventTitle,
+        eventSpeakerTitle,
         speaker1,
         speaker2,
         speaker3,
@@ -45,7 +46,6 @@
                 <ul class="list-inline custom-breadcrumb">
                     <li class="list-inline-item h2">
                         <a class="text-primary font-secondary" href="/">Home</a>
-                        >
                     </li>
                     <li class="list-inline-item h5">
                         <i class="ti-angle-right text-white" />
@@ -54,7 +54,7 @@
                         {title}
                     </li>
                 </ul>
-                <p class="text-lighten">{tbody}</p>
+                <p class="text-lighten">{headerBody}</p>
             </div>
         </div>
     </div>
@@ -127,12 +127,15 @@
         <div class="row">
             <div class="col-12 mb-50 content">
                 <h3 id="about-event">{subtitle}</h3>
-                <p>{description}</p>
+                {#each description as d}
+                <p>{@html d.paragraph}</p>
+              {/each}
+      
             </div>
         </div>
         <div class="row">
             <div class="col-12">
-                <h3 class="mb-4">{speakerstext}</h3>
+                <h3 class="mb-4">{eventSpeakerTitle}</h3>
             </div>
             <div class="col-lg-3 col-sm-6 mb-4 mb-lg-0">
                 <div class="media">
@@ -196,7 +199,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="section-title">More Events</h2>
+                <h2 class="section-title">{moreEventTitle}</h2>
             </div>
         </div>
         <div class="row justify-content-center" />
@@ -216,9 +219,9 @@
                                     alt={event.fields.image.alt}
                                 /></a>
                                 <div class="card-date">
-                                    <span>{event.fields.eventday}</span>
+                                    <span>{event.fields.eventDay}</span>
                                     <br />
-                                    {event.fields.eventmonth}
+                                    {event.fields.eventMonth}
                                 </div>
                             </div>
                             <div class="card-body">

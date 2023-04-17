@@ -3,42 +3,39 @@
         "url": "media/page-title.jpg",
         "alt": "Header background image"
     },
+    "headerBody": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     "title": "Behavioral physiology conference",
-    "subtitle":"About Event",
-    "tbody": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+    "image": {
+        "url": "media/event-2.jpeg",
+        "alt": "Social media event"
+    },
     "location": {
         "title": "LOCATION",
-        "city": "Canberra, ACT",
-        "icon": "ti-location-pin"
+        "city": "Canberra, ACT"
     },
     "publish": {
         "title": "DATE",
-        "date": "02 Dec, 2022",
-        "icon": "ti-calendar"
+        "date": "02 Dec, 2022"
     },
     "time": {
         "title": "TIME",
-        "hour": "15:27 +06",
-        "icon": "ti-time"
+        "hour": "15:27 +06"
     },
     "entry": {
         "title": "ENTRY FEE",
-        "fee": "From: $699",
-        "icon": "ti-wallet"
+        "fee": "From: $699"
     },
     "button": {
         "title": "Apply Now",
         "url": "."
     },
-    "eventday": "02",
-    "eventmonth": "DEC",
-    "image": {
-        "url": "media/event-2.jpeg",
-        "alt": "Social media event"
-    },
-    "speakerstext": "Event Speakers",
-    "moreevents": "More Events",
+    "subtitle":"About Event",
+    "description": [
+		{
+			"paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+		}
+	],
+    "eventSpeakerTitle": "Event Speakers",
     "speaker1": {
         "title": "Teacher",
         "name": "Jack Mastio",
@@ -62,5 +59,8 @@
         "name": "Randy Luis",
         "image": "media/speaker-4.jpeg",
         "alt": "Randy Luis"
-    }
+    },
+    "moreEventTitle": "More Events",
+    "eventDay": "02",
+    "eventMonth": "DEC"
 }

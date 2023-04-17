@@ -1,1 +1,66 @@
-{}
+{
+    "headerImage": {
+        "url": "media/page-title.jpg",
+        "alt": "Header background image"
+    },
+    "headerBody": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+    "title": "Social media and the news conference",
+    "image": {
+        "url": "media/event-1.jpeg",
+        "alt": "Social media event"
+    },
+    "location": {
+        "title": "LOCATION",
+        "city": "New York"
+    },
+    "publish": {
+        "title": "DATE",
+        "date": "01 Dec, 2022"
+    },
+    "time": {
+        "title": "TIME",
+        "hour": "15:27 +06"
+    },
+    "entry": {
+        "title": "ENTRY FEE",
+        "fee": "From: $699"
+    },
+    "button": {
+        "title": "Apply Now",
+        "url": "."
+    },
+    "subtitle":"About Event",
+    "description": [
+		{
+			"paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat."
+		}
+	],
+    "eventSpeakerTitle": "Event Speakers",
+    "speaker1": {
+        "title": "Teacher",
+        "name": "Jack Mastio",
+        "image": "media/speaker-1.jpeg",
+        "alt": "Jack Mastio"
+    },
+    "speaker2": {
+        "title": "Teacher",
+        "name": "John Doe",
+        "image": "media/speaker-2.jpeg",
+        "alt": "John Doe"
+    },
+    "speaker3": {
+        "title": "Teacher",
+        "name": "Alfred Jin",
+        "image": "media/speaker-3.jpeg",
+        "alt": "Alfred Jin"
+    },
+    "speaker4": {
+        "title": "Teacher",
+        "name": "Randy Luis",
+        "image": "media/speaker-4.jpeg",
+        "alt": "Randy Luis"
+    },
+    "moreEventTitle": "More Events",
+    "eventDay": "01",
+    "eventMonth": "DEC"
+}

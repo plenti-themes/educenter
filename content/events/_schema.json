@@ -1,1 +1,50 @@
-{}
+{
+    "description": {
+        "type": "component",
+        "options": [
+          "paragraph"
+        ]
+      },
+      "location.title": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      },
+      "publish.title": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      },
+      "time.title": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      },
+      "entry.title": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      },
+      "moreEventTitle": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      },
+      "eventDay": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      },
+      "eventMonth": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      }
+}

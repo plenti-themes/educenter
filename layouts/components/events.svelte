@@ -10,7 +10,7 @@
                     <h2 class="mb-0 text-nowrap mr-3">{title}</h2>
                     <div class="border-top w-100 border-primary d-none d-sm-block"></div>
                     <div>
-                    <a href="{link.url}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{link.title}</a>
+                    <a href="events" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block text-nowrap">{link.title}</a>
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
                         <div class="card border-0 rounded-0 hover-shadow">
                             <div class="card-img position-relative">
                                 <a href="{event.path}"><img class="card-img-top rounded-0" src="{event.fields.image.url}" alt="{event.fields.image.alt}"></a>
-                            <div class="card-date"><span>{event.fields.eventday}</span><br>{event.fields.eventmonth}</div>
+                            <div class="card-date"><span>{event.fields.eventDay}</span><br>{event.fields.eventMonth}</div>
                             </div>
                             <div class="card-body">
                             <p><i class="ti-location-pin text-primary mr-2"></i>{event.fields.location.city}  <i class="ti-calendar text-primary mr-1"></i> {event.fields.publish.date}</p>
@@ -37,7 +37,7 @@
             </div>
         <div class="row">
         <div class="col-12 text-center">
-        <a href="{link.url}" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{link.title}</a>
+        <a href="events" class="btn btn-sm btn-outline-primary d-sm-none d-inline-block">{link.title}</a>
         </div>
         </div>
     </div>

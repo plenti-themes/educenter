@@ -23,7 +23,7 @@
                 <div class="card border-0 rounded-0 hover-shadow">
                 <div class="card-img position-relative">
                 <a href="{event.path}"><img class="card-img-top rounded-0" src="{event.fields.image.url}" alt="{event.fields.image.alt}"></a>
-                <div class="card-date"><span>{event.fields.eventday}</span><br>{event.fields.eventmonth}</div>
+                <div class="card-date"><span>{event.fields.eventDay}</span><br>{event.fields.eventMonth}</div>
                 </div>
                 <div class="card-body">
                 <p><i class="ti-location-pin text-primary mr-2"></i>{event.fields.location.city}</p>
