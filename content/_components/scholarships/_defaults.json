@@ -1,0 +1,59 @@
+{
+    "name": "scholarships",
+    "fields": {
+        "title": "SCHOLARSHIPS NEWS",
+        "subtitle": "Our campuses are living laboratories for sustainability.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipi sicing elit, sed do eiusmod tempor incididunt ut labore et.dolore magna aliquauis aute irure dolor. in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas cum ut ab nesciunt distinctio maxime expedita fugit laborum? Aliquid, quia.",
+        "image": {
+            "url": "media/about-page.jpeg",
+            "alt": "Artificial Intelligence"
+        },	
+        "items": [
+            {   
+                "title": "CHEMICAL ENGINEERING",
+                "image": {
+                    "url": "media/scholarship-item-1.jpeg",
+                    "alt": "Chemical engineering"
+                },
+                "list": {
+                    "item1":"Institutes",
+                    "item2":"Smart-affiliated research",
+                    "item3":"Digital Access to Scholarship",
+                    "item4":"Smart Catalyst",
+                    "item5":"Smart Library Portal",
+                    "item6":"Smart research programs"
+                }
+            },
+            {   
+                "title": "CHEMICAL ENGINEERING",
+                "image": {
+                    "url": "media/scholarship-item-2.jpeg",
+                    "alt": "Chemical engineering"
+                },
+                "list": {
+                    "item1":"Institutes",
+                    "item2":"Smart-affiliated research",
+                    "item3":"Digital Access to Scholarship",
+                    "item4":"Smart Catalyst",
+                    "item5":"Smart Library Portal",
+                    "item6":"Smart research programs"
+                }
+            },
+            {   
+                "title": "CHEMICAL ENGINEERING",
+                "image": {
+                    "url": "media/scholarship-item-3.jpeg",
+                    "alt": "Chemical engineering"
+                },
+                "list": {
+                    "item1":"Institutes",
+                    "item2":"Smart-affiliated research",
+                    "item3":"Digital Access to Scholarship",
+                    "item4":"Smart Catalyst",
+                    "item5":"Smart Library Portal",
+                    "item6":"Smart research programs"
+                }
+            }
+        ]
+    }
+}
