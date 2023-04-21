@@ -1,5 +1,5 @@
 <script>
-  export let title,
+  export let
     headerImage,
     headerText,
     image,
@@ -14,11 +14,10 @@
     activity,
     descriptionTitle,
     description,
-    coursesFeature,
     allContent;
   let course = allContent.filter(
     (content) =>
-      content.type === "courses" && content.fields.trainer.name === title)[0];
+      content.type === "courses" && content.fields.trainer.name === name)[0];
 </script>
 
 <section
@@ -114,7 +113,7 @@
     <div class="row">
         {#if course}
           <div class="col-12">
-            <h4 class="mb-4">{coursesFeature}</h4>
+            <h4 class="mb-4">{course.fields.featureTitle}</h4>
           </div>
           <div class="col-lg-4 col-sm-6 mb-5">
             <div class="card p-0 border-primary rounded-0 hover-shadow">
