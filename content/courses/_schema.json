@@ -35,7 +35,7 @@
           "all"
       ]
     },
-    "header.title": {
+    "trainer.type": {
       "type": "text",
       "options": [
           "disabled"
@@ -65,7 +65,7 @@
           "disabled"
       ]
     },
-    "header.url": {
+    "featureTitle": {
       "type": "text",
       "options": [
           "disabled"
