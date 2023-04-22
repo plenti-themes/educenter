@@ -41,7 +41,7 @@
                                 <a href={notice.path} class="h4 mb-3 d-block">
                                     {notice.fields.title}
                                 </a>
-                                <p class="mb-0">{notice.fields.tbody}</p>
+                                <p class="mb-0">{notice.fields.headerText}</p>
                             </div>
                             <div class="d-md-table-cell text-right pr-0 pr-md-4">
                                 <a href={notice.path} class="btn btn-primary">

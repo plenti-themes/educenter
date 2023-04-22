@@ -1,1 +1,36 @@
-{}
+{
+    "bodyText1.description" : {
+        "type": "wysiwyg",
+        "options": [
+            "all"
+        ]
+      },
+      "description": {
+        "type": "component",
+        "options": [
+          "paragraph"
+        ]
+      },
+      "list": {
+        "type": "component",
+        "options": [
+          "item"
+        ]
+      },
+      "link.title": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      },
+      "link.url": {
+        "type": "text",
+        "options": [
+            "disabled"
+        ]
+      },
+        "publish.date": {
+          "type": "date",
+          "options": []
+        }
+}

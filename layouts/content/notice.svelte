@@ -1,5 +1,5 @@
 <script>
-    export let headerImage, title, tbody, publish, para1title, para1, para2title, para2, para3title, para3, download;
+    export let headerImage, title, headerText, publish, bodyText1, bodyText2, bodyText3, list, description, download;
 </script>
 <section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
     <div class="container">
@@ -10,7 +10,7 @@
             <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
             <li class="list-inline-item text-white h3 font-secondary">{title}</li>
             </ul>
-            <p class="text-lighten">{tbody}</p>
+            <p class="text-lighten">{headerText}</p>
             </div>
         </div>
     </div>
@@ -26,17 +26,17 @@
                     </div>
                     </div>
                     <div class="content">
-                    <h3 id="about-notice">{para1title}</h3>
-                    <p>{para1}</p>
-                    <h3 id="requirements">{para2title}</h3>
+                    <h3 id="about-notice">{bodyText1.title}</h3>
+                    <p>{bodyText1.description}</p>
+                    <h3 id="requirements">{bodyText2.title}</h3>
                     <ul>
-                    <li>{para2.item1}</li>
-                    <li>{para2.item2}</li>
-                    <li>{para2.item3}</li>
-                    <li>{para2.item4}</li>
-                    </ul>
-                    <h3 id="fees-and-funding">{para3title}</h3>
-                    <p>{para3}</p>
+                    {#each list as l}
+                    <li>{@html l.item}</li>
+                    {/each}
+                    <h3 id="fees-and-funding">{bodyText3.title}</h3>
+                    {#each description as d}
+                    <p>{@html d.paragraph}</p>
+                    {/each}
                     <a href="." class="btn btn-primary">{download.title}</a>
                     </div>
                 </div>
