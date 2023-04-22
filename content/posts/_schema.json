@@ -16,5 +16,9 @@
             "result": "fields.name"
           }
         ]  
+      },
+      "publish.date": {
+        "type": "date",
+        "options": []
       }
 }
