@@ -58,7 +58,6 @@
         <ul class="list-inline custom-breadcrumb">
           <li class="list-inline-item h2">
             <a class="text-primary font-secondary" href="/">Home</a>
-            >
           </li>
           <li class="list-inline-item h5">
             <i class="ti-angle-right text-white" />
