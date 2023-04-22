@@ -36,6 +36,6 @@
             </li>
         </ul>
             <select class="m-2 border-0 mb-5 mb-lg-2" id="select-language" onchange="location=this.value"><option id="en" value="." selected="">En
-        </option><option id="fr" value="https://demo.gethugothemes.com/educenter/site/fr/">Fr</option></select>
+        </option><option id="fr" value=".">Fr</option></select>
     </div>
 </nav>
