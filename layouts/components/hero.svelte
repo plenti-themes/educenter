@@ -1,5 +1,4 @@
 <script>
-    import Slider from "../components/slider_ai2.svelte";
     export let items, image, buttonRight, buttonLeft;
 </script>
 
@@ -10,7 +9,6 @@
                     <div class="slick-track" style="opacity: 1; width: 3330px;">
                         <div class="hero-slider-item slick-slide" data-slick-index="0" aria-hidden="true" tabindex="-1" role="tabpanel" id="slick-slide00" aria-describedby="slick-slide-control00" style="width: 1110px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;">
                             <div class="row">
-                                <Slider />
                                 {#each items as item}
                                     <div class="col-md-8">
                                     <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1" style="opacity: 0; animation-delay: 5s; animation-duration: 0.3s;">{item.title}</h1>
