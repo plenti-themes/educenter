@@ -10399,7 +10399,7 @@ VERSION:	Versoin Number
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @font-face {
   font-family: 'futura-bold';
-  src: url("../fonts/Futura-Bold.woff") format("woff");
+  src: url("/fonts/Futura-Bold.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
