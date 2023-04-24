@@ -3,6 +3,22 @@
     export let items, image;
 
     let activeSlide = 0;
+  /*   const slideInterval = 5000; // 5 seconds in milliseconds
+
+    function startSlideTimer() {
+    setInterval(() => {
+      activeSlide = (activeSlide + 1) % items.length;
+    }, slideInterval);
+  }
+  startSlideTimer();
+   */
+   function prevSlide() {
+    activeSlide = (activeSlide - 1 + items.length) % items.length;
+  }
+  
+  function nextSlide() {
+    activeSlide = (activeSlide + 1) % items.length;
+  }
 </script>
 
 <section class="hero-section overlay bg-cover" data-background="{image.url}" alt="A group of students looking at their lesson" style="background-image: url({image.url});">
@@ -41,6 +57,10 @@
                         </div>
                     {/each}
                 </div>
+                <div class="arrows">
+                    <button type="button" class="prevArrow slick-arrow" on:click={prevSlide}><i class="ti-angle-left"></i></button>
+                    <button type="button" class="nextArrow slick-arrow" on:click={nextSlide}><i class="ti-angle-right"></i></button>
+                  </div>
             </div>
         </div>
     </div>
