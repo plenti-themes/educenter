@@ -3,15 +3,15 @@
     export let items, image;
 
     let activeSlide = 0;
-  /*   const slideInterval = 5000; // 5 seconds in milliseconds
+/*     const slideInterval = 5000; // 5 seconds in milliseconds
 
     function startSlideTimer() {
     setInterval(() => {
       activeSlide = (activeSlide + 1) % items.length;
     }, slideInterval);
   }
-  startSlideTimer();
-   */
+  startSlideTimer(); */
+  
    function prevSlide() {
     activeSlide = (activeSlide - 1 + items.length) % items.length;
   }
