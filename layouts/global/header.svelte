@@ -1,5 +1,11 @@
+<script>
+    let y;
+</script>
+
+<svelte:window bind:scrollY={y} />
+
 <!-- top header -->
-<div class="top-header py-2 bg-white">
+<div class="top-header py-2 bg-white{y > 50 ? ' hide' : ''}">
     <div class="container">
         <div class="row no-gutters align-items-center">
             <div class="col-lg-4 text-center text-lg-left">

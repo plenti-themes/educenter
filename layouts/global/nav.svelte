@@ -5,7 +5,7 @@
 <svelte:window bind:scrollY={y} />
 
 <!-- navbar -->
-<div class="navigation w-100 top-hider{y > 50 ? ' nav-bg' : ''}" style="margin-top: 0px;">
+<div class="navigation w-100 top-hider{y > 50 ? ' nav-bg' : ''}" style="{y > 50 ? 'margin-top: -46.3906px;' : 'margin-top: 0px;'}">
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-dark p-0">
             <a class="navbar-brand" href="."
