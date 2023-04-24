@@ -9,7 +9,7 @@
                 <h2 class="mb-0 text-nowrap mr-3">{title}</h2>
                 <div class="border-top w-100 border-primary d-none d-sm-block"></div>
                 <div>
-                <a href="{link.url}" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{link.title}</a>
+                <a href="courses" class="btn btn-sm btn-outline-primary ml-sm-3 d-none d-sm-block">{link.title}</a>
                 </div>
                 </div>
             </div>
