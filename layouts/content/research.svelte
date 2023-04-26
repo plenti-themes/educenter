@@ -1,16 +1,16 @@
 <script>
-    export let headerImage, header, title, headbody, subtitle, body1, body2, body3, image;
+    export let headerImage, title, headerText, subtitle, bodyText1, description, image;
 </script>
 <section class="page-title-section overlay" style="background-image:url({headerImage.url}),url({headerImage.url})">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
             <ul class="list-inline custom-breadcrumb">
-            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="{header.url}">{header.title}</a></li>
+            <li class="list-inline-item h2"><a class="text-primary font-secondary" href="/">Home</a></li>
             <li class="list-inline-item h5"><i class="ti-angle-right text-white"></i></li>
             <li class="list-inline-item text-white h3 font-secondary">{title}</li>
             </ul>
-            <p class="text-lighten">{headbody}</p>
+            <p class="text-lighten">{headerText}</p>
             </div>
         </div>
     </div>
@@ -28,9 +28,10 @@
             <div class="row">
             <div class="col-12 mb-50 content">
             <h3 id="about-research">{subtitle}</h3>
-           <p>{body1}</p>
-           <p>{body2}</p>
-           <p>{body3}</p>
+           <p>{bodyText1.description}</p>
+           {#each description as d}
+           <p>{@html d.paragraph}</p>
+            {/each}
             </div>
         </div>
     </div>

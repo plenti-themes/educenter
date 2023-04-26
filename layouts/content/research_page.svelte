@@ -25,7 +25,7 @@
             <img class="card-img-top rounded-0" src="{research.fields.image.url}" alt="{research.fields.image.alt}">
             <div class="card-body">
             <h4 class="card-title"><a href="{research.path}">{research.fields.title}</a></h4>
-            <p class="card-text">{research.fields.tbody}</p>
+            <p class="card-text">{research.fields.headerText.substring(0, 150).replace(/(<([^>]+)>)/gi, "")}</p>
             </div>
             </div>
             </div>
