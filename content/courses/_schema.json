@@ -59,6 +59,12 @@
           "disabled"
       ]
     },
+    "course.title": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
     "link.title": {
       "type": "text",
       "options": [
