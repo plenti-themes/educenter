@@ -8,26 +8,19 @@
     subText2,
     subText3,
     button,
-    trainer,
+    trainers,
     image,
     socials,
     headerImage,
     header,
     allContent,
     content;
-  /*  let courses;
-    $: if (content) {
-      courses = allContent.filter(c => c.type === "courses" && c.filepath !== content.filepath);
-    } */
   let courses = allContent.filter(
     (c) => c.type === "courses" && c.filepath !== content.filepath
   );
-  let teacher;
+  let teachers;
   $: if (content) {
-    teacher = allContent.filter(
-      (content) =>
-        content.type === "teachers" && content.fields.name === trainer.name
-    )[0];
+    teachers = allContent.filter(content => content.type === "teachers" && trainers.includes(content.fields?.name));
   }
   const shuffle = (array) => {
     let currentIndex = array.length,
@@ -148,11 +141,11 @@
         {/each}
       </div>
       <div class="col-12">
-        <h5 class="mb-3">{trainer.type}</h5>
+        <h5 class="mb-3">Teacher{#if teachers.length > 1}s{/if}</h5>
         <div
           class="d-flex justify-content-between align-items-center flex-wrap"
         >
-          {#if teacher}
+          {#each teachers as teacher}
             <div class="media mb-2 mb-sm-0 align-items-center">
               <a href={teacher.path}>
                 <img
@@ -170,7 +163,7 @@
                 {teacher.fields.category}
               </div>
             </div>
-          {/if}
+          {/each}
           <div class="social-link">
             <h6 class="d-none d-sm-block text-right">{socials.title}</h6>
             <ul class="list-inline">
