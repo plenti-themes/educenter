@@ -93,7 +93,7 @@
                             <i class="ti-calendar text-primary icon-md mr-2" />
                             <div class="text-left">
                                 <h6 class="mb-0">{publish.title}</h6>
-                                <p class="mb-0">{publish.date}</p>
+                                <p class="mb-0" datetime="07-07-2023">{publish.date}</p>
                             </div>
                         </div>
                     </li>
