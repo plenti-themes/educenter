@@ -1,6 +1,5 @@
 <script>
-  export let
-    headerImage,
+  export let headerImage,
     headerText,
     image,
     name,
@@ -14,8 +13,11 @@
     activity,
     descriptionTitle,
     description,
+    featureTitle,
     allContent;
-  let course = allContent.filter(content => content.type === "courses" && content.fields.trainer === name)[0];
+  let course = allContent.filter(
+    (content) =>
+      content.type === "courses" && content.fields.trainer.name === name)[0];
 </script>
 
 <section
@@ -94,10 +96,10 @@
           <div class="col-md-6">
             <h4 class="mb-4">{activity.title}</h4>
             <ul class="list-unstyled">
-            {#each interests as l}
-              <li class="mb-3">{@html l.item}</li>
-            {/each}
-          </ul>
+              {#each interests as l}
+                <li class="mb-3">{@html l.item}</li>
+              {/each}
+            </ul>
           </div>
         </div>
       </div>
@@ -109,43 +111,45 @@
       </div>
     </div>
     <div class="row">
+        <div class="col-12">
+          <h4 class="mb-4">{featureTitle}</h4>
+        </div>
         {#if course}
-          <div class="col-12">
-            <h4 class="mb-4">{course.fields.featureTitle}</h4>
-          </div>
-          <div class="col-lg-4 col-sm-6 mb-5">
-            <div class="card p-0 border-primary rounded-0 hover-shadow">
-              <a href="{course.path}"><img
+        <div class="col-lg-4 col-sm-6 mb-5">
+          <div class="card p-0 border-primary rounded-0 hover-shadow">
+            <a href={course.path}
+              ><img
                 class="card-img-top rounded-0"
                 src={course.fields.image.source}
                 alt={course.fields.image.altText}
-              /></a>
-              <div class="card-body">
-                <ul class="list-inline mb-2">
-                  <li class="list-inline-item">
-                    <i class="ti-calendar" />
-                    {course.fields.course.length}
-                  </li>
-                  <li class="list-inline-item">
-                    <i class="ti-bookmark-alt" />
-                    {course.fields.course.category}
-                  </li>
-                </ul>
-                <h4 class="card-title">
-                  <a href={course.path}>{course.fields.course.title}</a>
-                </h4>
-                <p class="card-text mb-4">
-                  {course.fields.bodyText1.description
-                    .substring(0, 120)
-                    .replace(/(<([^>]+)>)/gi, "")}
-                </p>
-                <a href={course.path} class="btn btn-primary btn-sm"
-                  >{course.fields.link.title}</a
-                >
-              </div>
+              /></a
+            >
+            <div class="card-body">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item">
+                  <i class="ti-calendar" />
+                  {course.fields.course.length}
+                </li>
+                <li class="list-inline-item">
+                  <i class="ti-bookmark-alt" />
+                  {course.fields.course.category}
+                </li>
+              </ul>
+              <h4 class="card-title">
+                <a href={course.path}>{course.fields.course.title}</a>
+              </h4>
+              <p class="card-text mb-4">
+                {course.fields.bodyText1.description
+                  .substring(0, 120)
+                  .replace(/(<([^>]+)>)/gi, "")}
+              </p>
+              <a href={course.path} class="btn btn-primary btn-sm"
+                >{course.fields.link.title}</a
+              >
             </div>
           </div>
-        {/if}
-      </div>
+        </div>
+      {/if}
     </div>
+  </div>
 </section>

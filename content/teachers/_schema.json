@@ -22,5 +22,11 @@
     "options": [
         "all"
     ]
+  },
+  "featureTitle": {
+    "type": "text",
+    "options": [
+        "disabled"
+    ]
   }
 }

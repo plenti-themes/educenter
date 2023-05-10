@@ -11,65 +11,71 @@
       }
     ]
   },
-  "course.category": {
-    "type": "reference",
-    "options": [
-      {
-        "type": "course_catgs",
-        "search": [
-          "name"
-        ],
-        "result": "fields.name"
-      }
-    ]
-  },
-  "bodyText1.description": {
-    "type": "wysiwyg",
-    "options": [
-      "all"
-    ]
-  },
-  "header.text": {
-    "type": "wysiwyg",
-    "options": [
-      "all"
-    ]
-  },
-  "course.duration": {
-    "type": "text",
-    "options": [
-      "disabled"
-    ]
-  },
-  "course.week": {
-    "type": "text",
-    "options": [
-      "disabled"
-    ]
-  },
-  "course.fee": {
-    "type": "text",
-    "options": [
-      "disabled"
-    ]
-  },
-  "course.title": {
-    "type": "text",
-    "options": [
-      "disabled"
-    ]
-  },
-  "link.title": {
-    "type": "text",
-    "options": [
-      "disabled"
-    ]
-  },
-  "featureTitle": {
-    "type": "text",
-    "options": [
-      "disabled"
-    ]
+"course.category": {
+  "type": "reference",
+  "options": [
+    {
+      "type": "course_catgs",
+      "search": [
+        "name"
+      ],
+      "result": "fields.name"
+    }
+  ]  
+},
+    "bodyText1.description" : {
+      "type": "wysiwyg",
+      "options": [
+          "all"
+      ]
+    },
+    "header.text" : {
+      "type": "wysiwyg",
+      "options": [
+          "all"
+      ]
+    },
+    "trainer.type": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "course.duration": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "course.week": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "course.fee": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "course.title": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "link.title": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
+    },
+    "featureTitle": {
+      "type": "text",
+      "options": [
+          "disabled"
+      ]
   },
   "description": {
     "type": "component",
@@ -88,5 +94,6 @@
     "options": [
       "item"
     ]
+  }
   }
 }
