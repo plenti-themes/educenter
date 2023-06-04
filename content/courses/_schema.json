@@ -35,12 +35,6 @@
           "all"
       ]
     },
-    "trainer.type": {
-      "type": "text",
-      "options": [
-          "disabled"
-      ]
-    },
     "course.duration": {
       "type": "text",
       "options": [
