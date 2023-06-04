@@ -17,7 +17,7 @@
     allContent;
   let course = allContent.filter(
     (content) =>
-      content.type === "courses" && content.fields.trainer === name)[0];
+      content.type === "courses" && content.fields.trainers === name)[0];
 </script>
 
 <section
