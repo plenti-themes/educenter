@@ -1,0 +1,1 @@
+export let env={local:!1,baseurl:"/educenter/",entrypoint:"global/html.svelte",cms:{repo:"",redirectUrl:"",appId:"",branch:""}}
