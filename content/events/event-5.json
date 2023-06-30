@@ -45,7 +45,7 @@
     "speaker2": {
         "title": "Teacher",
         "name": "John Doe",
-        "image": "/media/speaker-2.jpeg",
+        "image": "media/speaker-2.jpeg",
         "alt": "John Doe"
     },
     "speaker3": {

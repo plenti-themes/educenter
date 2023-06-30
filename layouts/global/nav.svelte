@@ -11,7 +11,7 @@
             <a class="navbar-brand" href="."
                 ><img
                     class="img-fluid"
-                    src="/media/logo.png"
+                    src="media/logo.png"
                     alt="Educenter | hugo education template"
                 /></a
             >

@@ -39,7 +39,7 @@
     "speaker1": {
         "title": "Teacher",
         "name": "Jack Mastio",
-        "image": "/media/speaker-1.jpeg",
+        "image": "media/speaker-1.jpeg",
         "alt": "Jack Mastio"
     },
     "speaker2": {

@@ -1,6 +1,6 @@
 <script>
 	// import { images } from '../scripts/imageData.js';
-	import Slide from '../scripts/slide.svelte';
+	//import Slide from '../scripts/slide.svelte';
 	/* import Thumbnail from './Thumbnail.svelte';
 	import Caption from './Caption.svelte'; */
     export let images = [];
@@ -92,6 +92,7 @@ main {
 <main>
 	<!-- image gallery -->
 	<div class="container">
+    <!--
         {#each images  as {id, name, imgurl, attribution}}
 		  <Slide image={imgurl} 
 				 altTag={name} 
@@ -100,6 +101,7 @@ main {
 				 totalSlides={images.length}
 				 imageShowing={id === imageShowingIndex}/>
         {/each}
+    -->
 	</div>
 
 
