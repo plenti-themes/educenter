@@ -15,7 +15,7 @@
 		"teacher_page": "teachers",
 		"blog": "blog/:paginate(totalPages)"
 	},
-	"baseurl": "/",
+	"baseurl": "/educenter/",
 	"local": {
 		"port": 3000
 	}
